@@ -10,7 +10,7 @@ De verslagen en presentaties van dit traject kan je terugvinden op het [Standaar
 
 ## In deze repository
 
-In het document [use cases](resources/useCases.md) vind je een lijst terug van de use cases waarop deze datastandaard is gebaseerd. Het document [bronnen](resources/standaarden.md) geeft een overzicht van verschillende nuttige bronnen, waaronder bestaande standaarden (zoals INSPIRE), relevante wetgeving, datavoorbeelden, etc. Indien er zaken ontbreken in deze lijst, mag dit steeds aan ons medegedeeld worden via een issue of via mail.
+In het document [use cases](resources/useCases.md) vind je een lijst terug van de use cases waarop deze datastandaard is gebaseerd. Het document [bronnen](resources/bronnen.md) geeft een overzicht van verschillende nuttige bronnen, waaronder bestaande standaarden (zoals INSPIRE), relevante wetgeving, datavoorbeelden, etc. Indien er zaken ontbreken in deze lijst, mag dit steeds aan ons medegedeeld worden via een issue of via mail.
 
 ## Issues
 
