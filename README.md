@@ -10,11 +10,11 @@ De verslagen en presentaties van dit traject kan je terugvinden op het [Standaar
 
 ## In deze repository
 
-In het document [use cases](useCases.md) vind je een overzicht terug van de use cases waarop deze datastandaard is gebaseerd.
+In het document [use cases](resources/useCases.md) vind je een lijst terug van de use cases waarop deze datastandaard is gebaseerd. Het document [resources/standaarden.md] geeft een overzicht van de bestaande standaarden, zoals INSPIRE, waarvan we weten  
 
 ## Issues
 
-Via de tab [*issues*](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues) kan je opmerkingen en feedback over de ontwerpstandaard aan ons laten weten.
+Via de tab [issues](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues) kan je opmerkingen en feedback over de ontwerpstandaard aan ons laten weten.
 
 
 
