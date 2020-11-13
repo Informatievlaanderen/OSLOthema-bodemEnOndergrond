@@ -3,7 +3,7 @@
   "name": "ap-grondboringen",
   "type": "ap",
   "eap": "OSLO-BodemEnOndergrond-AP.EAP",
-  "diagram": "OSLO-Grondboringen-test",
+  "diagram": "OSLO-Grondboringen",
   "template": "mijn-applicatieprofiel-ap.j2",
   "title": "Grondboringen (Applicatieprofiel)",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
