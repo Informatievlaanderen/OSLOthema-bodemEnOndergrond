@@ -4,7 +4,7 @@
     "type": "voc",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "OSLO-ObservatiesEnMetingen",
-    "template": "mijn-applicatieprofiel-ap.j2",
+    "template": "mijn-vocabularium-voc.j2",
     "title": "Observaties en Metingen (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2021-02-17",
