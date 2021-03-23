@@ -18,6 +18,14 @@
   "categorie": "Vocabularium & applicatieprofielen",
   "beschrijving": "ap-bodemenondergrond.md",
   "specificatiedocument": [
+    {
+      "naam": "AP Grondboringen",
+      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-02-22"
+    },
+    {
+      "naam": "AP Bodem",
+      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-03-29"
+    }
   ],
   "documentatie": [],
   "charter": [
