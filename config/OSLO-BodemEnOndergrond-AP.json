@@ -61,5 +61,21 @@
     "site": "site-skeleton/OSLO-Bodem",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
+  },
+  {
+    "name": "ap-sondering",
+    "type": "ap",
+    "eap": "OSLO-BodemEnOndergrond-AP.EAP",
+    "diagram": "OSLO-Sondering",
+    "template": "mijn-applicatieprofiel-ap.j2",
+    "title": "Sondering (Applicatieprofiel)",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "publication-date": "2021-04-19",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "MijnKolom",
+    "site": "site-skeleton/OSLO-Sondering",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
   }
 ]
