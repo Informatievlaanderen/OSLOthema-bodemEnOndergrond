@@ -125,5 +125,21 @@
     "site": "site-skeleton/OSLO-Grondboringen-Bemonstering",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
+  },
+  {
+    "name": "ap-new-grondwatermeetnet",
+    "type": "ap",
+    "eap": "OSLO-BodemEnOndergrond-AP.EAP",
+    "diagram": "NEW OSLO-Grondwatermeetnet",
+    "template": "mijn-applicatieprofiel-ap.j2",
+    "title": "Grondwatermeetnet (Applicatieprofiel)",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "publication-date": "2021-06-24",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "MijnKolom",
+    "site": "site-skeleton/OSLO-Grondwatermeetnet",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
   }
 ]
