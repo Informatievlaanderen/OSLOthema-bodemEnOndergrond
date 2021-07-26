@@ -1,7 +1,7 @@
 [
   {
     "name": "ap-ruimtelijke-bereiken",
-    "type": "voc",
+    "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "OSLO-RuimtelijkeBereiken",
     "template": "mijn-applicatieprofiel-ap.j2",
