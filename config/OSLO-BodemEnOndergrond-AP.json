@@ -95,7 +95,7 @@
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
   },
     {
-    "name": "ap-bo-observaties",
+    "name": "ap-observaties",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "OSLO-BO_Observaties",
