@@ -95,12 +95,12 @@
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
   },
     {
-    "name": "ap-observaties",
+    "name": "ap-bo-observaties",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "OSLO-BO_Observaties",
     "template": "mijn-applicatieprofiel-ap.j2",
-    "title": "Observaties (Applicatieprofiel)",
+    "title": "Bodem en Ondergrond Observaties (Applicatieprofiel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2021-08-01",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
