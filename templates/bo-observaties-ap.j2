@@ -1,5 +1,11 @@
 {% extends "ap2.j2" %}
 
 {% block summary %}
-<p>TO DO</p>
+<p>Het applicatieprofiel Bodem & Ondergrond Observaties legt uit hoe de terminologie in dit domein moet gebruikt worden om gegevens over gespecialiseerde Observaties mbt Bodem & Ondergrond uit te wisselen.</p>
+<p>Dit applicatieprofiel is gebaseerd op <a href="https://www.w3.org/TR/vocab-ssn/">de W3C SSN ontologie</a> en zijn <a href="https://www.w3.org/TR/vocab-ssn-ext/">extensies</a>. Het bouwt ook verder op <a href="https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties-en-metingen">het applicatieprofiel OSLO Observaties en Metingen</a>.
+<p>Observatie wordt overgenomen van Observaties & Metingen met zijn kenmerken maar Proces (dit is de gebruikteProcedure bij een Observatie) wordt opgesplitst in Sensor (het instrument waarmee de waarneming gebeurt) en Observatieprocedure (de methode waarmee de Observatie gebeurt).</p>
+<p>Bemonsteringsobjecten (locatie en Monster) zijn er ook nog maar zijn nu het resultaat van een Bemonstering(sactiviteit), net als Observatie (dat ook een activiteit is) met een Bemonsteraar (het instrument waarmee de Bemonstering gebeurt) en een bemonsteringsProcedure (de methode die gevolgd wordt bij het Bemonsteren).</p>
+<p>Observaties kunnen nu ook gegroepeerd worden in een Observatieverzameling evt met opgave vh kenmerk vd Observatie waarop ze gegroepeerd zijn (bv dezelfde locatie of hetzelfde geobserveerdKenmerk).</p>
+<p>Sensoren zijn een specialisatie van Systeem, wat toelaat om de kenmerken ve Sensor op te geven bv de resolutie of het meetbereik.</p>
+<p>Een Toestel is ook toegevoegd als subklasse van Systeem wat toelaat om een Sensor (dat ook een Systeem is) bijkomend te bekijken als een apparaat (met bv een merknaam of een fabrikant).</p>
 {% endblock %}
