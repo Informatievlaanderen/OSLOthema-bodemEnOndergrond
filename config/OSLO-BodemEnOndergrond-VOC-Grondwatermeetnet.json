@@ -1,11 +1,11 @@
 [
    {
-        "name": "voc-bodem",
+        "name": "voc-grondwatermeetnet",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "NEW OSLO-Bodem",
-        "template": "bodem-voc.j2",
-        "title": "Bodem (Vocabularium)",
+        "template": "grondwatermeetnet-voc.j2",
+        "title": "Grondwatermeetnet (Vocabularium)",
         "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
         "publication-date": "2021-08-01",
         "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
