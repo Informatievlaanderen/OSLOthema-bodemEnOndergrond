@@ -1,0 +1,98 @@
+{
+  "naam": "Vocabularium Bodem en Ondergrond Interpretaties",
+  "rapport": "",
+  "organisatie": [
+    {
+      "verantwoordelijke": "Databank Ondergrond Vlaanderen",
+      "identificator": "http://data.vlaanderen.be/id/organisatie/OVO037637"
+    },
+    {
+      "verantwoordelijke": "OVAM",
+      "identificator": "http://data.vlaanderen.be/id/organisatie/OVO000091"
+    }
+  ],
+  "verantwoordelijke_organisatie": "Databank Ondergrond Vlaanderen en OVAM",
+  "identificator_organisatie":  "http://data.vlaanderen.be/id/organisatie/OVO037637",
+  "publicatiedatum": "TBD",
+  "type_toepassing": "TBD",
+  "categorie": "Vocabularium",
+  "beschrijving": "bodemenondergrond.md",
+  "specificatiedocument": [
+     {
+      "naam": "VOC Bodem en Ondergrond Interpretaties",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
+    }
+  ],
+  "documentatie": [],
+  "charter": [
+    {
+      "naam": "Charter",
+      "waarde": "OSLO Bodem en Ondergrond - Charter.pdf"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag business werkgroep - 9 juli 2020",
+      "waarde": "20200709 - OSLO Bodem en Ondergrond - Business Werkgroep - Verslag.pdf"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 1 - 11 augustus 2020",
+      "waarde": "20200811 - OSLO Bodem en Ondergrond - Thematische Werkgroep 1 - Verslag.pdf"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 2 - 6 oktober 2020",
+      "waarde": "20201006 - OSLO Bodem en Ondergrond - Thematische Werkgroep 2 - Verslag.pdf"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 3 - 27 oktober 2020",
+      "waarde": "20201027 - OSLO Bodem en Ondergrond - Thematische Werkgroep 3 - Verslag.pdf"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie business werkgroep - 9 juli 2020",
+      "waarde": "20200709 - OSLO Bodem en Ondergrond - Business Werkgroep - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 1 - 11 augustus 2020",
+      "waarde": "20200811 - OSLO Bodem en Ondergrond - Thematische Werkgroep 1 - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 2 - 6 oktober 2020",
+      "waarde": "20201006 - OSLO Bodem en Ondergrond - Thematische Werkgroep 2 - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 3 - 27 oktober 2020",
+      "waarde": "20201027 - OSLO Bodem en Ondergrond - Thematische Werkgroep 3 - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie werkgroep bodem - 30 maart 2021",
+      "waarde": "20210330 - OSLO Bodem en Ondergrond - Werkgroep Bodem - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie webinar grondwatermeetnet en sondering - 19 april 2021",
+      "waarde": "20210419 - OSLO Bodem en Ondergrond - Webinar Grondwatermeetnet en sondering - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie Werkgroep bodemanalyse en bodemverontreiniging - 3 mei 2021",
+      "waarde": "20210503 - OSLO Bodem en Ondergrond - Werkgroep Bodemanalyse en bodemverontreiniging - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie Werkgroep consolidatie - 31 mei 2021",
+      "waarde": "20210531 - OSLO Bodem en Ondergrond - Werkgroep Consolidatie - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie Werkgroep Themas - 21 juni 2021",
+      "waarde": "20210621 - OSLO Bodem en Ondergrond - Werkgroep Themas - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie Afsluitend Webinar - 28 juni 2021",
+      "waarde": "20210628 - OSLO Bodem en Ondergrond - Afsluitend Webinar - Presentatie.pdf"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie over bodem en ondergrond",
+  "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "18 juni 2020",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "TBD"
+}
