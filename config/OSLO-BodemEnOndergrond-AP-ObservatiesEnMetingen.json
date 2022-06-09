@@ -7,7 +7,7 @@
     "template": "observaties-en-metingen-ap.j2",
     "title": "Observaties en Metingen (Applicatieprofiel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "publication-date": "2022-06-09",
+    "publication-date": "2022-04-28",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "MijnKolom",
