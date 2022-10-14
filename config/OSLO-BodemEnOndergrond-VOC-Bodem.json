@@ -1,6 +1,6 @@
 [
 {
-        "name": "voc-bodem",
+        "name": "bodem",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "NEW OSLO-Bodem",

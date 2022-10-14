@@ -1,6 +1,6 @@
 [
     {
-        "name": "voc-ruimtelijke-bereiken",
+        "name": "ruimtelijke-bereiken",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "OSLO-RuimtelijkeBereiken",
@@ -15,7 +15,7 @@
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
     },
     {
-      "name": "voc-observaties-en-metingen",
+      "name": "observaties-en-metingen",
       "type": "voc",
       "eap": "OSLO-BodemEnOndergrond-AP.EAP",
       "diagram": "OSLO-ObservatiesEnMetingen",
@@ -30,7 +30,7 @@
       "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
     },
     {
-        "name": "voc-sensoren-en-bemonstering",
+        "name": "sensoren-en-bemonstering",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "OSLO-SensorenEnBemonstering",
@@ -45,7 +45,7 @@
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
       },
       {
-        "name": "voc-bodem-en-ondergrond",
+        "name": "bodem-en-ondergrond",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "OSLO-BodemEnOndergrond",
@@ -60,7 +60,7 @@
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
       },
       {
-        "name": "voc-grondboringen",
+        "name": "grondboringen",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "OSLO-Grondboringen-Bemonstering",
@@ -75,7 +75,7 @@
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
       },
       {
-        "name": "voc-bo-observaties",
+        "name": "bo-observaties",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "OSLO-BO_Observaties",
@@ -90,7 +90,7 @@
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
       },
       {
-        "name": "voc-bo-interpretaties",
+        "name": "bo-interpretaties",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "OSLO-BO_Interpretaties",
@@ -105,7 +105,7 @@
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
       },
       {
-        "name": "voc-bodem",
+        "name": "bodem",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "NEW OSLO-Bodem",
@@ -120,7 +120,7 @@
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
       },
       {
-        "name": "voc-grondwatermeetnet",
+        "name": "grondwatermeetnet",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "NEW OSLO-Grondwatermeetnet",
@@ -135,7 +135,7 @@
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/bodem-en-ondergrond/index.html"
       },
       {
-        "name": "voc-sonderingen",
+        "name": "sonderingen",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "NEW OSLO-Sonderingen",

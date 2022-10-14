@@ -1,6 +1,6 @@
 [
  {
-        "name": "voc-sensoren-en-bemonstering",
+        "name": "sensoren-en-bemonstering",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "OSLO-SensorenEnBemonstering",
