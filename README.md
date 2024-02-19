@@ -28,4 +28,4 @@ Volgende specificaties zijn intussen gepubliceerd:
 |BodemEnOndergrond|KandidaatStandaard||||
 |Grondboringen|Ontwerpstandaard||||
 |BO_Observaties|Ontwerpstandaard||||
-|BO_InterpretatiesOntwerpstandaard|||||
+|BO_Interpretaties|Ontwerpstandaard||||
