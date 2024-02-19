@@ -20,7 +20,7 @@ Via de tab [issues](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOnd
 
 Volgende specificaties zijn intussen gepubliceerd:
 
-| Naam | Link |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| Naam | AP|VOC|
+| --- | --- |---|
+||||
+||||
