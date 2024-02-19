@@ -25,7 +25,7 @@ Volgende specificaties zijn intussen gepubliceerd:
 |RuimtelijkeBereiken|Ontwerpstandaard||||
 |ObservatiesEnMetingen|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)||
 |SensorenEnBemonstering|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/)||
-|BodemEnOndergrond|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)||
-|Grondboringen|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)||
-|BO_Observaties|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)||
-|BO_Interpretaties|Ontwerpstandaard||||
+|BodemEnOndergrond|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/)||
+|Grondboringen|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/)||
+|BO_Observaties|Ontwerpstandaard||[Link]()||
+|BO_Interpretaties|Ontwerpstandaard||[Link]()||
