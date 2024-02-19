@@ -16,5 +16,7 @@ In het document [use cases](resources/useCases.md) vind je een lijst terug van d
 
 Via de tab [issues](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues) kan je opmerkingen en feedback over de ontwerpstandaard aan ons laten weten.
 
+## Publicaties
 
+Volgende specificaties zijn intussen gepubliceerd:
 
