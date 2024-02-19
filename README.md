@@ -22,7 +22,7 @@ Volgende specificaties zijn intussen gepubliceerd:
 
 | Naam|Status|Uitgiftedatum|AP|VOC|
 | --- |--- |---|---|---|
-|RuimtelijkeBereiken|Ontwerpstandaard||||
+|RuimtelijkeBereiken|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/à||
 |ObservatiesEnMetingen|KandidaatStandaard||||
 |SensorenEnBemonstering|KandidaatStandaard||||
 |BodemEnOndergrond|KandidaatStandaard||||
