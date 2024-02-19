@@ -22,10 +22,10 @@ Volgende specificaties zijn intussen gepubliceerd:
 
 | Naam|Status|Uitgiftedatum|AP|VOC|
 | --- |--- |---|---|---|
-|RuimtelijkeBereiken|||||
-|ObservatiesEnMetingen|||||
-|SensorenEnBemonstering|||||
-|BodemEnOndergrond|||||
-|Grondboringen|||||
-|BO_Observaties|||||
-|BO_Interpretaties|||||
+|RuimtelijkeBereiken|Ontwerpstandaard||||
+|ObservatiesEnMetingen|KandidaatStandaard||||
+|SensorenEnBemonstering|KandidaatStandaard||||
+|BodemEnOndergrond|KandidaatStandaard||||
+|Grondboringen|Ontwerpstandaard||||
+|BO_Observaties|Ontwerpstandaard||||
+|BO_InterpretatiesOntwerpstandaard|||||
