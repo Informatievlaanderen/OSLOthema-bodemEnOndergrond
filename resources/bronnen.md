@@ -10,7 +10,7 @@ Datavoorbeelden zijn te vinden in de map [Datavoorbeelden](https://github.com/In
 
 |Naam|Info|
 |---|---|
-|Datavoorbeelden Grondverzet||
-|datavoorbeelden TechnischVerslag||
+|Datavoorbeelden Grondverzet|Gemaakt op basis van werkelijke data uit een TecnischVerslag Zuiderdokken|
+|datavoorbeelden TechnischVerslag|Gemaakt tbv het project Grondverzet op basis van data uit de Databank Ondergreond Vlaanderen|
 
 ## Andere documenten
