@@ -6,6 +6,11 @@
 
 ## Datavoorbeelden
 
-Datavoorbeelden zijhn te vinden in de map [Datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/tree/master/resources/datavoorbeelden).
+Datavoorbeelden zijn te vinden in de map [Datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/tree/master/resources/datavoorbeelden). Momenteel gaat het over:
+
+|Naam|Info|
+|---|---|
+|Datavoorbeelden Grondverzet||
+|datavoorbeelden TechnischVerslag||
 
 ## Andere documenten
