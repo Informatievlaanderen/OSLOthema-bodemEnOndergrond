@@ -22,10 +22,10 @@ Volgende specificaties zijn intussen gepubliceerd:
 
 | Naam|Status|Uitgiftedatum|AP|VOC|
 | --- |--- |---|---|---|
-|RuimtelijkeBereiken|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01)||
-|ObservatiesEnMetingen|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)||
-|SensorenEnBemonstering|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/)||
-|BodemEnOndergrond|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/)||
-|Grondboringen|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/)||
-|BO_Observaties|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2023-04-01/)||
-|BO_Interpretaties|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2023-04-01/)||
+|RuimtelijkeBereiken|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01)||[Link]()|
+|ObservatiesEnMetingen|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)||[Link]()|
+|SensorenEnBemonstering|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/)||[Link]()|
+|BodemEnOndergrond|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/)||[Link]()|
+|Grondboringen|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/)||[Link]()|
+|BO_Observaties|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2023-04-01/)||[Link]()|
+|BO_Interpretaties|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2023-04-01/)||[Link]()|
