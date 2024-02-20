@@ -11,6 +11,6 @@ Datavoorbeelden zijn te vinden in de map [Datavoorbeelden](https://github.com/In
 |Naam|Info|
 |---|---|
 |Datavoorbeelden Grondverzet|Gemaakt op basis van data uit een bestaand TechnischVerslag|
-|datavoorbeelden TechnischVerslag|Gemaakt voor het project Grondverzet op basis van data uit de Databank Ondergrond Vlaanderen|
+|Datavoorbeelden TechnischVerslag|Gemaakt ihkv het project Grondverzet op basis van data uit de Databank Ondergrond Vlaanderen|
 
 ## Andere documenten
