@@ -16,6 +16,6 @@ Datavoorbeelden zijn te vinden in de map [Datavoorbeelden](https://github.com/In
 
 De voorbeelden zijn doorgaans in JSON-LD.
 
-Disclaimer: De datavoorbeelden stemmen mogelijk niet overeen met de laatste versie van de specificaties. De context-files waarnaar wordt verwezen zijn mogelijk niet langer up-to-date. Validatie tov de SHACL-files werd niet noodzakelijk gechecked.    
+DISCLAIMER: De datavoorbeelden zijn louter illustratief. Mogelijk stemmen ze niet overeen met de laatste versie van de specificaties. De context-files waarnaar wordt verwezen zijn mogelijk niet langer up-to-date. Validatie tov de SHACL-files werd niet noodzakelijk gechecked.    
 
 ## Andere documenten
