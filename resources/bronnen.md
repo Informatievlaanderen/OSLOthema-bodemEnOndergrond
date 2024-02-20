@@ -11,7 +11,7 @@ Datavoorbeelden zijn te vinden in de map [datavoorbeelden](https://github.com/In
 |Naam|Info|
 |---|---|
 |Datavoorbeelden DOV|Gemaakt ihkv dit traject op basis van data uit de Databank Ondergrond Vlaanderen|
-|Datavoorbeelden Grondverzet|Gemaakt op basis van data uit een bestaand TechnischVerslag|
+|Datavoorbeelden Grondverzet|Gemaakt ihkv het project Grondverzet op basis van data uit een bestaand TechnischVerslag|
 |Datavoorbeelden TechnischVerslag|Gemaakt ihkv het project Grondverzet op basis van data uit de Databank Ondergrond Vlaanderen|
 
 De voorbeelden zijn doorgaans in JSON-LD.
