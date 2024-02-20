@@ -22,7 +22,7 @@ Volgende specificaties zijn intussen gepubliceerd:
 
 | Naam|Status|Uitgiftedatum|AP|VOC|
 | --- |--- |---|---|---|
-|RuimtelijkeBereiken|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01)||[Link](https://data.vlaanderen.be/doc/vocabularium/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01/)|
+|RuimtelijkeBereiken|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01)|[Link](https://data.vlaanderen.be/doc/vocabularium/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01/)|
 |ObservatiesEnMetingen|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)||[Link](https://data.vlaanderen.be/ns/observaties-en-metingen/)|
 |SensorenEnBemonstering|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/)||[Link](https://data.vlaanderen.be/ns/sensoren-en-bemonstering/)|
 |BodemEnOndergrond|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/)||[Link](https://data.vlaanderen.be/ns/bodem-en-ondergrond/)|
