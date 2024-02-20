@@ -6,7 +6,7 @@
 
 ## Datavoorbeelden
 
-Datavoorbeelden zijn te vinden in de map [Datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/tree/master/resources/datavoorbeelden). Momenteel gaat het over:
+Datavoorbeelden zijn te vinden in de map [datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/tree/master/resources/datavoorbeelden). Momenteel gaat het over:
 
 |Naam|Info|
 |---|---|
