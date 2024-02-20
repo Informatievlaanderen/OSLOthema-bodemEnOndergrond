@@ -22,10 +22,10 @@ Volgende specificaties zijn intussen gepubliceerd:
 
 | Naam|Status|Uitgiftedatum|AP|VOC|
 | --- |--- |---|---|---|
-|RuimtelijkeBereiken|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01)|[Link](https://data.vlaanderen.be/doc/vocabularium/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01/)|
-|ObservatiesEnMetingen|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)|[Link](https://data.vlaanderen.be/ns/observaties-en-metingen/)|
-|SensorenEnBemonstering|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/)|[Link](https://data.vlaanderen.be/ns/sensoren-en-bemonstering/)|
-|BodemEnOndergrond|KandidaatStandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/)|[Link](https://data.vlaanderen.be/ns/bodem-en-ondergrond/)|
-|Grondboringen|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/)|[Link](https://data.vlaanderen.be/ns/grondboringen/)|
-|BO_Observaties|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2023-04-01/)|[Link]()|
-|BO_Interpretaties|Ontwerpstandaard||[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2023-04-01/)|[Link]()|
+|RuimtelijkeBereiken|Ontwerpstandaard|20210801|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01)|[Link](https://data.vlaanderen.be/doc/vocabularium/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01/)|
+|ObservatiesEnMetingen|KandidaatStandaard|20220428|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)|[Link](https://data.vlaanderen.be/ns/observaties-en-metingen/)|
+|SensorenEnBemonstering|KandidaatStandaard|20220428|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/)|[Link](https://data.vlaanderen.be/ns/sensoren-en-bemonstering/)|
+|BodemEnOndergrond|KandidaatStandaard|20220428|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/)|[Link](https://data.vlaanderen.be/ns/bodem-en-ondergrond/)|
+|Grondboringen|Ontwerpstandaard|20230401|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/)|[Link](https://data.vlaanderen.be/ns/grondboringen/)|
+|BO_Observaties|Ontwerpstandaard|20230401|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2023-04-01/)|[Link]()|
+|BO_Interpretaties|Ontwerpstandaard|20230401|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2023-04-01/)|[Link]()|
