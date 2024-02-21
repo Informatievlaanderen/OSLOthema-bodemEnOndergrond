@@ -27,8 +27,8 @@ Volgende specificaties zijn intussen gepubliceerd:
 |SensorenEnBemonstering|KandidaatStandaard|20220428|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/)|[Link](https://data.vlaanderen.be/ns/sensoren-en-bemonstering/)|
 |BodemEnOndergrond|KandidaatStandaard|20220428|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/)|[Link](https://data.vlaanderen.be/ns/bodem-en-ondergrond/)|
 |Grondboringen|Ontwerpstandaard|20230401|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/)|[Link](https://data.vlaanderen.be/ns/grondboringen/)|
-|BO_Observaties|Ontwerpstandaard|20230401|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties/)||
-|BO_Interpretaties|Ontwerpstandaard|20230401|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/)||
+|BO_Observaties|Ontwerpstandaard|20230401|||
+|BO_Interpretaties|Ontwerpstandaard|20230401|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/)|https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties/|
 |Bodem|Ontwerpstandaard|20210801|||
 |Grondwatermeetnet|Ontwerpstandaard|20210801|||
 |Sonderingen|Ontwerpstandaard|20210801|||
