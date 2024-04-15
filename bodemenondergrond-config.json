@@ -4,15 +4,15 @@
   "organisatie": [
     {
       "verantwoordelijke": "Databank Ondergrond Vlaanderen",
-      "identificator": "http://data.vlaanderen.be/id/organisatie/OVO027735"
+      "identificator": "https://data.vlaanderen.be/id/organisatie/OVO027735"
     },
     {
       "verantwoordelijke": "OVAM",
-      "identificator": "http://data.vlaanderen.be/id/organisatie/OVO000091"
+      "identificator": "https://data.vlaanderen.be/id/organisatie/OVO000091"
     }
   ],
   "verantwoordelijke_organisatie": "Databank Ondergrond Vlaanderen en OVAM",
-  "identificator_organisatie":  "http://data.vlaanderen.be/id/organisatie/OVO027735",
+  "identificator_organisatie":  "https://data.vlaanderen.be/id/organisatie/OVO027735",
   "publicatiedatum": "TBD",
   "type_toepassing": "TBD",
   "categorie": "Vocabularium & applicatieprofielen",
