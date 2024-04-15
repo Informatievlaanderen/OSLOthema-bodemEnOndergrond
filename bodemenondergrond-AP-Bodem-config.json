@@ -4,7 +4,7 @@
   "organisatie": [
     {
       "verantwoordelijke": "Databank Ondergrond Vlaanderen",
-      "identificator": "http://data.vlaanderen.be/id/organisatie/OVO037637"
+      "identificator": "http://data.vlaanderen.be/id/organisatie/OVO027735"
     },
     {
       "verantwoordelijke": "OVAM",
@@ -12,7 +12,7 @@
     }
   ],
   "verantwoordelijke_organisatie": "Databank Ondergrond Vlaanderen en OVAM",
-  "identificator_organisatie":  "http://data.vlaanderen.be/id/organisatie/OVO037637",
+  "identificator_organisatie":  "http://data.vlaanderen.be/id/organisatie/OVO027735",
   "publicatiedatum": "TBD",
   "type_toepassing": "TBD",
   "categorie": "Applicatieprofiel",
