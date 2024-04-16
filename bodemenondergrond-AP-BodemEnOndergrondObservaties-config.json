@@ -1,4 +1,4 @@
-{
+l{
   "naam": "Applicatieprofiel Bodem en Ondergrond Observaties",
   "rapport": "",
   "organisatie": [
@@ -13,13 +13,13 @@
   ],
   "verantwoordelijke_organisatie": "Databank Ondergrond Vlaanderen en OVAM",
   "identificator_organisatie":  "https://data.vlaanderen.be/id/organisatie/OVO027735",
-  "publicatiedatum": "TBD",
-  "type_toepassing": "TBD",
+  "publicatiedatum": "2021-08-01",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofielen",
   "beschrijving": "bodemenondergrond.md",
   "specificatiedocument": [
     {
-      "naam": "AP Bodem en Ondergrond Observaties",
+      "naam": "Applicatieprofiel Bodem en Ondergrond Observaties",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
     }
   ],
