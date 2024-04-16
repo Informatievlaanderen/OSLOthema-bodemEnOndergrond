@@ -13,13 +13,13 @@
   ],
   "verantwoordelijke_organisatie": "Databank Ondergrond Vlaanderen en OVAM",
   "identificator_organisatie":  "https://data.vlaanderen.be/id/organisatie/OVO027735",
-  "publicatiedatum": "TBD",
-  "type_toepassing": "TBD",
+  "publicatiedatum": "2021-08-01",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",
   "beschrijving": "bodemenondergrond.md",
   "specificatiedocument": [
     {
-      "naam": "AP Grondboringen",
+      "naam": "Applicatieprofiel Grondboringen",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
     }
   ],
