@@ -13,49 +13,49 @@
   ],
   "verantwoordelijke_organisatie": "Databank Ondergrond Vlaanderen en OVAM",
   "identificator_organisatie":  "https://data.vlaanderen.be/id/organisatie/OVO027735",
-  "publicatiedatum": "TBD",
-  "type_toepassing": "TBD",
+  "publicatiedatum": "2021-08-01",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Vocabularium & applicatieprofielen",
   "beschrijving": "bodemenondergrond.md",
   "specificatiedocument": [
     {
-      "naam": "AP Grondboringen",
+      "naam": "Applicatieprofiel Grondboringen",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
     },
     {
-      "naam": "AP Bodem",
+      "naam": "Applicatieprofiel Bodem",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
     },
     {
-      "naam": "AP Grondwatermeetnet",
+      "naam": "Applicatieprofiel Grondwatermeetnet",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/2021-08-01"
     },
     {
-      "naam": "AP Sonderingen",
+      "naam": "Applicatieprofiel Sonderingen",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
     },
     {
-      "naam": "AP Bodem en Ondergrond",
+      "naam": "Applicatieprofiel Bodem en Ondergrond",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/ontwerpstandaard/2021-08-01"
     },
     {
-      "naam": "AP Ruimtelijke bereiken",
+      "naam": "Applicatieprofiel Ruimtelijke bereiken",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
     },
     {
-      "naam": "AP Observaties en Metingen",
+      "naam": "Applicatieprofiel Observaties en Metingen",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties-en-metingen/ontwerpstandaard/2021-08-01"
     },
     {
-      "naam": "AP Sensoren en Bemonstering",
+      "naam": "Applicatieprofiel Sensoren en Bemonstering",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/sensoren-en-bemonstering/ontwerpstandaard/2021-08-01"
     },
     {
-      "naam": "AP Bodem en Ondergrond Observaties",
+      "naam": "Applicatieprofiel Bodem en Ondergrond Observaties",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
     },
      {
-      "naam": "AP Bodem en Ondergrond Interpretaties",
+      "naam": "Applicatieprofiel Bodem en Ondergrond Interpretaties",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
     }
   ],
