@@ -13,13 +13,13 @@
   ],
   "verantwoordelijke_organisatie": "Databank Ondergrond Vlaanderen en OVAM",
   "identificator_organisatie":  "https://data.vlaanderen.be/id/organisatie/OVO027735",
-  "publicatiedatum": "TBD",
-  "type_toepassing": "TBD",
+  "publicatiedatum": "2021-08-01",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Vocabularium",
   "beschrijving": "bodemenondergrond.md",
   "specificatiedocument": [
     {
-      "naam": "VOC Sonderingen",
+      "naam": "Vocabularium Sonderingen",
       "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
     }
   ],
