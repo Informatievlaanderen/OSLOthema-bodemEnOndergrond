@@ -23,7 +23,84 @@
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
     }
   ],
-  "documentatie": [],
+  "documentatie": [
+    {
+      "naam": "Applicatieprofiel Bodem",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
+  },
+  {
+      "naam": "Applicatieprofiel Bodem en Ondergrond",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
+    },
+    {
+      "naam": "Applicatieprofiel Bodem en Ondergrond Interpretaties",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Applicatieprofiel Bodem en Ondergrond Observaties",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Applicatieprofiel Grondboringen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Applicatieprofiel Grondwatermeetnet",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Applicatieprofiel Observaties en Metingen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2022-04-28"
+    },
+    {
+      "naam": "Applicatieprofiel Ruimtelijke bereiken",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Applicatieprofiel Sonderingen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Vocabularium Bodem",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Vocabularium Bodem en Ondergrond",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
+    },
+    {
+      "naam": "Vocabularium Bodem en Ondergrond Interpretaties",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Vocabularium Bodem en Ondergrond Observaties",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Vocabularium Grondboringen",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Vocabularium Grondboringen",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Vocabularium Observaties en Metingen",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2022-04-28"
+    },
+    {
+      "naam": "Vocabularium Ruimtelijke bereiken",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
+    },
+    {
+      "naam": "Vocabularium Sensoren en Bemonstering",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
+    },
+    {
+      "naam": "Vocabularium Sonderingen",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
+    }
+  ],
   "charter": [
     {
       "naam": "Charter",
