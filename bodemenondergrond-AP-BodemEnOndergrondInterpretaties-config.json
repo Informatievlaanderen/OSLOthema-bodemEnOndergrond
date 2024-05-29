@@ -1,163 +1,163 @@
 {
-  "title": "Applicatieprofiel Bodem en Ondergrond Observaties",
-  "category": "Applicatieprofielen",
+  "title": "Applicatieprofiel Bodem en Ondergrond Interpretaties",
+  "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
   "status": "standaard-in-ontwikkeling",
   "descriptionFileName": "bodemenondergrond.md",
   "responsibleOrganisation": [
-    {
-      "name": "Databank Ondergrond Vlaanderen en OVAM",
-      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO027735"
-    }
+  {
+  "name": "Databank Ondergrond Vlaanderen en OVAM",
+  "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO027735"
+  }
   ],
   "publicationDate": "2021-08-01",
   "specificationDocuments": [
-    {
-      "name": "Applicatieprofiel Bodem en Ondergrond Observaties",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
-    }
+  {
+  "name": "Applicatieprofiel Bodem en Ondergrond Interpretaties",
+  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
+  }
   ],
   "documentation": [
-    {
-      "name": "Applicatieprofiel Bodem",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Applicatieprofiel Bodem en Ondergrond",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
-    },
-    {
-      "name": "Applicatieprofiel Bodem en Ondergrond Interpretaties",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Applicatieprofiel Grondboringen",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Applicatieprofiel Grondwatermeetnet",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Applicatieprofiel Observaties en Metingen",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2022-04-28"
-    },
-    {
-      "name": "Applicatieprofiel Ruimtelijke bereiken",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Applicatieprofiel Sensoren en Bemonstering",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
-    },
-    {
-      "name": "Applicatieprofiel Sonderingen",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Vocabularium Bodem",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Vocabularium Bodem en Ondergrond",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
-    },
-    {
-      "name": "Vocabularium Bodem en Ondergrond Interpretaties",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Vocabularium Bodem en Ondergrond Observaties",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Vocabularium Grondboringen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Vocabularium Grondboringen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Vocabularium Observaties en Metingen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2022-04-28"
-    },
-    {
-      "name": "Vocabularium Ruimtelijke bereiken",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Vocabularium Sensoren en Bemonstering",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
-    },
-    {
-      "name": "Vocabularium Sonderingen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
-    }
+  {
+  "name": "Applicatieprofiel Bodem",
+  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Applicatieprofiel Bodem en Ondergrond",
+  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
+  },
+  {
+  "name": "Applicatieprofiel Bodem en Ondergrond Observaties",
+  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Applicatieprofiel Grondboringen",
+  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Applicatieprofiel Grondwatermeetnet",
+  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Applicatieprofiel Observaties en Metingen",
+  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2022-04-28"
+  },
+  {
+  "name": "Applicatieprofiel Ruimtelijke bereiken",
+  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Applicatieprofiel Sensoren en Bemonstering",
+  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
+  },
+  {
+  "name": "Applicatieprofiel Sonderingen",
+  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Vocabularium Bodem",
+  "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Vocabularium Bodem en Ondergrond",
+  "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
+  },
+  {
+  "name": "Vocabularium Bodem en Ondergrond Interpretaties",
+  "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Vocabularium Bodem en Ondergrond Observaties",
+  "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Vocabularium Grondboringen",
+  "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Vocabularium Grondboringen",
+  "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Vocabularium Observaties en Metingen",
+  "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2022-04-28"
+  },
+  {
+  "name": "Vocabularium Ruimtelijke bereiken",
+  "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
+  },
+  {
+  "name": "Vocabularium Sensoren en Bemonstering",
+  "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
+  },
+  {
+  "name": "Vocabularium Sonderingen",
+  "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
+  }
   ],
   "reports": [
-    {
-      "name": "Verslag business werkgroep - 9 juli 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/reports/20200709 - OSLO Bodem en Ondergrond - Business Werkgroep - Verslag.pdf"
-    },
-    {
-      "name": "Verslag thematische werkgroep 1 - 11 augustus 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/reports/20200811 - OSLO Bodem en Ondergrond - Thematische Werkgroep 1 - Verslag.pdf"
-    },
-    {
-      "name": "Verslag thematische werkgroep 2 - 6 oktober 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/reports/20201006 - OSLO Bodem en Ondergrond - Thematische Werkgroep 2 - Verslag.pdf"
-    },
-    {
-      "name": "Verslag thematische werkgroep 3 - 27 oktober 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/reports/20201027 - OSLO Bodem en Ondergrond - Thematische Werkgroep 3 - Verslag.pdf"
-    }
+  {
+  "name": "Verslag business werkgroep - 9 juli 2020",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/reports/20200709 - OSLO Bodem en Ondergrond - Business Werkgroep - Verslag.pdf"
+  },
+  {
+  "name": "Verslag thematische werkgroep 1 - 11 augustus 2020",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/reports/20200811 - OSLO Bodem en Ondergrond - Thematische Werkgroep 1 - Verslag.pdf"
+  },
+  {
+  "name": "Verslag thematische werkgroep 2 - 6 oktober 2020",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/reports/20201006 - OSLO Bodem en Ondergrond - Thematische Werkgroep 2 - Verslag.pdf"
+  },
+  {
+  "name": "Verslag thematische werkgroep 3 - 27 oktober 2020",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/reports/20201027 - OSLO Bodem en Ondergrond - Thematische Werkgroep 3 - Verslag.pdf"
+  }
   ],
   "charter": {
-    "name": "Charter",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/charter/OSLO Bodem en Ondergrond - Charter.pdf"
+  "name": "Charter",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/charter/OSLO Bodem en Ondergrond - Charter.pdf"
   },
   "presentations": [
-    {
-      "name": "Presentatie business werkgroep - 9 juli 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20200709 - OSLO Bodem en Ondergrond - Business Werkgroep - Presentatie.pdf"
-    },
-    {
-      "name": "Presentatie thematische werkgroep 1 - 11 augustus 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20200811 - OSLO Bodem en Ondergrond - Thematische Werkgroep 1 - Presentatie.pdf"
-    },
-    {
-      "name": "Presentatie thematische werkgroep 2 - 6 oktober 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20201006 - OSLO Bodem en Ondergrond - Thematische Werkgroep 2 - Presentatie.pdf"
-    },
-    {
-      "name": "Presentatie thematische werkgroep 3 - 27 oktober 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20201027 - OSLO Bodem en Ondergrond - Thematische Werkgroep 3 - Presentatie.pdf"
-    },
-    {
-      "name": "Presentatie werkgroep bodem - 30 maart 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210330 - OSLO Bodem en Ondergrond - Werkgroep Bodem - Presentatie.pdf"
-    },
-    {
-      "name": "Presentatie webinar grondwatermeetnet en sondering - 19 april 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210419 - OSLO Bodem en Ondergrond - Webinar Grondwatermeetnet en sondering - Presentatie.pdf"
-    },
-    {
-      "name": "Presentatie Werkgroep bodemanalyse en bodemverontreiniging - 3 mei 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210503 - OSLO Bodem en Ondergrond - Werkgroep Bodemanalyse en bodemverontreiniging - Presentatie.pdf"
-    },
-    {
-      "name": "Presentatie Werkgroep consolidatie - 31 mei 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210531 - OSLO Bodem en Ondergrond - Werkgroep Consolidatie - Presentatie.pdf"
-    },
-    {
-      "name": "Presentatie Werkgroep Themas - 21 juni 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210621 - OSLO Bodem en Ondergrond - Werkgroep Themas - Presentatie.pdf"
-    },
-    {
-      "name": "Presentatie Afsluitend Webinar - 28 juni 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210628 - OSLO Bodem en Ondergrond - Afsluitend Webinar - Presentatie.pdf"
-    }
+  {
+  "name": "Presentatie business werkgroep - 9 juli 2020",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20200709 - OSLO Bodem en Ondergrond - Business Werkgroep - Presentatie.pdf"
+  },
+  {
+  "name": "Presentatie thematische werkgroep 1 - 11 augustus 2020",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20200811 - OSLO Bodem en Ondergrond - Thematische Werkgroep 1 - Presentatie.pdf"
+  },
+  {
+  "name": "Presentatie thematische werkgroep 2 - 6 oktober 2020",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20201006 - OSLO Bodem en Ondergrond - Thematische Werkgroep 2 - Presentatie.pdf"
+  },
+  {
+  "name": "Presentatie thematische werkgroep 3 - 27 oktober 2020",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20201027 - OSLO Bodem en Ondergrond - Thematische Werkgroep 3 - Presentatie.pdf"
+  },
+  {
+  "name": "Presentatie werkgroep bodem - 30 maart 2021",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210330 - OSLO Bodem en Ondergrond - Werkgroep Bodem - Presentatie.pdf"
+  },
+  {
+  "name": "Presentatie webinar grondwatermeetnet en sondering - 19 april 2021",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210419 - OSLO Bodem en Ondergrond - Webinar Grondwatermeetnet en sondering - Presentatie.pdf"
+  },
+  {
+  "name": "Presentatie Werkgroep bodemanalyse en bodemverontreiniging - 3 mei 2021",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210503 - OSLO Bodem en Ondergrond - Werkgroep Bodemanalyse en bodemverontreiniging - Presentatie.pdf"
+  },
+  {
+  "name": "Presentatie Werkgroep consolidatie - 31 mei 2021",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210531 - OSLO Bodem en Ondergrond - Werkgroep Consolidatie - Presentatie.pdf"
+  },
+  {
+  "name": "Presentatie Werkgroep Themas - 21 juni 2021",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210621 - OSLO Bodem en Ondergrond - Werkgroep Themas - Presentatie.pdf"
+  },
+  {
+  "name": "Presentatie Afsluitend Webinar - 28 juni 2021",
+  "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/standaardenregister/presentations/20210628 - OSLO Bodem en Ondergrond - Afsluitend Webinar - Presentatie.pdf"
+  }
   ],
   "dateOfRegistration": "18 juni 2020",
   "dateOfAcknowledgementByWorkingGroup": "TBD",
@@ -165,4 +165,4 @@
   "repository": "OSLOthema-bodemEnOndergrond",
   "datePublicReviewStart": "",
   "endOfPublicationDate": ""
-}
+  }
