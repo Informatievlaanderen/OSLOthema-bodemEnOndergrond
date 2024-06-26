@@ -2,8 +2,8 @@
 
 ## Inleiding
 
-Met dit initiatief willen de stakeholders de datastromen binnen het domein “bodem en ondergrond” semantisch modelleren en de datastructuur standaardiseren.
-Vocabularia en applicatieprofielen opgebouwd op basis van internationale standaarden waar in dit domein consensus over bestaat en in lijn gebracht met vigerende Vlaamse regelgeving.
+Met dit initiatief willen de stakeholders de datastromen binnen het domein “bodem en ondergrond” semantisch modelleren en de datastructuur standaardiseren.\
+Vocabularia en applicatieprofielen opgebouwd op basis van internationale standaarden waar in dit domein consensus over bestaat en in lijn gebracht met vigerende Vlaamse regelgeving.\
 Dit is een intitiatief van Databank Ondergrond Vlaanderen en de OVAM.
 
 ## Verslagen en presentaties
