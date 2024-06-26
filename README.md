@@ -13,12 +13,16 @@ De verslagen en presentaties van dit traject kan je terugvinden op het [Standaar
 ## In deze repository
 
 EAP-files met de UML-diagrammen.\
-Configuratie en bestanden voor het publiceren van de specs.\
-In het document [use cases](resources/useCases.md) vind je een lijst terug van de use cases waarop deze datastandaard is gebaseerd. Het document [bronnen](resources/bronnen.md) geeft een overzicht van verschillende nuttige bronnen, waaronder bestaande standaarden (zoals INSPIRE), relevante wetgeving, datavoorbeelden, etc. Indien er zaken ontbreken in deze lijst, mag dit steeds aan ons medegedeeld worden via een issue of via mail.
+Configuratie en bestanden voor het publiceren van de specs in de folders config, site-skeleton en templates.\
+Diverse resources:
+- Een overzicht van de [use cases](resources/useCases.md)
+- Een overzicht van gebruikte [bronnen](resources/bronnen.md) (standaarden, regelgeving).\
+- Het modelleringsrapport.
+- Een map met [datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/tree/master/resources/datavoorbeelden). 
 
 ## Issues
 
-Via de tab [issues](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues) kan je opmerkingen en feedback over de ontwerpstandaard aan ons laten weten.
+Via de tab [issues](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues) kan je opmerkingen en feedback over het model geven.
 
 ## Publicaties
 
