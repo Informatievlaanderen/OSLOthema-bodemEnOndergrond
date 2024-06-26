@@ -1,13 +1,30 @@
 Aanpassingen AP RuimtelijkeBereiken versie 2024-04-15
 - TODO
+Aanpassingen AP Observaties en Metingen versie 2022-04-28
+- KwantitatieveWaarde vervangen door Maat indien nodig
+- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
+- Literal ipv GetypeerdeString als datatype indien nodig
+Aanpassingen AP Sensoren en Bemonstering versie 2022-04-28
+- KwantitatieveWaarde vervangen door Maat indien nodig
+- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
+- Literal ipv GetypeerdeString als datatype indien nodig
+Aanpassingen AP Grondboringen versie 2022-04-28
+- KwantitatieveWaarde vervangen door Maat indien nodig
+- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
+- Literal ipv GetypeerdeString als datatype indien nodig
 Aanpassingen AP BO_BodemEnOndergrond versie 2022-04-28
-- KwantitatieveWaarde vervangen door Maat
-- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd
+- KwantitatieveWaarde vervangen door Maat indien nodig
+- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
+- Literal ipv GetypeerdeString als datatype indien nodig
 Aanpassingen AP BO_Grondboringen versie2023-04-01
-- KwantitatieveWaarde vervangen door Maat
-- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd
+- KwantitatieveWaarde vervangen door Maat indien nodig
+- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
+- Literal ipv GetypeerdeString als datatype indien nodig
 Aanpassingen AP BO_Observaties versie 2023-04-01
-- KwantitatieveWaarde vervangen door Maat
+- KwantitatieveWaarde vervangen door Maat indien nodig
+- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
+- Literal ipv GetypeerdeString als datatype indien nodig
 Aanpassingen AP BO_Interpretaties versie 2023-04-01
-- KwantitatieveWaarde vervangen door Maat
-- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd
+- KwantitatieveWaarde vervangen door Maat indien nodig
+- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
+- Literal ipv GetypeerdeString als datatype indien nodig
