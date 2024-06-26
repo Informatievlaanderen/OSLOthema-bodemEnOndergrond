@@ -1,30 +1,31 @@
-Aanpassingen AP RuimtelijkeBereiken versie 2024-04-15
-- TODO
-Aanpassingen AP Observaties en Metingen versie 2022-04-28
+Algemeen
+Aanpassingen AP RuimtelijkeBereiken versie 2024-04-15,
+AP Observaties en Metingen versie 2022-04-28,
+AP Sensoren en Bemonstering versie 2022-04-28,
+AP Grondboringen versie 2022-04-28,
+AP BO_BodemEnOndergrond versie 2022-04-28,
+AP BO_Grondboringen versie2023-04-01,
+AP BO_Observaties versie 2023-04-01
+ en AP BO_Interpretaties versie 2023-04-01:
 - KwantitatieveWaarde vervangen door Maat indien nodig
 - Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
 - Literal ipv GetypeerdeString als datatype indien nodig
-Aanpassingen AP Sensoren en Bemonstering versie 2022-04-28
-- KwantitatieveWaarde vervangen door Maat indien nodig
-- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
-- Literal ipv GetypeerdeString als datatype indien nodig
-Aanpassingen AP Grondboringen versie 2022-04-28
-- KwantitatieveWaarde vervangen door Maat indien nodig
-- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
-- Literal ipv GetypeerdeString als datatype indien nodig
-Aanpassingen AP BO_BodemEnOndergrond versie 2022-04-28
-- KwantitatieveWaarde vervangen door Maat indien nodig
-- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
-- Literal ipv GetypeerdeString als datatype indien nodig
-Aanpassingen AP BO_Grondboringen versie2023-04-01
-- KwantitatieveWaarde vervangen door Maat indien nodig
-- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
-- Literal ipv GetypeerdeString als datatype indien nodig
-Aanpassingen AP BO_Observaties versie 2023-04-01
-- KwantitatieveWaarde vervangen door Maat indien nodig
-- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
-- Literal ipv GetypeerdeString als datatype indien nodig
-Aanpassingen AP BO_Interpretaties versie 2023-04-01
-- KwantitatieveWaarde vervangen door Maat indien nodig
-- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
-- Literal ipv GetypeerdeString als datatype indien nodig
+- duidelijk onderscheid redefine/subset
+- Behoud van uri bij redefine
+Specifieke aanpassingen:
+Aanpassingen AP RuimtelijkeBereiken versie 2024-04-15:
+- ()
+Aanpassingen AP Observaties en Metingen versie 2022-04-28:
+- ()
+Aanpassingen AP Sensoren en Bemonstering versie 2022-04-28:
+- ()
+Aanpassingen AP Grondboringen versie 2022-04-28:
+- ()
+Aanpassingen AP BO_BodemEnOndergrond versie 2022-04-28:
+- ()
+Aanpassingen AP BO_Grondboringen versie2023-04-01:
+- ()
+Aanpassingen AP BO_Observaties versie 2023-04-01:
+- ()
+Aanpassingen AP BO_Interpretaties versie 2023-04-01:
+- ()
