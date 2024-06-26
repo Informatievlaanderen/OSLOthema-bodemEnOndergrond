@@ -14,6 +14,7 @@ De verslagen en presentaties van dit traject kan je terugvinden op het [Standaar
 
 EAP-files met de UML-diagrammen.\
 Configuratie en bestanden voor het publiceren van de specs in de folders config, site-skeleton en templates.\
+Een [changelog](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/blob/master/CHANGELOG) met wijzigingen tov vorige versies.\
 Diverse resources:
 - Een overzicht van de [use cases](resources/useCases.md)
 - Een overzicht van gebruikte [bronnen](resources/bronnen.md) (standaarden, regelgeving).
