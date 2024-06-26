@@ -16,7 +16,7 @@ EAP-files met de UML-diagrammen.\
 Configuratie en bestanden voor het publiceren van de specs in de folders config, site-skeleton en templates.\
 Diverse resources:
 - Een overzicht van de [use cases](resources/useCases.md)
-- Een overzicht van gebruikte [bronnen](resources/bronnen.md) (standaarden, regelgeving).\
+- Een overzicht van gebruikte [bronnen](resources/bronnen.md) (standaarden, regelgeving).
 - Het modelleringsrapport.
 - Een map met [datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/tree/master/resources/datavoorbeelden). 
 
