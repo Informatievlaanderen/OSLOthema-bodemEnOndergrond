@@ -7,10 +7,10 @@ AP BO_BodemEnOndergrond versie 2022-04-28,
 AP BO_Grondboringen versie2023-04-01,
 AP BO_Observaties versie 2023-04-01
  en AP BO_Interpretaties versie 2023-04-01:
-- KwantitatieveWaarde vervangen door Maat indien nodig
-- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd indien nodig
-- Literal ipv GetypeerdeString als datatype indien nodig
-- duidelijk onderscheid redefine/subset
+- KwantitatieveWaarde vervangen door Maat
+- Verwijzingen naar het AP RuimtelijkeBereiken toegevoegd
+- Literal ipv GetypeerdeString als datatype
+- Duidelijk onderscheid redefine/subset
 - Behoud van uri bij redefine
 Specifieke aanpassingen:
 Aanpassingen AP RuimtelijkeBereiken versie 2024-04-15:
