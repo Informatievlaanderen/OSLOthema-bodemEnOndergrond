@@ -42,4 +42,4 @@ Volgende specificaties zijn intussen gepubliceerd:
 |Grondwatermeetnet|Ontwerpstandaard|20210801|||
 |Sonderingen|Ontwerpstandaard|20210801|||
 
-OPMERKING: de specs worden nog afgewerkt, zie [nota]() voor een SVZ.
+OPMERKING: de specs worden nog afgewerkt, zie [nota](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/blob/master/resources/Afwerking%20specificaties%20B%26O.pdf) voor een SVZ.
