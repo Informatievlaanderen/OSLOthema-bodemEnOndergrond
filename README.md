@@ -41,3 +41,5 @@ Volgende specificaties zijn intussen gepubliceerd:
 |Bodem|Ontwerpstandaard|20210801|||
 |Grondwatermeetnet|Ontwerpstandaard|20210801|||
 |Sonderingen|Ontwerpstandaard|20210801|||
+
+OPMERKING: de specs worden nog afgewerkt, zie [nota]() voor een SVZ.
