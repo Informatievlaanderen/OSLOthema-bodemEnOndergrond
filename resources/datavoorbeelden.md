@@ -4,4 +4,4 @@ Datavoorbeelden zijn te vinden in de map [datavoorbeelden](https://github.com/In
 
 |Naam|Info|
 |---|---|
-|()|()|
+|Datavoorbeelden DOV|Aangemaakt op basis van data in de Databank Ondergrond Vlaanderen.|
