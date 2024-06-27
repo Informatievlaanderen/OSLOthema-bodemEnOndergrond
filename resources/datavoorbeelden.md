@@ -1,10 +1,9 @@
 ## Datavoorbeelden
 
-Datavoorbeelden zijn te vinden in de map [datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/tree/master/resources/datavoorbeelden).
+Datavoorbeelden zijn te vinden in de map [datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/tree/master/resources/datavoorbeelden) of in andere bronnen.
 
-|Naam|Info|
-|---|---|
-|Datavoorbeelden DOV|Aangemaakt op basis van data in de Databank Ondergrond Vlaanderen.|
+|Naam|Info|Formaat|
+|---|---|---|
+|Datavoorbeelden DOV|Aangemaakt op basis van data in de Databank Ondergrond Vlaanderen.|JSON-LD in nota|
+|Datavoorbeelden Grondverzet|Aangemaakt op basis van een bestaand Technisch Verslag Grondverzet.|JSON-LD in nota|
 
-De voorbeelden nemen de vorm aan van objectdiagrammen of json-ld, hetzij als file, hetzij in een nota.
-Check ook het [modelleringsrapport](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/blob/master/resources/Modellering%20BodemEnOndergrond.pdf) op voorbeelden.
