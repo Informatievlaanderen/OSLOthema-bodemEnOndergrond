@@ -5,3 +5,6 @@ Datavoorbeelden zijn te vinden in de map [datavoorbeelden](https://github.com/In
 |Naam|Info|
 |---|---|
 |Datavoorbeelden DOV|Aangemaakt op basis van data in de Databank Ondergrond Vlaanderen.|
+
+Ze kunnen de vorm aannemen van objectdiagrammen of json-ld, hetzij als file of in een nota.
+Check ook het [modelleringsrapport](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/blob/master/resources/Modellering%20BodemEnOndergrond.pdf) op voorbeelden.
