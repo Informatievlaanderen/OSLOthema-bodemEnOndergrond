@@ -17,7 +17,7 @@ Configuratie en bestanden voor het publiceren van de specs in de folders config,
 Een [changelog](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/blob/master/CHANGELOG) met wijzigingen tov vorige versies.\
 Diverse resources:
 - Een overzicht van de [use cases](resources/useCases.md)
-- Een overzicht van gebruikte [bronnen](resources/bronnen.md) (standaarden, regelgeving).
+- Een overzicht van gebruikte [bronnen](resources/bronnen.md) (standaarden, implementaties, regelgeving).
 - Het [modelleringsrapport](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/blob/master/resources/Modellering%20BodemEnOndergrond.pdf).
 - Een map met [datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/blob/master/resources/datavoorbeelden.md). 
 
