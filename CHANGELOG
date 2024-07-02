@@ -2,9 +2,8 @@ Algemeen
 Aanpassingen AP RuimtelijkeBereiken versie 2024-04-15,
 AP Observaties en Metingen versie 2022-04-28,
 AP Sensoren en Bemonstering versie 2022-04-28,
-AP Grondboringen versie 2022-04-28,
-AP BO_BodemEnOndergrond versie 2022-04-28,
-AP BO_Grondboringen versie2023-04-01,
+AP Bodem en Ondergrond versie 2022-04-28,
+AP Grondboringen versie 2023-04-01,
 AP BO_Observaties versie 2023-04-01
  en AP BO_Interpretaties versie 2023-04-01:
 - KwantitatieveWaarde werd vervangen door Maat.
@@ -19,12 +18,10 @@ Aanpassingen AP Observaties en Metingen versie 2022-04-28:
 - ()
 Aanpassingen AP Sensoren en Bemonstering versie 2022-04-28:
 - ()
-Aanpassingen AP Grondboringen versie 2022-04-28:
+Aanpassingen AP Bodem en Ondergrond versie 2022-04-28:
 - ()
-Aanpassingen AP BO_BodemEnOndergrond versie 2022-04-28:
-- ()
-Aanpassingen AP BO_Grondboringen versie2023-04-01:
-- ()
+Aanpassingen AP Grondboringen versie 2023-04-01
+- Kardinaliteit Grondmonster.type vaar 0..* ipv 0..1.
 Aanpassingen AP BO_Observaties versie 2023-04-01:
 - Korrelverdeling.onderbrekingVan en Korrelverdeling.onderbrekingTot bleken overbodig en zijn geschrapt.
 Aanpassingen AP BO_Interpretaties versie 2023-04-01:
