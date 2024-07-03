@@ -24,5 +24,6 @@ Aanpassingen AP Grondboringen versie 2023-04-01:
 - Kardinaliteit Grondmonster.type vaar 0..* ipv 0..1.
 Aanpassingen AP BO_Observaties versie 2023-04-01:
 - Korrelverdeling.onderbrekingVan en Korrelverdeling.onderbrekingTot bleken overbodig en zijn geschrapt.
+- Samendrukbaarheidstrap.hoogte vervangen door Samendrukbaarheidstrap.samendrukking.
 Aanpassingen AP BO_Interpretaties versie 2023-04-01:
 - ()
