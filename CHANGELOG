@@ -19,13 +19,12 @@ Aanpassingen AP Observaties en Metingen versie 2022-04-28:
 Aanpassingen AP Sensoren en Bemonstering versie 2022-04-28:
 - ()
 Aanpassingen AP Bodem en Ondergrond versie 2022-04-28:
-- ()
+- Fractiemeting.meetpunt geschrapt, overbodig want bvb cummulatieve Korrelverdeling kan ook met Fractiemetingwaarde.meetpuntOndergrens/bovengrens worden beschreven.
 Aanpassingen AP Grondboringen versie 2023-04-01:
 - Kardinaliteit Grondmonster.type vaar 0..* ipv 0..1 om meerdere classificaties toe te laten.
 Aanpassingen AP BO_Observaties versie 2023-04-01:
 - Korrelverdeling.onderbrekingVan en Korrelverdeling.onderbrekingTot geschrapt, gedekt door Fractiemeting.meetpuntOndergrens/bovenGrens.
 - Korrelverdeling.humusKalkVerwijderd omdat er ook nog andere parameters zijn en ze allemaal dmv Observatie/Observatieprocedure.parameter kunnen worden beschreven.
-- Fractiemeting.meetpunt geschrapt, overbodig want cummulatieve Korrelverdeling kan ook met Fractiemetingwaarde.meetpuntOndergrens/bovengrens worden beschreven.
 - Samendrukbaarheidstrap.hoogte vervangen door Samendrukbaarheidstrap.samendrukking omdat er nog andere maten voor samendrukking bestaan dan hoogte (vh Monster na uitgeoefende druk).
 - Samendrukbaarheidsproef.diameter/initiëleHoogte/massa omdat er ook nog andere parameters zijn en ze allemaal dmv Observatie/Observatieprocedure.parameter kunnen worden beschreven.
 Aanpassingen AP BO_Interpretaties versie 2023-04-01:
