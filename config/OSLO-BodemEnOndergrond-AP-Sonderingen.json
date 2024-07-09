@@ -3,7 +3,7 @@
     "name": "ap-sonderingen",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
-    "diagram": "NEW OSLO-Sonderingen",
+    "diagram": "NEW_OSLO-Sonderingen",
     "template": "sonderingen-ap.j2",
     "title": "Sonderingen (Applicatieprofiel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
