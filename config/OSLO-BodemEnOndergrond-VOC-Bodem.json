@@ -3,7 +3,7 @@
         "name": "bodem",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
-        "diagram": "NEW OSLO-Bodem",
+        "diagram": "NEW_OSLO-Bodem",
         "template": "bodem-voc.j2",
         "title": "Bodem (Vocabularium)",
         "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
