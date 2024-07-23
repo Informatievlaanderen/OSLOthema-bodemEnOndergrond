@@ -2,13 +2,10 @@
 
 {% block summary %}
 <p>Het applicatieprofiel Ruimtelijke Bereiken toont hoe met termen uit het overeenkomstig <a href="https://data.vlaanderen.be/ns/ruimtelijke-bereiken/">vocabularium</a> de geografische spreiding van een fenomeen kan worden beschreven.</p>
-<p>Niet elk fenomeen levert een constante als waarde op (bvb kleur), het kan ook variëren in functie van een andere parameter (bvb de lengte ve treinspoor in functie vd temperatuur).</p>
-<p>Bij variatie in ruimte of tijd spreken we van een Bereik.</p>
+<p>Niet elk fenomeen levert een constante als waarde op (bvb kleur), het kan ook variëren in functie van een andere parameter (bvb de lengte ve treinspoor in functie vd temperatuur). Bij variatie in ruimte of tijd spreken we van een Bereik.</p>
 <p>We baseren dit model op <a href="https://www.iso.org/standard/40121.html">ISO 19103</a> Geographic information — Schema for coverage geometry and functions.</p>
-<p>Daarin wordt Geometrie ruim gezien, het kan niet enkel gaan over een positie in de ruimte maar ook over een positie in de tijd (tijdreeks).</p>
-<p>We beperken ons hier tot ruimtelijke Geometrie en bovendien werkten we enkel het geval van PuntBereiken en CurveBereiken uit.</p>
-<p>Ook modelleren we enkel DiscreteBereiken, ttz een bereik waarvoor de waarden enkel gekend zijn voor een eindige set van geometrieën en bvb niet voor elk punt in het beschouwde gebied zoals het geval bij een ContinueBereik.</p>
-<p>Bvb bij remote sensing wordt de variatie weergegeven voor een eindige set van pixels, waarbij de waarde , bvb de reflectiegraad, constant is binnen elke pixel.</p>
+<p>Daarin wordt Geometrie ruim gezien, het kan niet enkel gaan over een positie in de ruimte maar ook over een positie in de tijd (tijdreeks). We beperken ons hier tot ruimtelijke Geometrie en bovendien werkten we enkel het geval van PuntBereiken en CurveBereiken uit.</p>
+<p>Ook modelleren we enkel DiscreteBereiken, ttz een bereik waarvoor de waarden enkel gekend zijn voor een eindige set van geometrieën en bvb niet voor elk punt in het beschouwde gebied zoals het geval bij een ContinueBereik. Bvb bij remote sensing wordt de variatie weergegeven voor een eindige set van pixels, waarbij de waarde , bvb de reflectiegraad, constant is binnen elke pixel.</p>
 <p>De set van geometriëen kan kunstmatig bepaald zijn zoals bij de pixels of bij sampling, maar ook natuurlijk zoals bij een gemeentelijke indeling.</p>
 <p>Merk op dat DiscreteBereiken in ContinueBereiken kunnen worden omgezet, de discrete punten vormen dan controlepunten bij interpolatie.</p>
 <p>DiscreetPuntBereik en DiscreetCurveBereik zijn de centrale klassen, met resp PuntWaardepaar en CurveWaardepaar als datatypes.</p>
