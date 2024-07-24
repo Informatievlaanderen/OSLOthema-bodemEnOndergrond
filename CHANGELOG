@@ -1,10 +1,10 @@
 Algemeen
-Aanpassingen AP RuimtelijkeBereiken versie 2024-04-15,
-AP Observaties en Metingen versie 2022-04-28,
-AP Sensoren en Bemonstering versie 2022-04-28,
-AP Bodem en Ondergrond versie 2022-04-28,
-AP Grondboringen versie 2023-04-01,
-AP BO_Observaties versie 2023-04-01
+Aanpassingen AP+VOC RuimtelijkeBereiken versie 2024-04-15,
+AP+VOC Observaties en Metingen versie 2022-04-28,
+AP+VOC Sensoren en Bemonstering versie 2022-04-28,
+AP+VOC Bodem en Ondergrond versie 2022-04-28,
+AP+VOC Grondboringen versie 2023-04-01,
+AP+VOC BO_Observaties versie 2023-04-01
  en AP BO_Interpretaties versie 2023-04-01:
 - KwantitatieveWaarde werd vervangen door Maat.
 - Verwijzingen naar het AP RuimtelijkeBereiken zijn toegevoegd.
@@ -12,20 +12,20 @@ AP BO_Observaties versie 2023-04-01
 - Er wordt nu duidelijk onderscheid tussen redefine & subset gemaakt.
 - De uri van het oorspronkelijk attribuut of rol wordt behouden bij een redefine.
 Specifieke aanpassingen:
-Aanpassingen AP RuimtelijkeBereiken versie 2024-04-15:
-- Ontbrekende definities toegevoegd.
-Aanpassingen AP Observaties en Metingen versie 2022-04-28:
+Aanpassingen AP+VOC RuimtelijkeBereiken versie 2024-04-15:
+- Ontbrekende onderdelen aan de specificatie toegevoegd: samenvattingen, definities, uri's.
+Aanpassingen AP+VOC Observaties en Metingen versie 2022-04-28:
 - ()
-Aanpassingen AP Sensoren en Bemonstering versie 2022-04-28:
+Aanpassingen AP+VOC Sensoren en Bemonstering versie 2022-04-28:
 - ()
-Aanpassingen AP Bodem en Ondergrond versie 2022-04-28:
+Aanpassingen AP+VOC Bodem en Ondergrond versie 2022-04-28:
 - Fractiemeting.meetpunt geschrapt, overbodig want bvb cummulatieve Korrelverdeling kan ook met Fractiemetingwaarde.meetpuntOndergrens/bovengrens worden beschreven.
-Aanpassingen AP Grondboringen versie 2023-04-01:
+Aanpassingen AP+VOC Grondboringen versie 2023-04-01:
 - Kardinaliteit Grondmonster.type vaar 0..* ipv 0..1 om meerdere classificaties toe te laten.
-Aanpassingen AP BO_Observaties versie 2023-04-01:
+Aanpassingen AP+VOC BO_Observaties versie 2023-04-01:
 - Korrelverdeling.onderbrekingVan en Korrelverdeling.onderbrekingTot geschrapt, gedekt door Fractiemeting.meetpuntOndergrens/bovenGrens.
 - Korrelverdeling.humusKalkVerwijderd omdat er ook nog andere parameters zijn en ze allemaal dmv Observatie/Observatieprocedure.parameter kunnen worden beschreven.
 - Samendrukbaarheidstrap.hoogte vervangen door Samendrukbaarheidstrap.samendrukking omdat er nog andere maten voor samendrukking bestaan dan hoogte (vh Monster na uitgeoefende druk).
 - Samendrukbaarheidsproef.diameter/initiëleHoogte/massa omdat er ook nog andere parameters zijn en ze allemaal dmv Observatie/Observatieprocedure.parameter kunnen worden beschreven.
-Aanpassingen AP BO_Interpretaties versie 2023-04-01:
+Aanpassingen AP+VOC BO_Interpretaties versie 2023-04-01:
 - ()
