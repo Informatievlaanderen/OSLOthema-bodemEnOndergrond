@@ -19,7 +19,8 @@ Diverse resources:
 - Een overzicht van de [use cases](resources/useCases.md)
 - Een overzicht van gebruikte [bronnen](resources/bronnen.md) (standaarden, implementaties, regelgeving).
 - Het [modelleringsrapport](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/blob/master/resources/Modellering%20BodemEnOndergrond.pdf).
-- Een map met [datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/blob/master/resources/datavoorbeelden.md). 
+- Een map met [datavoorbeelden](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/blob/master/resources/datavoorbeelden.md).
+OPMERKING: Sommige resources zijn in pdf als alternatief voor onenote waarbij de omvang van het bestand soms te groot is voor github. In de pdf's werken de hyperlinks echter niet, raadpleeg in dat geval de onenote die [hier](https://vlaamseoverheid.sharepoint.com/:f:/r/sites/AIV-OSLO-Bodem-en-Ondergrond/Gedeelde%20documenten/General?csf=1&web=1&e=VohfIH) te vinden is.  
 
 ## Issues
 
