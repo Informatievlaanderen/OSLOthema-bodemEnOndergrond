@@ -12,6 +12,7 @@ AP+VOC BO_Observaties versie 2023-04-01
 - Er wordt nu duidelijk onderscheid tussen redefine & subset gemaakt.
 - De uri van het oorspronkelijk attribuut of rol wordt behouden bij een redefine.
 - Typo's in samenvattingen, definities, gebruiksnota's verbeterd.
+- LangString vervangt Taalstring als datatype.
 Specifieke aanpassingen:
 Aanpassingen AP+VOC RuimtelijkeBereiken versie 2024-04-15:
 - Ontbrekende onderdelen aan de specificatie toegevoegd: samenvattingen, definities, uri's.
