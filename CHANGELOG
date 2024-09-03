@@ -11,13 +11,14 @@ AP+VOC BO_Observaties versie 2023-04-01
 - Literal vervangt GetypeerdeString als datatype.
 - Er wordt nu duidelijk onderscheid tussen redefine & subset gemaakt.
 - De uri van het oorspronkelijk attribuut of rol wordt behouden bij een redefine.
+- Typo's in samenvattingen, definities, gebruiksnota's verbeterd.
 Specifieke aanpassingen:
 Aanpassingen AP+VOC RuimtelijkeBereiken versie 2024-04-15:
 - Ontbrekende onderdelen aan de specificatie toegevoegd: samenvattingen, definities, uri's.
 Aanpassingen AP+VOC Observaties en Metingen versie 2022-04-28:
 - Klasse Domeinobject toegevoegd
 Aanpassingen AP+VOC Sensoren en Bemonstering versie 2022-04-28:
-- ()
+- Formaat en Dimensie nu in het AP+VOC Generiek gedefinieerd.
 Aanpassingen AP+VOC Bodem en Ondergrond versie 2022-04-28:
 - Fractiemeting.meetpunt geschrapt, overbodig want bvb cummulatieve Korrelverdeling kan ook met Fractiemetingwaarde.meetpuntOndergrens/bovengrens worden beschreven.
 Aanpassingen AP+VOC Grondboringen versie 2023-04-01:
