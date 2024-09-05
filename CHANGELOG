@@ -16,8 +16,9 @@ AP+VOC BO_Observaties versie 2023-04-01
 Specifieke aanpassingen:
 Aanpassingen AP+VOC RuimtelijkeBereiken versie 2024-04-15:
 - Ontbrekende onderdelen aan de specificatie toegevoegd: samenvattingen, definities, uri's.
-Aanpassingen AP+VOC Observaties en Metingen versie 2022-04-28:
+- Aanpassingen AP+VOC Observaties en Metingen versie 2022-04-28:
 - Klasse Domeinobject toegevoegd
+- Attribuut Opmeting.opnamedatum toegevoegd aan het AP+VOC Generiek.
 Aanpassingen AP+VOC Sensoren en Bemonstering versie 2022-04-28:
 - Formaat en Dimensie nu in het AP+VOC Generiek gedefinieerd.
 Aanpassingen AP+VOC Bodem en Ondergrond versie 2022-04-28:
