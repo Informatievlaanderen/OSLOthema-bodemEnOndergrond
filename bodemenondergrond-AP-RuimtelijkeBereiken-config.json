@@ -10,11 +10,11 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO027735"
     }
   ],
-  "publicationDate": "2021-08-01",
+  "publicationDate": "2024-09-04",
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Ruimtelijke bereiken",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/ruimtelijke-bereiken/"
     }
   ],
   "documentation": [
