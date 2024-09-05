@@ -24,6 +24,8 @@ Aanpassingen AP+VOC Bodem en Ondergrond versie 2022-04-28:
 - Fractiemeting.meetpunt geschrapt, overbodig want bvb cummulatieve Korrelverdeling kan ook met Fractiemetingwaarde.meetpuntOndergrens/bovengrens worden beschreven.
 Aanpassingen AP+VOC Grondboringen versie 2023-04-01:
 - Kardinaliteit Grondmonster.type vaar 0..* ipv 0..1 om meerdere classificaties toe te laten.
+- Domeinobject en Object terug aan het diagram toegevoegd.
+- Bemonstering.bemonsterdObject terug naar Object ipv Grondobject.
 Aanpassingen AP+VOC BO_Observaties versie 2023-04-01:
 - Ontbrekende definities aan de specificatie toegevoegd.
 - Korrelverdeling.onderbrekingVan en Korrelverdeling.onderbrekingTot geschrapt, gedekt door Fractiemeting.meetpuntOndergrens/bovenGrens.
@@ -34,4 +36,4 @@ Aanpassingen AP+VOC BO_Observaties versie 2023-04-01:
 - Ipv associaties tussen de Schuifweerstandskarakteristieken en de Schuifweerstandsproeven waarop deze gebaseerd zijn de proeven nu verzameld in een observatieverzameling Schuifweerstandsproefreeks.
 - Deze reeks vormt de input van de observatieprocedure Schuifweerstandskarakteristiekenprocedure.
 Aanpassingen AP+VOC BO_Interpretaties versie 2023-04-01:
-- Geen.
+- ().
