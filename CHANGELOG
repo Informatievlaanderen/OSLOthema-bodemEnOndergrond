@@ -23,10 +23,12 @@ Aanpassingen AP+VOC Sensoren en Bemonstering versie 2022-04-28:
 - Formaat en Dimensie nu in het AP+VOC Generiek gedefinieerd.
 Aanpassingen AP+VOC Bodem en Ondergrond versie 2022-04-28:
 - Fractiemeting.meetpunt geschrapt, overbodig want bvb cummulatieve Korrelverdeling kan ook met Fractiemetingwaarde.meetpuntOndergrens/bovengrens worden beschreven.
+- Definitie van Laag veralgemeend.
 Aanpassingen AP+VOC Grondboringen versie 2023-04-01:
 - Kardinaliteit Grondmonster.type vaar 0..* ipv 0..1 om meerdere classificaties toe te laten.
 - Domeinobject en Object terug aan het diagram toegevoegd.
 - Bemonstering.bemonsterdObject terug naar Object ipv Grondobject.
+- Beperking van Grondboringen tot boringen voor Bemonstering toegevoegd aan gebruiksnota. 
 Aanpassingen AP+VOC BO_Observaties versie 2023-04-01:
 - Ontbrekende definities aan de specificatie toegevoegd.
 - Korrelverdeling.onderbrekingVan en Korrelverdeling.onderbrekingTot geschrapt, gedekt door Fractiemeting.meetpuntOndergrens/bovenGrens.
