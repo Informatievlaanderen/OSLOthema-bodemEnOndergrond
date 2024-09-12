@@ -24,6 +24,7 @@ Aanpassingen AP+VOC Sensoren en Bemonstering versie 2022-04-28:
 Aanpassingen AP+VOC Bodem en Ondergrond versie 2022-04-28:
 - Fractiemeting.meetpunt geschrapt, overbodig want bvb cummulatieve Korrelverdeling kan ook met Fractiemetingwaarde.meetpuntOndergrens/bovengrens worden beschreven.
 - Definitie van Laag veralgemeend + verduidelijking over de Laag als Bemonsteringsobject.
+- Associatie Profiel->Profielelement is veranderd van composiet naar aggregaat.
 Aanpassingen AP+VOC Grondboringen versie 2023-04-01:
 - Kardinaliteit Grondmonster.type vaar 0..* ipv 0..1 om meerdere classificaties toe te laten.
 - Domeinobject en Object terug aan het diagram toegevoegd.
