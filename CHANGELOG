@@ -13,6 +13,8 @@ AP+VOC BO_Observaties versie 2023-04-01
 - De uri van het oorspronkelijk attribuut of rol wordt behouden bij een redefine.
 - Typo's in samenvattingen, definities, gebruiksnota's verbeterd.
 - LangString vervangt Taalstring als datatype.
+- GeneriekeNaam als datatype van specifieke attributen vervangen door skos:Concept of Literal al naargelang.
+- NaamInNaamRuimte is als datatype van specifieke attributen vervangen door skos:Concept.
 Specifieke aanpassingen:
 Aanpassingen AP+VOC RuimtelijkeBereiken versie 2024-04-15:
 - Ontbrekende onderdelen aan de specificatie toegevoegd: samenvattingen, definities, uri's.
