@@ -1,4 +1,92 @@
-Voornaam;Naam;Affiliatie;E-mail;Website;MijnKolom;
-AuteurVoornaam;AuteurNaam;AuteurAffiliatie;auteurvoornaam.auteurnaam@auteurdomein;https://auteurwebsiteurl;A;
-EditorVoornaam;EditorNaam;EditorAffiliatie;editorvoornaam.editornaam@editordomein;https://editorwebsiteurl;E;
-MedewerkerVoornaam;MedewerkerNaam;MedewerkerAffiliatie;medewerkervoornaam.medewerkernaam@medewerkerdomein;https://medewerkerwebsiteurl;C;
+Voornaam;Naam;Affiliatie;MijnKolom
+Aaike;De Wever;Instituut voor Natuur- en Bosonderzoek;C
+Anthony;Van Heymbeeck;Digitaal Vaanderen;E
+Berdien;De Ro;Geosparc;C
+Bruno;Stuyts;Universiteit Gent;C
+Camille;Allonsius;Universiteit Antwerpen – CurieuzeNeuzen In De Tuin;C
+Caroline;Van der Heyden;Boerenbond;C
+Chandra;Algoe;Departement Mobiliteit en Openbare Werken;C
+Chandra;Algoe;Departement Mobiliteit en Openbare Werken;C
+Christine;Berchmans;Grondbank Tracimat;C
+Davy;Vanhoudt;Agentschap Wegen en Verkeer;C
+Dimitri;Schepers;Digitaal Vaanderen;E
+Dwight;Van Lancker;Digitaal Vaanderen;E
+Elisa;Vermeulen;VZW Grondbank;C
+Elisabeth;Rutten;Vlaamse Landmaatschappij;C
+Erwin;Sevens;Openbare Vlaamse Afvalstoffenmaatschappij;C
+Eveline;Vlassenroot;Digitaal Vaanderen;E
+Filip;Dehaese;Andere;C
+Flor;De Cock;Andere;C
+Frank;Lavens;Vlaamse Milieumaatschappij;C
+Frank;Sleeuwaert;Vlaamste Instelling voor Technologisch Onderzoek (VITO);C
+Franky;Coopman;Inagrvzw;C
+Frieke;Segers;Departement Omgeving;A
+Geert;Devriese;Andere;C
+Geert;Nys;Openbare Vlaamse Afvalstoffenmaatschappij;C
+Geert;Thijs;Digitaal Vaanderen;E
+Geert;Van Haute;Departement Omgeving;A
+Geerts;Timothy;Grondwijzer VZW;C
+Gert;Vermeersch;Agentschap Wegen en Verkeer;C
+Greet;Ruysschaert;Instituut voor Landbouw-, Visserij- en Voedingsonderzoek;C
+Ilse;Baeck;Canalcnv;C
+Jan;Maertens;Citizens;C
+Jan;Vangestel;Agentschap Wegen en Verkeer;C
+Jan;Walstra;Koninklijk Belgisch Instituur voor Natuurwetenschappen – Belgische Geologische Dienst;C
+Jasper;Verhaegen;Departement Omgeving;A
+Jente;Hanssens;Grondwijzer vzw;C
+Jeroen;Nyckees;Departement Mobiliteit en Openbare Werken;C
+Johan;Van De Wauw;Fluves – pydov;C
+Joris;Synaeve;AC partners;C
+Joris;Vermeer;Smet GWT Europe;C
+Katrien;De Nil;Departement Omgeving;A
+Katrien;Oorts;Departement Omgeving;A
+Katrijn;Dirix;Vlaamste Instelling voor Technologisch Onderzoek (VITO);C
+Killian;Paenen;GeSolutions;C
+Koen;Smeets;Openbare Vlaamse Afvalstoffenmaatschappij;C
+Kris;Piessens;Koninklijk Belgisch Instituut voor Natuurwetenschappen;C
+Laurens;Vercauteren;Digitaal Vaanderen;E
+Leen;Vincke;Departement Mobiliteit en Openbare Werken (Geotechniek);C
+Liesbeth;Rombouts;Digitaal Vaanderen;C
+Lieven;De Stoppeleire;Vrouwen van het Algemeen Boerensyndicaat;C
+Ludovic;Huysentruyt;Votquenne Foundations & Revyson;C
+Marijke;Huysmans;Vrije Universiteit Brussel;C
+Mark;Wulfrancke;Algemeen Boerensyndicaat;C
+Marleen;Van Damme;Departement Omgeving;A
+Marnix;Coulier;Aseptic Excellence Partner;C
+Marnix;Pieters;Agentschap Onroerend Erfgoed;C
+Martin;Vanbrabant;Digitaal Vaanderen;E
+Mathias;Wackenier;Instituur voor Natuur- en Bosonderzoek;C
+Maxim;Broos;Agentschap Wegen en Verkeer;C
+Michaël;Rens;Bodemkundige Dienst van België;C
+Nadia;Paridaen;Putboringen Van Deynse NV;C
+Naten;Van Hemelrijck;Vanhecke NV;C
+Nathalie;Cools;Instituut voor Natuur- en Bosonderzoek;C
+Olivier;Olyslaegers;GEBO;C
+Patrick;De Baets;Departement Mobiliteit en Openbare Werken;C
+Peter;Verspecht;Andere;C
+Petra;Deproost;Departement Omgeving;A
+Piet;Seuntjens;Citizens;C
+Pieter;Jan Haest;De Watergroep;C
+Pieter;Nieuwlaet;Stad Gent;C
+Raf;Buyle;Digitaal Vaanderen;E
+Raf;Somers;Tractebel – International Marine and Dredging Consultants;C
+Reinhilde;Blondeel;FOD Financiën;C
+Roel;De Koninck;Vlaamste Instelling voor Technologisch Onderzoek (VITO);C
+Sabine;Buyle;Departement Omgeving;A
+Sandra;De Loore;Openbare Vlaamse Afvalstoffenmaatschappij;C
+Simon;Baert;Agentschap Wegen en Verkeer;C
+Sofie;Reynaert;Bodemkundige Dienst van België vzw;C
+Sophie;Bordere;Departement Mobiliteit en Openbare Werken;C
+Stijn;Goolaerts;Koninklijk Belgisch Instituut voor Natuurwetenschappen;C
+Stijn;Huyghe;Citizens;C
+Stijn;Scheepers;Colas Noord NV;C
+Stijn;Van de Vondel;Universiteit Antwerpen – CurieuzeNeuzen In De Tuin;C
+Tinneke;De Rouck;Vlaamse Milieumaatschappij;C
+Tom;Jottier;Studiebureau voor Bouwkunde en Expertise (SBE) NV;C
+Tom;Van Gulck;Departement Omgeving;A
+Veerle;Beyaert;Digitaal Vaanderen;E
+Veerle;Vanwesenbeeck;Departement Omgeving;A
+Willem;Maetens;Vlaamse Milieumaatschappij;C
+Wouter;Vervaele;Departement Mobiliteit en Openbare Werken;C
+Ywan;De Jonghe;Vlaamse Milieumaatschappij;C
+Ziggy;Vanlishout;Digitaal Vaanderen;E
