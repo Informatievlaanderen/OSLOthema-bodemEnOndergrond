@@ -18,26 +18,7 @@
     }
   ],
   "documentation": [
-    {
-      "name": "Applicatieprofiel Observaties en Metingen",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2022-04-28"
-    },
-    {
-      "name": "Applicatieprofiel Sensoren en Bemonstering",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
-    },
-    {
-      "name": "Vocabularium Observaties en Metingen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2022-04-28"
-    },
-    {
-      "name": "Vocabularium Ruimtelijke bereiken",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
-    },
-    {
-      "name": "Vocabularium Sensoren en Bemonstering",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
-    }
+   
   ],
   "reports": [
     {
