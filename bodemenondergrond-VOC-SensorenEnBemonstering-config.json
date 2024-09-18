@@ -10,11 +10,11 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO027735"
     }
   ],
-  "publicationDate": "2022-04-28",
+  "publicationDate": "2024-09-05",
   "specificationDocuments": [
     {
       "name": "Vocabularium Sensoren en Bemonstering",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
+      "resourceReference": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering/"
     }
   ],
   "documentation": [
