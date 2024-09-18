@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Vocabularium Ruimtelijke bereiken",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/ruimtelijke-bereiken"
     }
   ],
   "documentation": [
