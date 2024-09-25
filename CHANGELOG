@@ -21,6 +21,9 @@ Aanpassingen AP+VOC RuimtelijkeBereiken versie 2024-04-15:
 - Aanpassingen AP+VOC Observaties en Metingen versie 2022-04-28:
 - Klasse Domeinobject toegevoegd
 - Attribuut Opmeting.opnamedatum toegevoegd aan het AP+VOC Generiek.
+aanpassingen AP+VOC Observaties en Metingen versie 2022-04-28:
+- Associatie met klasse en klasse Monstervoorbereiding weggelaten (de klasse komt al voor in sSnsoren en Bemonstering).
+- Attribuut Monster.bemonsteringsmethode weggelaten (want equivalent met Bemonstering.gebruikteProcedure). 
 Aanpassingen AP+VOC Sensoren en Bemonstering versie 2022-04-28:
 - Formaat en Dimensie nu in het AP+VOC Generiek gedefinieerd.
 Aanpassingen AP+VOC Bodem en Ondergrond versie 2022-04-28:
