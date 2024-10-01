@@ -33,6 +33,10 @@
     {
       "name":"W3C Semantic Sensor Network Ontology Extensions",
       "resourceReference":"https://www.w3.org/TR/vocab-ssn-ext/"
+    },
+        {
+      "name":"Github",
+      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
