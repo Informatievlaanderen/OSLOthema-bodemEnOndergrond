@@ -18,6 +18,10 @@
   }
   ],
   "documentation": [
+        {
+      "name": "Vocabularium Observaties en Metingen",
+      "resourceReference": "https://data.vlaanderen.be/ns/observaties-en-metingen/"
+    },
   {
     "name":"ISO 19156:2011 Geographic information — Observations and measurements",
     "resourceReference":"https://www.iso.org/standard/32574.html"
