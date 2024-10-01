@@ -25,6 +25,10 @@
         {
       "name": "Applicatieprofiel Sensoren en Bemonstering",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/"
+    },
+        {
+      "name":"Github",
+      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
