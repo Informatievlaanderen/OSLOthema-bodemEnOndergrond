@@ -1,1 +1,1 @@
-Vocabularium ontwikkeld om ruimtelijke bereiken te beschrijven, gebaseerd op [ISO 19103](https://www.iso.org/standard/40121.html) Geographic information — Schema for coverage geometry and functions.
+Dit vocabularium bevat nieuwe terminologie voor het applicatieprofiel [RuimtelijkeBereiken](https://data.vlaanderen.be/ns/ruimtelijke-bereiken).
