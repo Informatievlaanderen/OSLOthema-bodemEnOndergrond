@@ -1,1 +1,1 @@
-Vocabularium ontwikkeld om observaties en metingen te beschrijven, gebaseerd op [ISO 19156:2011](https://www.iso.org/standard/32574.html) Geographic information — Observations and measurements.
+Dit vocabularium bevat nieuwe terminologie voor het applicatieprofiel [Observaties en Metingen](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/).
