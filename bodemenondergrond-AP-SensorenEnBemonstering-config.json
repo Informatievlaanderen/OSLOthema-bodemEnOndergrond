@@ -19,8 +19,16 @@
   ],
   "documentation": [
     {
-
-      
+      "name":"Applicatieprofiel Observaties en Metingen",
+      "resourceReference":"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen"
+    },
+    {
+      "name":"W3C Semantic Sensor Network Ontology",
+      "resourceReference":"https://www.w3.org/TR/vocab-ssn/"
+    },
+    {
+      "name":"W3C Semantic Sensor Network Ontology Extensions",
+      "resourceReference":"https://www.w3.org/TR/vocab-ssn-ext/"
     }
   ],
   "reports": [
