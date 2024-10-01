@@ -3,7 +3,7 @@
   "category": "Applicatieprofielen",
   "usage": "Aanbevolen (vrijwillig)",
   "status": "standaard-in-ontwikkeling",
-  "descriptionFileName": "bodemenondergrond.md",
+  "descriptionFileName": "bodemEnOndergrondObservaties-ap.md",
   "responsibleOrganisation": [
     {
       "name": "Databank Ondergrond Vlaanderen en OVAM",
@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Applicatieprofiel Bodem en Ondergrond Observaties",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/"
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties/"
     }
   ],
   "documentation": [
