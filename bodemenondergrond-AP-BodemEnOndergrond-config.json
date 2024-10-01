@@ -18,7 +18,14 @@
     }
   ],
   "documentation": [
-   
+   {
+     "name":"Applicatieprofiel Observaties en Metingen",
+     "resourceReference":"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/"
+   },
+    {
+      "name":"Applicatieprofiel Sensoren en Bemonstering",
+      "resourceReference":"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/"
+    }
   ],
   "reports": [
     {
