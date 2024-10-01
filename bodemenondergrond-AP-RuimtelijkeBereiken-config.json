@@ -18,6 +18,10 @@
     }
   ],
   "documentation": [
+    {
+      "name": "Vocabularium Ruimtelijke bereiken",
+      "resourceReference": "https://data.vlaanderen.be/ns/ruimtelijke-bereiken"
+    },
    {
      "name":"ISO 19103 Geographic information — Schema for coverage geometry and functions.",
      "resourceReference":"https://www.iso.org/standard/40121.html"
