@@ -18,7 +18,10 @@
   }
   ],
   "documentation": [
- 
+     {
+      "name": "Vocabularium Bodem en Ondergrond Interpretaties",
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties/"
+    }
   ],
   "reports": [
   {
