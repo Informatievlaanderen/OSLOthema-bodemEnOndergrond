@@ -13,10 +13,6 @@
   "publicationDate": "2024-09-05",
   "specificationDocuments": [
     {
-      "name": "Vocabularium Ruimtelijke bereiken",
-      "resourceReference": "https://data.vlaanderen.be/ns/ruimtelijke-bereiken"      
-    },
-    {
       "name": "Applicatieprofiel Ruimtelijke bereiken",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/"
     }
