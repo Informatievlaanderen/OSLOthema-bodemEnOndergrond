@@ -21,6 +21,10 @@
     {
       "name": "Applicatieprofiel Ruimtelijke bereiken",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/"
+    },
+        {
+      "name":"Github",
+      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
