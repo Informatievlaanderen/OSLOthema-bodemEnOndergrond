@@ -1,1 +1,1 @@
-
+Dit applicatieprofiel laat toe om een aantal gespecialiseerde observaties waar interpretatie bij komt kijken te beschrijven, mn interpretaties van de gelaagdheid van bodem en ondergrond bvb op basis van lithologie of geotechnische kenmerken. Het is een uitbreiding op het applicatieprofiel [Sensoren en Bemonstering](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/) en maakt eveneens gebruik van het applicatieprofiel [Ruimtelijke Bereiken](https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/).
