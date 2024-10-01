@@ -18,7 +18,14 @@
     }
   ],
   "documentation": [
-  
+     {
+     "name":"Vocabularium Observaties en Metingen",
+     "resourceReference":"https://data.vlaanderen.be/ns/observaties-en-metingen/"
+   },
+    {
+      "name":"Vocabularium Sensoren en Bemonstering",
+      "resourceReference":"https://data.vlaanderen.be/ns/sensoren-en-bemonstering/"
+    }
   ],
   "reports": [
     {
