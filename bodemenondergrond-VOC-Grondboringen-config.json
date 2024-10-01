@@ -19,8 +19,8 @@
   ],
   "documentation": [
     {
-      "name": "Vocabularium Sensoren en Bemonstering",
-      "resourceReference": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering/"
+      "name": "Applicatieprofiel Grondboringen",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/"
     }
   ],
   "reports": [
