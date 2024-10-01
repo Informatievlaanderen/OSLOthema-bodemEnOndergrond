@@ -1,1 +1,1 @@
-
+Dit applicatieprofiel laat toe om een aantal specifieke observaties oa in het deeldomein geotechniek te beschrijven. Het bouwt daarvoor voort op het applicatieprofiel [sensoren en Bemonstering](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/).
