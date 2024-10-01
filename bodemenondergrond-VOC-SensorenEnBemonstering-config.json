@@ -18,17 +18,9 @@
     }
   ],
   "documentation": [
-      {
-      "name":"Vocabularium Observaties en Metingen",
-      "resourceReference":"https://data.vlaanderen.be/ns/observaties-en-metingen/"
-    },
     {
-      "name":"W3C Semantic Sensor Network Ontology",
-      "resourceReference":"https://www.w3.org/TR/vocab-ssn/"
-    },
-    {
-      "name":"W3C Semantic Sensor Network Ontology Extensions",
-      "resourceReference":"https://www.w3.org/TR/vocab-ssn-ext/"
+      "name": "Applicatieprofiel Sensoren en Bemonstering",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/"
     }
   ],
   "reports": [
