@@ -25,7 +25,11 @@
    {
      "name":"ISO 19103 Geographic information — Schema for coverage geometry and functions.",
      "resourceReference":"https://www.iso.org/standard/40121.html"
-   }
+   },
+        {
+      "name":"Github",
+      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    }
   ],
   "reports": [
     {
