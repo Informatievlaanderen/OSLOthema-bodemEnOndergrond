@@ -1,1 +1,1 @@
-Dit vocabularium maakt het beschrijven van grondboringen mogelijk, het bouwt daarvoor verder op het vocabularium [Sensoren en Bemonstering](https://data.vlaanderen.be/ns/sensoren-en-bemonstering/).
+Dit vocabularium bevat nieuwe terminologie voor het applicatieprofiel [Grondboringen](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/).
