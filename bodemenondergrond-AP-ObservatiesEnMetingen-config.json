@@ -25,7 +25,11 @@
   {
     "name":"ISO 19156:2011 Geographic information — Observations and measurements",
     "resourceReference":"https://www.iso.org/standard/32574.html"
-  }
+  },
+        {
+      "name":"Github",
+      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    }
   ],
   "reports": [
   {
