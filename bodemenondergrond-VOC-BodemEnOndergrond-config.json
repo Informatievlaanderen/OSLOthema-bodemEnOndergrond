@@ -18,13 +18,9 @@
     }
   ],
   "documentation": [
-     {
-     "name":"Vocabularium Observaties en Metingen",
-     "resourceReference":"https://data.vlaanderen.be/ns/observaties-en-metingen/"
-   },
     {
-      "name":"Vocabularium Sensoren en Bemonstering",
-      "resourceReference":"https://data.vlaanderen.be/ns/sensoren-en-bemonstering/"
+      "name": "Applicatieprofiel Bodem en Ondergrond",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/"
     }
   ],
   "reports": [
