@@ -1,1 +1,1 @@
-
+Dit vocabularium laat toe om een aantal specifieke observaties oa in het deeldomein geotechniek te beschrijven. Het bouwt daarvoor voort op het vocabularium [sensoren en Bemonstering](https://data.vlaanderen.be/ns/sensoren-en-bemonstering/).
