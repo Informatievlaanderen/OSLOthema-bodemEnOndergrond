@@ -19,8 +19,8 @@
   ],
   "documentation": [
       {
-      "name":"Applicatieprofiel Observaties en Metingen",
-      "resourceReference":"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen"
+      "name":"Vocabularium Observaties en Metingen",
+      "resourceReference":"https://data.vlaanderen.be/ns/observaties-en-metingen/"
     },
     {
       "name":"W3C Semantic Sensor Network Ontology",
