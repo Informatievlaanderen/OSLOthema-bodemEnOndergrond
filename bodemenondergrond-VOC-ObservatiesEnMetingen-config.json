@@ -21,7 +21,11 @@
   {
   "name": "Applicatieprofiel Observaties en Metingen",
   "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/"
-  }
+  },
+        {
+      "name":"Github",
+      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    }
   ],
   "reports": [
     {
