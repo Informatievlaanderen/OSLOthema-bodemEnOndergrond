@@ -1,1 +1,1 @@
-
+Dit applicatieprofiel maakt het beschrijven van grondboringen mogelijk, het bouwt daarvoor verder op het applicatieprofiel [Sensoren en Bemonstering](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/).
