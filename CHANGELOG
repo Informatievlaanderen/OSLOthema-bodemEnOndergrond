@@ -46,4 +46,5 @@ Aanpassingen AP BO_Interpretaties versie 2023-04-01:
 - herlinken van range locatie in verschillende eigenschappen.
 - herlinken van range Agent in eigenschap toegekendDoor
 - eigenschap metadata verwijderd omdat die niet bestaat in html (bestaat wel als rol)
+- klasse Bereik komt 2x voor: verwijdering duplicaat in package Hulppakket. 
 
