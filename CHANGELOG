@@ -36,3 +36,9 @@ Aanpassingen AP BO_Interpretaties versie 2023-04-01:
 - verwijder sonderingen van beide
 - range geometrie in PuntWaardePaar connecteer met datatype Punt uit generiek (link was broken)
 - verwijder uit grondboringen dubbele klasse grondboring en copies van klassen.
+- RDF file generator gaf een definitie tekort aan voor eigenschap coordinaatreferentiesysteem van Bereik
+- SHACL file generator gaf een definitie tekort aan voor eigenschap coordinaatreferentiesysteem van Bereik
+- typo fix in definitie eigenschap domeinOmvang van klasse Bereik.
+- verwijder eigenschap coordinatiereferentiesysteem  tussen de klasse Bereik en CRS. Deze was niet correct gedefinitieerd.
+
+
