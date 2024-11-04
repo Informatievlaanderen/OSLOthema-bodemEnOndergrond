@@ -6,7 +6,7 @@
         "diagram": "OSLO-RuimtelijkeBereiken",
         "template": "ruimtelijke-bereiken-voc.j2",
         "title": "Ruimtelijke Bereiken (Vocabularium)",
-        "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+        "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
         "publication-date": "2024-10-01",
         "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
         "contributors-file": "stakeholders.csv",
