@@ -40,5 +40,10 @@ Aanpassingen AP BO_Interpretaties versie 2023-04-01:
 - SHACL file generator gaf een definitie tekort aan voor eigenschap coordinaatreferentiesysteem van Bereik
 - typo fix in definitie eigenschap domeinOmvang van klasse Bereik.
 - verwijder eigenschap coordinatiereferentiesysteem  tussen de klasse Bereik en CRS. Deze was niet correct gedefinitieerd.
-
+- verwijder eigenschap intentie van  bemonsteringsobject (staat niet in de html)
+- verwijdering van eigenschap https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/#Bemonsteringsobject%3Ageassocieerdbemonsteringsobject > moet terug gezet worden
+- herlinken van range Geometrie van verschillende eigenschappen.
+- herlinken van range locatie in verschillende eigenschappen.
+- herlinken van range Agent in eigenschap toegekendDoor
+- eigenschap metadata verwijderd omdat die niet bestaat in html (bestaat wel als rol)
 
