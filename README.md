@@ -33,13 +33,13 @@ Volgende specificaties zijn intussen gepubliceerd:
 
 | Naam|Status|Uitgiftedatum|AP|VOC|
 | --- |--- |---|---|---|
-|RuimtelijkeBereiken|Ontwerpstandaard|20240415|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/)|[Link](https://data.vlaanderen.be/ns/ruimtelijke-bereiken/)|
-|ObservatiesEnMetingen|KandidaatStandaard|20220428|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)|[Link](https://data.vlaanderen.be/ns/observaties-en-metingen/)|
-|SensorenEnBemonstering|KandidaatStandaard|20220428|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/)|[Link](https://data.vlaanderen.be/ns/sensoren-en-bemonstering/)|
-|BodemEnOndergrond|KandidaatStandaard|20220428|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/)|[Link](https://data.vlaanderen.be/ns/bodem-en-ondergrond/)|
-|Grondboringen|Ontwerpstandaard|20230401|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/)|[Link](https://data.vlaanderen.be/ns/grondboringen/)|
-|BO_Observaties|Ontwerpstandaard|20230401|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties/)|[Link](https://data.vlaanderen.be/ns/bodem-en-ondergrond/observaties)
-|BO_Interpretaties|Ontwerpstandaard|20230401|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/)|[Link](https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties/)|
+|RuimtelijkeBereiken|Erkendestandaard|20241001|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/)|[Link](https://data.vlaanderen.be/ns/ruimtelijke-bereiken/)|
+|ObservatiesEnMetingen|ErkendeStandaard|20241001|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/)|[Link](https://data.vlaanderen.be/ns/observaties-en-metingen/)|
+|SensorenEnBemonstering|ErkendeStandaard|20241001|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/)|[Link](https://data.vlaanderen.be/ns/sensoren-en-bemonstering/)|
+|BodemEnOndergrond|KandidaatStandaard|20241001|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/)|[Link](https://data.vlaanderen.be/ns/bodem-en-ondergrond/)|
+|Grondboringen|KandidaatStandaard|20241001|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/)|[Link](https://data.vlaanderen.be/ns/grondboringen/)|
+|BO_Observaties|KandidaatStandaard|20241001|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties/)|[Link](https://data.vlaanderen.be/ns/bodem-en-ondergrond/observaties)
+|BO_Interpretaties|KandidaatStandaard|20241001|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/)|[Link](https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties/)|
 |Bodem|Ontwerpstandaard|20210801|||
 |Grondwatermeetnet|Ontwerpstandaard|20210801|||
 |Sonderingen|Ontwerpstandaard|20210801|||

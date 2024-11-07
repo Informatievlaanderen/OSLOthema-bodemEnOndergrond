@@ -55,6 +55,7 @@ Echter deze wijzigingen zorgen wel voor een kwaliteitsverbetering van het master
 
 De volgende aanpassingen zijn gebeurd:
 - verwijder template files die niet gebruikt worden
+- verwijder configfiles met duplicate informatie
 - opsplitsing vocabularium en applicatieprofile EAPs: 2 nieuwe afgeleide EAPs zijn gemaakt.
 - verwijder sonderingen van beide (bij overstap naar master moeten we de oorsprokelijke versie blijven gebruiken voor sonderingen)
 - range geometrie in PuntWaardePaar connecteer met datatype Punt uit generiek (link was broken)
