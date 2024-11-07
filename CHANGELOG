@@ -31,9 +31,9 @@ Aanpassingen AP BO_Interpretaties versie 2023-04-01:
 - ()
 
 
-2024-11-04
+2024-11-04 - Toolchain 4 alignatie
 - opsplitsing vocabularium en applicatieprofile EAPs
-- verwijder sonderingen van beide
+- verwijder sonderingen van beide (bij overstap naar master moeten we de oorsprokelijke versie blijven gebruiken voor sonderingen)
 - range geometrie in PuntWaardePaar connecteer met datatype Punt uit generiek (link was broken)
 - verwijder uit grondboringen dubbele klasse grondboring en copies van klassen.
 - RDF file generator gaf een definitie tekort aan voor eigenschap coordinaatreferentiesysteem van Bereik
@@ -56,4 +56,4 @@ Aanpassingen AP BO_Interpretaties versie 2023-04-01:
   Bemonsteringsvlak, Bemonsteringspunt, Bemonsteringscurve, proces, procedure, Bemonsterings3Dobject, Bemonsteringsproces
 - voeg een definitie toe aan Opmetingmethode
 
-
+Todo bij een rollout toolchain 4.0: het verwijderen van de verborgen relatie Intentie. Deze komt niet in het model voor maar zit achterliggend in de file.
