@@ -2,17 +2,17 @@
   {
     "name": "ap-sensoren-en-bemonstering",
     "type": "ap",
-    "eap": "OSLO-BodemEnOndergrond-AP.EAP",
+    "eap": "OSLO-BodemEnOndergrond-AP-4.EAP",
     "diagram": "OSLO-SensorenEnBemonstering",
     "template": "sensoren-en-bemonstering-ap.j2",
     "title": "Sensoren en Bemonstering (Applicatieprofiel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "publication-date": "2024-09-05",
+    "publication-date": "2024-10-01",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "MijnKolom",
     "site": "site-skeleton/OSLO-SensorenEnBemonstering",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-sensoren-en-bemonstering/"
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-sensoren-en-bemonstering/index.html"
   }
 ]

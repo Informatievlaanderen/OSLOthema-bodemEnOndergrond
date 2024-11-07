@@ -2,17 +2,17 @@
   {
     "name": "ap-ruimtelijke-bereiken",
     "type": "ap",
-    "eap": "OSLO-BodemEnOndergrond-AP.EAP",
+    "eap": "OSLO-BodemEnOndergrond-AP-4.EAP",
     "diagram": "OSLO-RuimtelijkeBereiken",
     "template": "ruimtelijke-bereiken-ap.j2",
     "title": "Ruimtelijke Bereiken (Applicatieprofiel)",
-    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "publication-date": "2024-09-05",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "publication-date": "2024-10-01",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "MijnKolom",
     "site": "site-skeleton/OSLO-RuimtelijkeBereiken",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-ruimtelijke-bereiken/"
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/applicatieprofiel-ruimtelijke-bereiken/index.html"
   }
 ]
