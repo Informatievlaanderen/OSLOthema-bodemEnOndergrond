@@ -29,7 +29,7 @@ Via de tab [issues](https://github.com/Informatievlaanderen/OSLOthema-bodemEnOnd
 
 ## Publicaties
 
-Volgende specificaties zijn intussen gepubliceerd:
+Volgende specificaties worden met de volgende status voorgelegd op WG datastandaarden van 7 nov 2024.
 
 | Naam|Status|Uitgiftedatum|AP|VOC|
 | --- |--- |---|---|---|
