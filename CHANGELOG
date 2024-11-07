@@ -47,3 +47,36 @@ Aanpassingen AP+VOC BO_Observaties versie 2023-04-01:
 - Deze reeks vormt de input van de observatieprocedure Schuifweerstandskarakteristiekenprocedure.
 Aanpassingen AP+VOC BO_Interpretaties versie 2023-04-01:
 - AntrogeneKenmerkenInterpretatie generiek uitgewerkt.
+
+2024-11-07 - Aliginatie met toolchain 4.0
+Context: toolchain 4.0 stelt bijkomende eisen aan het UML model. 
+De wijzigingen die hieronder zijn opgenomen zijn technische wijzigingen die geen invloed op de semantische inhoud van de specificaties.
+Echter deze wijzigingen zorgen wel voor een kwaliteitsverbetering van het master data model.
+
+De volgende aanpassingen zijn gebeurd:
+- verwijder template files die niet gebruikt worden
+- opsplitsing vocabularium en applicatieprofile EAPs: 2 nieuwe afgeleide EAPs zijn gemaakt.
+- verwijder sonderingen van beide (bij overstap naar master moeten we de oorsprokelijke versie blijven gebruiken voor sonderingen)
+- range geometrie in PuntWaardePaar connecteer met datatype Punt uit generiek (link was broken)
+- verwijder uit grondboringen dubbele klasse grondboring en copies van klassen.
+- RDF file generator gaf een definitie tekort aan voor eigenschap coordinaatreferentiesysteem van Bereik
+- SHACL file generator gaf een definitie tekort aan voor eigenschap coordinaatreferentiesysteem van Bereik
+- typo fix in definitie eigenschap domeinOmvang van klasse Bereik.
+- verwijder eigenschap coordinatiereferentiesysteem tussen de klasse Bereik en CRS. Deze was niet correct gedefinieerd en kwam niet voor in toolchain 3 outcome.
+- herlinken van range Geometrie van verschillende eigenschappen.
+- herlinken van range locatie in verschillende eigenschappen.
+- herlinken van range Agent in eigenschap toegekendDoor
+- herlinken van range Punt in verschillende eigenschappen
+- eigenschap metadata verwijderd omdat die niet bestaat in html (bestaat wel als rol)
+- verwijder benoemde eigenschappen die als algemene associatie zijn opgenomen om de overeenkomst met ISO te documenteren maar niet uitgewerkt zijn. 
+  De eigenschappen zijn beschikbaar door hun rol, die wel opgenomen zijn in de html. Het zijn Ontwerp, Domein, Fenonmeen, Intentie
+- verwijder de hulppakket referenties op de diagramma van Sensoren en Bemonstering. Dit zorgt voor duplicaten.  
+  De enige toevoeging is een verwijzing naar het AP observaties en metingen in de usage note. 
+  Deze referentie kan terug toegevoegd worden indien men de hulppakket klassen gebruikt voor alle referenties in het model.
+  Bemonsteringsvlak, Bemonsteringspunt, Bemonsteringscurve, proces, procedure, Bemonsterings3Dobject, Bemonsteringsproces, Bereik
+- voeg een definitie toe aan Opmetingmethode
+
+Todo bij een rollout toolchain 4.0: het verwijderen van de verborgen relatie Intentie. Deze komt niet in het model voor maar zit achterliggend nog in de file.
+
+2024-11-07 - Aliginatie met erkenningsvraag WG Datastandaarden 7/11/2024
+- aanpassing datums naar datum finale webinar 1/10/2024.
