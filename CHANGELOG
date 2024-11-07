@@ -48,5 +48,12 @@ Aanpassingen AP BO_Interpretaties versie 2023-04-01:
 - herlinken van range Punt in verschillende eigenschappen
 - eigenschap metadata verwijderd omdat die niet bestaat in html (bestaat wel als rol)
 - klasse Bereik komt 2x voor: verwijdering duplicaat in package Hulppakket. 
+- verwijder benoemde eigenschappen die als algemene associatie zijn opgenomen om de overeenkomst met ISO te documenteren maar niet uitgewerkt zijn. 
+  De eigenschappen zijn beschikbaar door hun rol, die wel opgenomen zijn in de html. Het zijn Ontwerp, Domein, Fenonmeen, Intentie
+- verwijder de hulppakket referenties op de diagramma van Sensoren en Bemonstering. Dit zorgt voor duplicaten.  
+  De enige toevoeging is een verwijzing naar het AP observaties en metingen in de usage note. 
+  Deze referentie kan terug toegevoegd worden indien men de hulppakket klassen gebruikt voor alle referenties in het model.
+  Bemonsteringsvlak, Bemonsteringspunt, Bemonsteringscurve, proces, procedure, Bemonsterings3Dobject, Bemonsteringsproces
+- voeg een definitie toe aan Opmetingmethode
 
 
