@@ -113,7 +113,7 @@
     }
   },
   "@id": "https://data.vlaanderen.be/test/1",
-  "generatedAtTime": "2024-11-18T15:32:54.152Z",
+  "generatedAtTime": "2024-11-18T15:37:48.596Z",
   "packages": [
     {
       "@id": "urn:oslo-toolchain:f290c470edf8f43d98d64e8abbc95409de1a65baa6083ee1cecef9fe2f263ab6",
