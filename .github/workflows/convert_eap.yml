@@ -111,7 +111,7 @@ jobs:
           curl -o html-metadata-generator.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
           curl -o uris.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
 
-          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r ${{ github.event.repository.name }} -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
+          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r ./ -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
           cat metadata.log >> "$GITHUB_STEP_SUMMARY"
           if grep -i "error" metadata.log; then
             echo "Error found in metadata-generator workflow output"
