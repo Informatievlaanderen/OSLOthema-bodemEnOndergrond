@@ -103,8 +103,7 @@ jobs:
           curl -o linkeddataparser3.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/linkeddataparser3.js
           curl -o html-metadata-generator.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
           curl -o uris.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
-          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r / -u data.vlaanderen.be -o metadata.json 2>&1 | tee metadata.log
-          cat metadata.log
+          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r / -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator" 2>&1 | tee metadata.log
           cat metadata.log >> "$GITHUB_STEP_SUMMARY"
           if grep -i "error" metadata.log; then
             echo "Error found in metadata-generator workflow output"
@@ -115,7 +114,6 @@ jobs:
       - name: Run oslo-html-generator
         id: run-html-generator
         run: |
-          ls
           npx oslo-generator-html --input webuniversum-config.json --stakeholders stakeholders.json --metadata metadata.json --specificationType ${{ steps.read-config.outputs.specificationType }} --language nl  --output index.html 2>&1 | tee html.log
           cat html.log
           cat html.log >> "$GITHUB_STEP_SUMMARY"
