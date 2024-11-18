@@ -103,7 +103,7 @@ jobs:
           curl -o linkeddataparser3.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/linkeddataparser3.js
           curl -o html-metadata-generator.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
           curl -o uris.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
-          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r / -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator" 2>&1 | tee metadata.log
+          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r / -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
           cat metadata.log >> "$GITHUB_STEP_SUMMARY"
           if grep -i "error" metadata.log; then
             echo "Error found in metadata-generator workflow output"
@@ -122,7 +122,7 @@ jobs:
             exit 1
           fi
 
-    # Upload the artifacts to the gh-pages branch
+      # Upload the artifacts to the gh-pages branch
 
       - name: Checkout the repository
         uses: actions/checkout@v4
@@ -135,7 +135,7 @@ jobs:
 
       - name: Copy artifacts
         run: |
-          cp report.jsonld stakeholders.jsonld webuniversum-config.json index.html metadata.json .
+          ls
 
       - name: Commit and push artifacts
         run: |
