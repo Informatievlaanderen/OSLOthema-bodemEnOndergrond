@@ -30,6 +30,7 @@ jobs:
           npm install @oslo-flanders/stakeholders-converter
           npm install @oslo-flanders/json-webuniversum-generator
           npm install @oslo-flanders/html-generator
+          npm install jsonfile
 
       # Fetch the required keys from the configuration file
       - name: Read key from configuration file
