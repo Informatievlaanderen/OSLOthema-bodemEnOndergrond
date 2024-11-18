@@ -77,7 +77,7 @@ jobs:
       - name: Run oslo-stakeholders-converter
         id: run-stakeholders-converter
         run: |
-          npx oslo-stakeholders-converter --input stakeholders.csv 2>&1 | tee stakeholders.log
+          npx oslo-stakeholders-converter --input stakeholders.csv --output stakeholders.json 2>&1 | tee stakeholders.log
           cat stakeholders.log
           cat stakeholders.log >> "$GITHUB_STEP_SUMMARY"
           if grep -i "error" stakeholders.log; then
@@ -115,6 +115,7 @@ jobs:
       - name: Run oslo-html-generator
         id: run-html-generator
         run: |
+          ls
           npx oslo-generator-html --input webuniversum-config.json --stakeholders stakeholders.json --metadata metadata.json --specificationType ${{ steps.read-config.outputs.specificationType }} --language nl  --output index.html 2>&1 | tee html.log
           cat html.log
           cat html.log >> "$GITHUB_STEP_SUMMARY"
