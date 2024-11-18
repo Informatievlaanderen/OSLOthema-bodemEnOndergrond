@@ -80,9 +80,11 @@ jobs:
             echo "Error found in stakeholders workflow output"
             exit 1
           fi
-
-      # - name: Upload artifact
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: report.jsonld
-      #     path: ./report.jsonld
+      # Upload the artifacts
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: |
+            ./report.jsonld
+            ./stakeholders.jsonld
