@@ -136,7 +136,7 @@ jobs:
           mv webuniversum-config.json build/
           mv index.html build/
           mv metadata.json build/
-          mv site-skeleton/${{ steps.read-config.outputs.name }}/overview.jpg build/html
+          mv site-skeleton/${{ steps.read-config.outputs.name }}/overview.jpg build/html/
 
       # Upload the artifacts
       - name: Upload artifacts
