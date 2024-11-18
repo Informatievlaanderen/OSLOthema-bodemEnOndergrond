@@ -47,6 +47,8 @@ jobs:
 
           name=$(jq -r '.[0].name' config/${{ github.event.inputs.config-file }})
 
+          site=$(jq -r '.[0].site' config/${{ github.event.inputs.config-file }})
+
           if [ "$type" = "ap" ]; then
           type="ApplicationProfile"
           elif [ "$type" = "voc" ]; then
@@ -57,6 +59,7 @@ jobs:
           echo "umlFile=$uml" >> "$GITHUB_OUTPUT"
           echo "specificationType=$type" >> "$GITHUB_OUTPUT"
           echo "name=$name" >> "$GITHUB_OUTPUT"
+          echo "site=$site" >> "$GITHUB_OUTPUT"
 
       # Run the converter
       - name: Run oslo-converter-ea
@@ -108,7 +111,7 @@ jobs:
           curl -o html-metadata-generator.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
           curl -o uris.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
 
-          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
+          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r ${{ github.event.repository.name }} -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
           cat metadata.log >> "$GITHUB_STEP_SUMMARY"
           if grep -i "error" metadata.log; then
             echo "Error found in metadata-generator workflow output"
@@ -137,7 +140,7 @@ jobs:
           mv webuniversum-config.json build/
           mv index.html build/
           mv metadata.json build/
-          mv site-skeleton/${{ steps.read-config.outputs.name }}/overview.jpg build/html/
+          mv ${{ steps.read-config.outputs.site }}/overview.jpg build/html/
 
       # Upload the artifacts
       - name: Upload artifacts
