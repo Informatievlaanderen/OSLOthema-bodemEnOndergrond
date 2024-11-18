@@ -97,7 +97,7 @@ jobs:
       - name: Run oslo-html-generator
         id: run-html-generator
         run: |
-          npx oslo-html-generator --input webuniversum-config.json --stakeholders stakeholders.json --specificationType ${{ steps.read-config.outputs.specificationType }} --language nl  --output index.html 2>&1 | tee html.log
+          npx oslo-generator-html --input webuniversum-config.json --stakeholders stakeholders.json --specificationType ${{ steps.read-config.outputs.specificationType }} --language nl  --output index.html 2>&1 | tee html.log
           cat html.log
           cat html.log >> "$GITHUB_STEP_SUMMARY"
           if grep -i "error" html.log; then
