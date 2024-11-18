@@ -131,6 +131,7 @@ jobs:
       - name: Bundle the artifacts
         run: |
           mkdir build
+          mkdir -p build/html
           mv report.jsonld build/
           mv stakeholders.json build/
           mv webuniversum-config.json build/
