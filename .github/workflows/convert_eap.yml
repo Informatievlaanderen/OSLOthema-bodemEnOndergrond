@@ -80,6 +80,30 @@ jobs:
             echo "Error found in stakeholders workflow output"
             exit 1
           fi
+
+      # Run the json-webuniversum-generator
+      - name: Run oslo-json-webuniversum-generator
+        id: run-json-webuniversum-generator
+        run: |
+          npx oslo-json-webuniversum-generator --input report.jsonld --language nl --publicationEnvironment https://data.vlaanderen.be --output webuniversum-config.json 2>&1 | tee webuniversum.log
+          cat webuniversum.log
+          cat webuniversum.log >> "$GITHUB_STEP_SUMMARY"
+          if grep -i "error" webuniversum.log; then
+            echo "Error found in json-webuniversum-generator workflow output"
+            exit 1
+          fi
+
+      # run the html-generator
+      - name: Run oslo-html-generator
+        id: run-html-generator
+        run: |
+          npx oslo-html-generator --input webuniversum-config.json --stakeholders stakeholders.json --specificationType ${{ steps.read-config.outputs.specificationType }} --language nl  --output index.html 2>&1 | tee html.log
+          cat html.log
+          cat html.log >> "$GITHUB_STEP_SUMMARY"
+          if grep -i "error" html.log; then
+            echo "Error found in html-generator workflow output"
+            exit 1
+          fi
       # Upload the artifacts
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
@@ -88,3 +112,5 @@ jobs:
           path: |
             ./report.jsonld
             ./stakeholders.jsonld
+            ./webuniversum-config.json
+            ./index.html
