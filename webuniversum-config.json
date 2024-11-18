@@ -1,0 +1,927 @@
+{
+  "baseURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#",
+  "classes": [
+    {
+      "id": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Opdracht",
+      "vocabularyLabel": {
+        "nl": "Opdracht"
+      },
+      "applicationProfileLabel": {
+        "nl": "Opdracht"
+      },
+      "vocabularyDefinition": {
+        "nl": "Toegewezen taak."
+      },
+      "applicationProfileDefinition": {
+        "nl": "Toegewezen taak."
+      },
+      "vocabularyUsageNote": {
+        "nl": "In deze context de taak om Observaties of Bemonsteringen uit te voeren."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "In deze context de taak om Observaties of Bemonsteringen uit te voeren."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    }
+  ],
+  "dataTypes": [
+    {
+      "id": "http://www.opengis.net/ont/gml#Solid",
+      "vocabularyLabel": {
+        "nl": "3Dobject"
+      },
+      "applicationProfileLabel": {
+        "nl": "3Dobject"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Een 3-dimensionele geometrische primitieve."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. Om een willekeurig punt aan te duiden in de ruimte die het 3Dobject inneemt zijn 3 coördinaten nodig. Een 3DObject heeft daarom lengte, breedte en diepte. Analoog aan de polylijn (di een Curve onstaan door interpolatie tussen twee of meer punten) bestaan er ook in 3 dimensies vormen die gedefinieerd worden door sets van controlepunten. Een 3DObject wordt begrensd door meerdere Vlakken (bv kubus) of door 1 gesloten Vlak (bv bol). Bijkomende grensvlakken vormen mogelijks holtes in het 3DObject. Om binnen- en buitengrenzen te kunnen onderscheiden geldt doorgaans de afspraak dat het 3DObject links ligt van het Vlak waardoor het wordt begrensd."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+      "vocabularyLabel": {
+        "nl": "BenoemdeWaarde"
+      },
+      "applicationProfileLabel": {
+        "nl": "BenoemdeWaarde"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Generieke, zwak getypeerde waarde."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "In essentie een waarde en de naam vh type van de waarde. In deze context gaat het over zaken zoals operator, omgevingstemperatuur etc."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.name",
+          "vocabularyLabel": {
+            "nl": "naam"
+          },
+          "applicationProfileLabel": {
+            "nl": "naam"
+          },
+          "applicationProfileDefinition": {
+            "nl": "Naam vh type van de waarde."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Literal"
+            },
+            "applicationProfileLabel": {
+              "nl": "Literal"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
+          "vocabularyLabel": {
+            "nl": "waarde"
+          },
+          "applicationProfileLabel": {
+            "nl": "waarde"
+          },
+          "applicationProfileDefinition": {
+            "nl": "Kwalitatieve of kwantitatieve invulling van de waarde."
+          },
+          "applicationProfileUsageNote": {
+            "nl": "Het datatype Any moet gesubstitueerd worden door iets concreter zoals Agent of <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/#Maat\">Maat</a>."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Resource",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Any"
+            },
+            "applicationProfileLabel": {
+              "nl": "Any"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.opengis.net/ont/sf#Curve",
+      "vocabularyLabel": {
+        "nl": "Curve"
+      },
+      "applicationProfileLabel": {
+        "nl": "Curve"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Een 1-dimensionele geometrische primitieve."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft dus een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Dekking",
+      "vocabularyLabel": {
+        "nl": "Dekking"
+      },
+      "applicationProfileLabel": {
+        "nl": "Dekking"
+      },
+      "vocabularyDefinition": {
+        "nl": "Gebied of periode waarop de data betrekking heeft"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Gebied of periode waarop de data betrekking heeft"
+      },
+      "vocabularyUsageNote": {
+        "nl": "Voorbeelden van een gebied: een jurisdictie of adminstratieve eenheid of een plaatsnaam of coördinaten. Voorbeelden van een periode: een benoemd tijdperk of datum of datumbereik. OPMERKING: Te substitueren door de klasse of het datatype dat van toepassing, bv Locatie in het geval van een gebied en Periode voor een tijdsaanduiding."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Voorbeelden van een gebied: een jurisdictie of adminstratieve eenheid of een plaatsnaam of coördinaten. Voorbeelden van een periode: een benoemd tijdperk of datum of datumbereik. OPMERKING: Te substitueren door de klasse of het datatype dat van toepassing, bv Locatie in het geval van een gebied en Periode voor een tijdsaanduiding."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "id": "http://www.w3.org/ns/locn#Geometry",
+      "vocabularyLabel": {
+        "nl": "Geometrie"
+      },
+      "applicationProfileLabel": {
+        "nl": "Geometrie"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://www.opengis.net/ont/geosparql#asGML",
+          "vocabularyLabel": {
+            "nl": "gml"
+          },
+          "applicationProfileLabel": {
+            "nl": "gml"
+          },
+          "applicationProfileDefinition": {
+            "nl": "Geometrie uitgedrukt in gml-formaat."
+          },
+          "applicationProfileUsageNote": {
+            "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Literal"
+            },
+            "applicationProfileLabel": {
+              "nl": "Literal"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting",
+          "vocabularyLabel": {
+            "nl": "opmeting"
+          },
+          "applicationProfileLabel": {
+            "nl": "opmeting"
+          },
+          "vocabularyDefinition": {
+            "nl": "De manier waarop de geometrie werd bepaald."
+          },
+          "applicationProfileDefinition": {
+            "nl": "De manier waarop de geometrie werd bepaald."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Opmeting"
+            },
+            "applicationProfileLabel": {
+              "nl": "Opmeting"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.opengis.net/ont/geosparql#asWKT",
+          "vocabularyLabel": {
+            "nl": "wkt"
+          },
+          "applicationProfileLabel": {
+            "nl": "wkt"
+          },
+          "applicationProfileDefinition": {
+            "nl": "Geometrie uitgedrukt in wkt-formaat."
+          },
+          "applicationProfileUsageNote": {
+            "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/locn#Geometry",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Literal"
+            },
+            "applicationProfileLabel": {
+              "nl": "Literal"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair",
+      "vocabularyLabel": {
+        "nl": "GeometrieWaardepaar"
+      },
+      "applicationProfileLabel": {
+        "nl": "GeometrieWaardepaar"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Element van een DiscreetRuimtelijkBereik."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Een GeometrieWaardepaar beschrijft de geometrie van een stuk van de ruimte (Punt, Lijn, Vlak etc.) of de tijd (Moment, Periode etc.) en de waarde van een continu variërend fenomeen die men voor dat stuk heeft vastgesteld. Bv de waarde van een pixel in een luchtfoto of de temperatuur in een meetstation op een bepaald tijdstip."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.geometry",
+          "vocabularyLabel": {
+            "nl": "geometrie"
+          },
+          "applicationProfileLabel": {
+            "nl": "geometrie"
+          },
+          "applicationProfileDefinition": {
+            "nl": "Geometrie van het element."
+          },
+          "applicationProfileUsageNote": {
+            "nl": "Datatype is DomeinObject, te substitueren resp door Geometrie of subklassen daarvan of door TemporeleEntiteit of subklassen daarvan."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair",
+          "range": {
+            "id": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_Domainobject",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Domeinobject"
+            },
+            "applicationProfileLabel": {
+              "nl": "Domeinobject"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+          "vocabularyLabel": {
+            "nl": "waarde"
+          },
+          "applicationProfileLabel": {
+            "nl": "waarde"
+          },
+          "applicationProfileDefinition": {
+            "nl": "Waarde van het element."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair",
+          "range": {
+            "id": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Record",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Record"
+            },
+            "applicationProfileLabel": {
+              "nl": "Record"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#LI_Lineage",
+      "vocabularyLabel": {
+        "nl": "Herkomst"
+      },
+      "applicationProfileLabel": {
+        "nl": "Herkomst"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Informatie over de bewerkingen die op de data plaatsvonden of de brondata die werd gebruikt bij het produceren van de data."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "OPMERKING: Meer info over dit datatype in <a href=\"https://iso.org/standard/26013.html\">ISO 19115 Geographic Information - Metadata</a>."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://www.w3.org/ns/adms#Identifier",
+      "vocabularyLabel": {
+        "nl": "Identificator"
+      },
+      "applicationProfileLabel": {
+        "nl": "Identificator"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Informatie gebruikt om een object uniek te identificeren."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://www.w3.org/2004/02/skos/core#notation",
+          "vocabularyLabel": {
+            "nl": "identificator"
+          },
+          "applicationProfileLabel": {
+            "nl": "identificator"
+          },
+          "applicationProfileDefinition": {
+            "nl": "String gebruikt om het object uniek te identificeren."
+          },
+          "applicationProfileUsageNote": {
+            "nl": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Literal"
+            },
+            "applicationProfileLabel": {
+              "nl": "Literal"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/creator",
+          "vocabularyLabel": {
+            "nl": "toegekendDoor"
+          },
+          "applicationProfileLabel": {
+            "nl": "toegekend door"
+          },
+          "applicationProfileDefinition": {
+            "nl": "Link naar de agent die de identificator heeft uitgegeven."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://purl.org/dc/terms/Agent",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Agent"
+            },
+            "applicationProfileLabel": {
+              "nl": "Agent"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://www.w3.org/ns/adms#schemaAgency",
+          "vocabularyLabel": {
+            "nl": "toegekendDoorString"
+          },
+          "applicationProfileLabel": {
+            "nl": "toegekend door (String)"
+          },
+          "applicationProfileDefinition": {
+            "nl": "Naam vd agent die de identificator heeft toegekend."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#string",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "String"
+            },
+            "applicationProfileLabel": {
+              "nl": "String"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "http://purl.org/dc/terms/issued",
+          "vocabularyLabel": {
+            "nl": "toegekendOp"
+          },
+          "applicationProfileLabel": {
+            "nl": "toegekend op"
+          },
+          "applicationProfileDefinition": {
+            "nl": "Tijdstip waarop de identificator werd uitgegeven."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://www.w3.org/ns/adms#Identifier",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "DateTime"
+            },
+            "applicationProfileLabel": {
+              "nl": "DateTime"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+      "vocabularyLabel": {
+        "nl": "Kwaliteitselement"
+      },
+      "applicationProfileLabel": {
+        "nl": "Kwaliteitselement"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Component van datakwaliteit."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Beschrijft een bepaald aspect van de  datakwaliteit, bvb PositioneleNauwkeurigheid, LogischeConsistentie, Volledigheid etc. OPMERKING: Meer info over deze klasse in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/datakwaliteit/\">OSLO Datakwaliteit</a>."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://www.w3.org/ns/prov#Location",
+      "vocabularyLabel": {
+        "nl": "Locatie"
+      },
+      "applicationProfileLabel": {
+        "nl": "Locatie"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Aanduiding van een geografische positie, dmv coördinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio of verwijzing naar een adres."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Te gebruiken als de manier waarop de geografische positie wordt aangeduid pas zal worden vastgelegd bij implementatie. Is deze manier nu al gekend dan moet dit datatype gesubstitueerd worden door klassen of datatypes zoals Geometrie, GeografischeNaam, Adres etc. OPMERKING: Meer info over deze klassen/datatypes in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/\">OSLO Generiek - basis</a>."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Instant",
+      "vocabularyLabel": {
+        "nl": "Moment"
+      },
+      "applicationProfileLabel": {
+        "nl": "Moment"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Een 0-dimensionele geometrische primitieve in de tijd."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Vergelijkbaar met een Punt in de ruimte, maar ipv een positie in een ruimtelijk referentiesysteem gaat het hier over een punt op de tijdsas. OPMERKING: Meer info in <a href=\"https://iso.org/standard/26013.html\">ISO 19108 Geographic Information - Temporal schema</a>. Substitutie door een eenvoudiger equivalent bv time:Instant uit de <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> is aanbevolen."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+      "vocabularyLabel": {
+        "nl": "Opmeting"
+      },
+      "applicationProfileLabel": {
+        "nl": "Opmeting"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Het bepalen van de precieze omvang van iets door het te meten."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment",
+      "properties": [
+        {
+          "id": "https://data.vlaanderen.be/ns/generiek#Opmeting.methode",
+          "vocabularyLabel": {
+            "nl": "methode"
+          },
+          "applicationProfileLabel": {
+            "nl": "methode"
+          },
+          "vocabularyDefinition": {
+            "nl": "Aard van de gebruikte methode."
+          },
+          "applicationProfileDefinition": {
+            "nl": "Aard van de gebruikte methode."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment",
+          "domain": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+          "range": {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Opmetingmethode"
+            },
+            "applicationProfileLabel": {
+              "nl": "Opmetingmethode"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://data.vlaanderen.be/ns/generiek#opnamedatum",
+          "vocabularyLabel": {
+            "nl": "opnamedatum"
+          },
+          "applicationProfileLabel": {
+            "nl": "opnamedatum"
+          },
+          "vocabularyDefinition": {
+            "nl": "Datum waarop de Opmeting plaatsvond."
+          },
+          "applicationProfileDefinition": {
+            "nl": "Datum waarop de Opmeting plaatsvond."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment",
+          "domain": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+          "range": {
+            "id": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "DateTime"
+            },
+            "applicationProfileLabel": {
+              "nl": "DateTime"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        },
+        {
+          "id": "https://data.vlaanderen.be/ns/generiek#Opmeting.uitgevoerdDoor",
+          "vocabularyLabel": {
+            "nl": "uitgevoerdDoor"
+          },
+          "applicationProfileLabel": {
+            "nl": "uitgevoerdDoor"
+          },
+          "vocabularyDefinition": {
+            "nl": "Agent die de Opmeting heeft uitgevoerd."
+          },
+          "applicationProfileDefinition": {
+            "nl": "Agent die de Opmeting heeft uitgevoerd."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment",
+          "domain": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+          "range": {
+            "id": "http://purl.org/dc/terms/Agent",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Agent"
+            },
+            "applicationProfileLabel": {
+              "nl": "Agent"
+            }
+          },
+          "minCount": "0",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Period",
+      "vocabularyLabel": {
+        "nl": "Periode"
+      },
+      "applicationProfileLabel": {
+        "nl": "Periode"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Een 1-dimensionele geometrische primitieve in de tijd."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Vergelijkbaar met een Curve in de ruimte, maar ipv een interval tussen twee punten in de ruimte gaat het hier over een interval tussen twee punten op de tijdsas. De bijbehorende tijdsduur is de temporele afstand tussen die twee punten (vergelijkbaar met de afstand tussen twee punten in de ruimte). OPMERKING: Meer info in <a href=\"https://iso.org/standard/26013.html\">ISO 19108 Geographic Information - Temporal schema</a>. Substitutie door een eenvoudiger equivalent bv time:Interval uit de <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> is aanbevolen."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_PositionalAccuracy",
+      "vocabularyLabel": {
+        "nl": "PositioneleNauwkeurigheid"
+      },
+      "applicationProfileLabel": {
+        "nl": "PositioneleNauwkeurigheid"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Nauwkeurigheid van de positie van de data in een ruimtelijk referentiesysteem."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Mate waarin de coördinaten van de gegeven absolute, relatieve of pixel-positie overeenstemmen met de werkelijke coördinaten. Bv percentage positionele fouten groter dan 1 meter. OPMERKING: Meer info over deze klasse in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/datakwaliteit/\">OSLO Datakwaliteit</a>."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://www.opengis.net/ont/sf#Point",
+      "vocabularyLabel": {
+        "nl": "Punt"
+      },
+      "applicationProfileLabel": {
+        "nl": "Punt"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Een 0-dimensionele geometrische primitieve."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_PointValuePair",
+      "vocabularyLabel": {
+        "nl": "PuntWaardepaar"
+      },
+      "applicationProfileLabel": {
+        "nl": "PuntWaardepaar"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Waarde van een punt."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "properties": [
+        {
+          "id": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_PointValuePair.geometry",
+          "vocabularyLabel": {
+            "nl": "geometrie"
+          },
+          "applicationProfileLabel": {
+            "nl": "geometrie"
+          },
+          "applicationProfileDefinition": {
+            "nl": "Geometrie van het PuntWaardepaar."
+          },
+          "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+          "domain": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_PointValuePair",
+          "range": {
+            "id": "http://www.opengis.net/ont/sf#Point",
+            "listedInDocument": false,
+            "vocabularyLabel": {
+              "nl": "Punt"
+            },
+            "applicationProfileLabel": {
+              "nl": "Punt"
+            }
+          },
+          "minCount": "1",
+          "maxCount": "1"
+        }
+      ]
+    },
+    {
+      "id": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+      "vocabularyLabel": {
+        "nl": "TemporeleEntiteit"
+      },
+      "applicationProfileLabel": {
+        "nl": "TemporeleEntiteit"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Abstracte klasse voor temporele objecten."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Die temporele objecten zijn temporele geometrische primitieven zoals Moment of Periode. Of het zijn composieten van temporele primitieven, bv om de geschiedenis van een fenomeen weer te geven (bv de opeenvolgende Periodes dat het fenomeen zich voordeed). Te gebruiken wanneer bvb beide temporele geometrische primitieven mogelijk zijn. OPMERKING: Meer info in <a href=\"https://iso.org/standard/26013.html\">ISO 19108 Geographic Information - Temporal schema</a>. Substitutie door een eenvoudiger equivalent bv time:TemporalEntity uit de <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> is aanbevolen."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "id": "http://www.opengis.net/ont/geosparql#Surface",
+      "vocabularyLabel": {
+        "nl": "Vlak"
+      },
+      "applicationProfileLabel": {
+        "nl": "Vlak"
+      },
+      "applicationProfileDefinition": {
+        "nl": "Een 2-dimensionele geometrische primitieve."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Vlak zelf wordt gevormd heb je minimaal twee coördinaten nodig om een willekeurig punt aan te duiden, bv de lengtegraad en de breedtegraad als het Vlak een bol is. Een Vlak heeft een lengte en een breedte. Analoog aan de polylijn (di een Curve onstaan door interpolatie tussen twee of meer punten) bestaan er ook in 2 dimensies vormen die gedefinieerd worden door sets van controlepunten, bv een cirkel wordt gedefinieerd door zijn middelpunt (en de straal). Een Vlak wordt begrensd door Curves, bv in het eenvoudigste geval door 1 gesloten Curve. Is die Curve een Lijnstring dan noemen we het bekomen Vlak een Polygoon. Meedere elementaire Polygonen aaneen (een zgn 3Dmesh) vormen eveneens een Vlak, bv om een oppervlak in de 3-dimensionale ruimte voor te stellen (bv om reliëf te beschrijven). Als de samenstellende vlakken driehoekig zijn spreken we van een TIN (Triangulated Irregular Network). Behalve een buitengrens hebben Vlakken soms ook binnengrenzen die dan gaten in het Vlak vormen. Om binnen- en buitengrenzen van elkaar te kunnen onderscheiden bij het vormen van een Vlak geldt doorgaans de afspraak dat het Vlak links ligt van de Curves waardoor het wordt begrensd."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    }
+  ],
+  "properties": [
+    {
+      "id": "https://data.vlaanderen.be/ns/observaties-en-metingen#Monstervoorbereiding.bemonsteringsProces",
+      "vocabularyLabel": {
+        "nl": "Monstervoorbereiding.BemonsteringsProces"
+      },
+      "applicationProfileLabel": {
+        "nl": "Monstervoorbereiding.BemonsteringsProces"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep",
+      "range": {
+        "id": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Process",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "nl": "BemonsteringsProces"
+        },
+        "applicationProfileLabel": {
+          "nl": "BemonsteringsProces"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://data.vlaanderen.be/ns/observaties-en-metingen#Monstervoorbereiding.monster",
+      "vocabularyLabel": {
+        "nl": "Monstervoorbereiding.Monster"
+      },
+      "applicationProfileLabel": {
+        "nl": "Monstervoorbereiding.Monster"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep",
+      "range": {
+        "id": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "nl": "Monster"
+        },
+        "applicationProfileLabel": {
+          "nl": "Monster"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
+      "vocabularyLabel": {
+        "nl": "Observatie (source)"
+      },
+      "applicationProfileLabel": {
+        "nl": "Observatie (source)"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext",
+      "range": {
+        "id": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "nl": "Observatie"
+        },
+        "applicationProfileLabel": {
+          "nl": "Observatie"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
+      "vocabularyLabel": {
+        "nl": "Observatie (target)"
+      },
+      "applicationProfileLabel": {
+        "nl": "Observatie (target)"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext",
+      "range": {
+        "id": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "nl": "Observatie"
+        },
+        "applicationProfileLabel": {
+          "nl": "Observatie"
+        }
+      },
+      "minCount": "1",
+      "maxCount": "1"
+    },
+    {
+      "id": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.opdracht",
+      "vocabularyLabel": {
+        "nl": "opdracht"
+      },
+      "applicationProfileLabel": {
+        "nl": "opdracht"
+      },
+      "vocabularyDefinition": {
+        "nl": "Opdracht in het kader waarvan de Observatie plaatsvindt."
+      },
+      "applicationProfileDefinition": {
+        "nl": "Opdracht in het kader waarvan de Observatie plaatsvindt."
+      },
+      "applicationProfileUsageNote": {
+        "nl": "Bv de Opdracht voor een veldonderzoek of voor het uitvoeren van specifieke Metingen of analyses van een Monster."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+      "range": {
+        "id": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Opdracht",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "nl": "Opdracht"
+        },
+        "applicationProfileLabel": {
+          "nl": "Opdracht"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
+      "vocabularyLabel": {
+        "nl": "uitgevoerdDoor"
+      },
+      "applicationProfileLabel": {
+        "nl": "uitgevoerdDoor"
+      },
+      "vocabularyDefinition": {
+        "nl": "Agent die de Observatie heeft uitgevoerd."
+      },
+      "applicationProfileDefinition": {
+        "nl": "Agent die de Observatie heeft uitgevoerd."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+      "range": {
+        "id": "http://purl.org/dc/terms/Agent",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "nl": "Agent"
+        },
+        "applicationProfileLabel": {
+          "nl": "Agent"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    },
+    {
+      "id": "https://data.vlaanderen.be/ns/observaties-en-metingen#waardeverschaffer",
+      "vocabularyLabel": {
+        "nl": "waardeverschaffer"
+      },
+      "applicationProfileLabel": {
+        "nl": "waardeverschaffer"
+      },
+      "vocabularyDefinition": {
+        "nl": "Observaties die op het Object gebeuren."
+      },
+      "applicationProfileDefinition": {
+        "nl": "Observaties die op het Object gebeuren."
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "domain": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+      "range": {
+        "id": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "listedInDocument": false,
+        "vocabularyLabel": {
+          "nl": "Observatie"
+        },
+        "applicationProfileLabel": {
+          "nl": "Observatie"
+        }
+      },
+      "minCount": "0",
+      "maxCount": "*"
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "authors": {
+      "@type": "foaf:Person",
+      "@id": "foaf:maker"
+    },
+    "editors": {
+      "@type": "foaf:Person",
+      "@id": "rec:editor"
+    },
+    "contributors": {
+      "@type": "foaf:Person",
+      "@id": "dcterms:contributor"
+    },
+    "affiliation": {
+      "@id": "http://schema.org/affiliation"
+    },
+    "firstName": {
+      "@id": "foaf:firstName"
+    },
+    "lastName": {
+      "@id": "foaf:lastName"
+    },
+    "affiliationName": {
+      "@id": "foaf:name"
+    },
+    "homepage": {
+      "@id": "foaf:homepage"
+    },
+    "email": {
+      "@id": "foaf:mbox"
+    }
+  },
+  "contributors": [
+    {
+      "@type": "Person",
+      "firstName": "Chandra",
+      "lastName": "Algoe",
+      "affiliation": {
+        "affiliationName": "Departement Mobiliteit en Openbare Werken"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Camille",
+      "lastName": "Allonsius",
+      "affiliation": {
+        "affiliationName": "Universiteit Antwerpen – CurieuzeNeuzen In De Tuin"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Ilse",
+      "lastName": "Baeck",
+      "affiliation": {
+        "affiliationName": "Canalcnv"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Simon",
+      "lastName": "Baert",
+      "affiliation": {
+        "affiliationName": "Agentschap Wegen en Verkeer"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Christine",
+      "lastName": "Berchmans",
+      "affiliation": {
+        "affiliationName": "Grondbank Tracimat"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Reinhilde",
+      "lastName": "Blondeel",
+      "affiliation": {
+        "affiliationName": "FOD Financiën"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Sophie",
+      "lastName": "Bordere",
+      "affiliation": {
+        "affiliationName": "Departement Mobiliteit en Openbare Werken"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Maxim",
+      "lastName": "Broos",
+      "affiliation": {
+        "affiliationName": "Agentschap Wegen en Verkeer"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Nathalie",
+      "lastName": "Cools",
+      "affiliation": {
+        "affiliationName": "Instituut voor Natuur- en Bosonderzoek"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Franky",
+      "lastName": "Coopman",
+      "affiliation": {
+        "affiliationName": "Inagrvzw"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Marnix",
+      "lastName": "Coulier",
+      "affiliation": {
+        "affiliationName": "Aseptic Excellence Partner"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Patrick",
+      "lastName": "De Baets",
+      "affiliation": {
+        "affiliationName": "Departement Mobiliteit en Openbare Werken"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Flor",
+      "lastName": "De Cock",
+      "affiliation": {
+        "affiliationName": "Andere"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Ywan",
+      "lastName": "De Jonghe",
+      "affiliation": {
+        "affiliationName": "Vlaamse Milieumaatschappij"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Roel",
+      "lastName": "De Koninck",
+      "affiliation": {
+        "affiliationName": "Vlaamste Instelling voor Technologisch Onderzoek (VITO)"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Sandra",
+      "lastName": "De Loore",
+      "affiliation": {
+        "affiliationName": "Openbare Vlaamse Afvalstoffenmaatschappij"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Berdien",
+      "lastName": "De Ro",
+      "affiliation": {
+        "affiliationName": "Geosparc"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Tinneke",
+      "lastName": "De Rouck",
+      "affiliation": {
+        "affiliationName": "Vlaamse Milieumaatschappij"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Lieven",
+      "lastName": "De Stoppeleire",
+      "affiliation": {
+        "affiliationName": "Vrouwen van het Algemeen Boerensyndicaat"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Aaike",
+      "lastName": "De Wever",
+      "affiliation": {
+        "affiliationName": "Instituut voor Natuur- en Bosonderzoek"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Filip",
+      "lastName": "Dehaese",
+      "affiliation": {
+        "affiliationName": "Andere"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Geert",
+      "lastName": "Devriese",
+      "affiliation": {
+        "affiliationName": "Andere"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Katrijn",
+      "lastName": "Dirix",
+      "affiliation": {
+        "affiliationName": "Vlaamste Instelling voor Technologisch Onderzoek (VITO)"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Stijn",
+      "lastName": "Goolaerts",
+      "affiliation": {
+        "affiliationName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Jente",
+      "lastName": "Hanssens",
+      "affiliation": {
+        "affiliationName": "Grondwijzer vzw"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Stijn",
+      "lastName": "Huyghe",
+      "affiliation": {
+        "affiliationName": "Citizens"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Ludovic",
+      "lastName": "Huysentruyt",
+      "affiliation": {
+        "affiliationName": "Votquenne Foundations & Revyson"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Marijke",
+      "lastName": "Huysmans",
+      "affiliation": {
+        "affiliationName": "Vrije Universiteit Brussel"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Pieter",
+      "lastName": "Jan Haest",
+      "affiliation": {
+        "affiliationName": "De Watergroep"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Tom",
+      "lastName": "Jottier",
+      "affiliation": {
+        "affiliationName": "Studiebureau voor Bouwkunde en Expertise (SBE) NV"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Frank",
+      "lastName": "Lavens",
+      "affiliation": {
+        "affiliationName": "Vlaamse Milieumaatschappij"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Jan",
+      "lastName": "Maertens",
+      "affiliation": {
+        "affiliationName": "Citizens"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Willem",
+      "lastName": "Maetens",
+      "affiliation": {
+        "affiliationName": "Vlaamse Milieumaatschappij"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Pieter",
+      "lastName": "Nieuwlaet",
+      "affiliation": {
+        "affiliationName": "Stad Gent"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Jeroen",
+      "lastName": "Nyckees",
+      "affiliation": {
+        "affiliationName": "Departement Mobiliteit en Openbare Werken"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Geert",
+      "lastName": "Nys",
+      "affiliation": {
+        "affiliationName": "Openbare Vlaamse Afvalstoffenmaatschappij"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Olivier",
+      "lastName": "Olyslaegers",
+      "affiliation": {
+        "affiliationName": "GEBO"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Killian",
+      "lastName": "Paenen",
+      "affiliation": {
+        "affiliationName": "GeSolutions"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Nadia",
+      "lastName": "Paridaen",
+      "affiliation": {
+        "affiliationName": "Putboringen Van Deynse NV"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Kris",
+      "lastName": "Piessens",
+      "affiliation": {
+        "affiliationName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Marnix",
+      "lastName": "Pieters",
+      "affiliation": {
+        "affiliationName": "Agentschap Onroerend Erfgoed"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Michaël",
+      "lastName": "Rens",
+      "affiliation": {
+        "affiliationName": "Bodemkundige Dienst van België"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Sofie",
+      "lastName": "Reynaert",
+      "affiliation": {
+        "affiliationName": "Bodemkundige Dienst van België vzw"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Liesbeth",
+      "lastName": "Rombouts",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Elisabeth",
+      "lastName": "Rutten",
+      "affiliation": {
+        "affiliationName": "Vlaamse Landmaatschappij"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Greet",
+      "lastName": "Ruysschaert",
+      "affiliation": {
+        "affiliationName": "Instituut voor Landbouw- Visserij- en Voedingsonderzoek"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Stijn",
+      "lastName": "Scheepers",
+      "affiliation": {
+        "affiliationName": "Colas Noord NV"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Piet",
+      "lastName": "Seuntjens",
+      "affiliation": {
+        "affiliationName": "Citizens"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Erwin",
+      "lastName": "Sevens",
+      "affiliation": {
+        "affiliationName": "Openbare Vlaamse Afvalstoffenmaatschappij"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Frank",
+      "lastName": "Sleeuwaert",
+      "affiliation": {
+        "affiliationName": "Vlaamste Instelling voor Technologisch Onderzoek (VITO)"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Koen",
+      "lastName": "Smeets",
+      "affiliation": {
+        "affiliationName": "Openbare Vlaamse Afvalstoffenmaatschappij"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Raf",
+      "lastName": "Somers",
+      "affiliation": {
+        "affiliationName": "Tractebel – International Marine and Dredging Consultants"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Bruno",
+      "lastName": "Stuyts",
+      "affiliation": {
+        "affiliationName": "Universiteit Gent"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Joris",
+      "lastName": "Synaeve",
+      "affiliation": {
+        "affiliationName": "AC partners"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Geerts",
+      "lastName": "Timothy",
+      "affiliation": {
+        "affiliationName": "Grondwijzer VZW"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Stijn",
+      "lastName": "Van de Vondel",
+      "affiliation": {
+        "affiliationName": "Universiteit Antwerpen – CurieuzeNeuzen In De Tuin"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Johan",
+      "lastName": "Van De Wauw",
+      "affiliation": {
+        "affiliationName": "Fluves – pydov"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Caroline",
+      "lastName": "Van der Heyden",
+      "affiliation": {
+        "affiliationName": "Boerenbond"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Tom",
+      "lastName": "Van Gulck",
+      "affiliation": {
+        "affiliationName": "Departement Omgeving"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Geert",
+      "lastName": "Van Haute",
+      "affiliation": {
+        "affiliationName": "Departement Omgeving"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Naten",
+      "lastName": "Van Hemelrijck",
+      "affiliation": {
+        "affiliationName": "Vanhecke NV"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Jan",
+      "lastName": "Vangestel",
+      "affiliation": {
+        "affiliationName": "Agentschap Wegen en Verkeer"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Davy",
+      "lastName": "Vanhoudt",
+      "affiliation": {
+        "affiliationName": "Agentschap Wegen en Verkeer"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Joris",
+      "lastName": "Vermeer",
+      "affiliation": {
+        "affiliationName": "Smet GWT Europe"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Gert",
+      "lastName": "Vermeersch",
+      "affiliation": {
+        "affiliationName": "Agentschap Wegen en Verkeer"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Elisa",
+      "lastName": "Vermeulen",
+      "affiliation": {
+        "affiliationName": "VZW Grondbank"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Peter",
+      "lastName": "Verspecht",
+      "affiliation": {
+        "affiliationName": "Andere"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Wouter",
+      "lastName": "Vervaele",
+      "affiliation": {
+        "affiliationName": "Departement Mobiliteit en Openbare Werken"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Leen",
+      "lastName": "Vincke",
+      "affiliation": {
+        "affiliationName": "Departement Mobiliteit en Openbare Werken (Geotechniek)"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Mathias",
+      "lastName": "Wackenier",
+      "affiliation": {
+        "affiliationName": "Instituur voor Natuur- en Bosonderzoek"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Jan",
+      "lastName": "Walstra",
+      "affiliation": {
+        "affiliationName": "Koninklijk Belgisch Instituur voor Natuurwetenschappen – Belgische Geologische Dienst"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Mark",
+      "lastName": "Wulfrancke",
+      "affiliation": {
+        "affiliationName": "Algemeen Boerensyndicaat"
+      },
+      "email": ""
+    }
+  ],
+  "authors": [
+    {
+      "@type": "Person",
+      "firstName": "Sabine",
+      "lastName": "Buyle",
+      "affiliation": {
+        "affiliationName": "Departement Omgeving"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Katrien",
+      "lastName": "De Nil",
+      "affiliation": {
+        "affiliationName": "Departement Omgeving"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Petra",
+      "lastName": "Deproost",
+      "affiliation": {
+        "affiliationName": "Departement Omgeving"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Katrien",
+      "lastName": "Oorts",
+      "affiliation": {
+        "affiliationName": "Departement Omgeving"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Frieke",
+      "lastName": "Segers",
+      "affiliation": {
+        "affiliationName": "Departement Omgeving"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Marleen",
+      "lastName": "Van Damme",
+      "affiliation": {
+        "affiliationName": "Departement Omgeving"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Veerle",
+      "lastName": "Vanwesenbeeck",
+      "affiliation": {
+        "affiliationName": "Departement Omgeving"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Jasper",
+      "lastName": "Verhaegen",
+      "affiliation": {
+        "affiliationName": "Departement Omgeving"
+      },
+      "email": ""
+    }
+  ],
+  "editors": [
+    {
+      "@type": "Person",
+      "firstName": "Veerle",
+      "lastName": "Beyaert",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Raf",
+      "lastName": "Buyle",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Dimitri",
+      "lastName": "Schepers",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Geert",
+      "lastName": "Thijs",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Anthony",
+      "lastName": "Van Heymbeeck",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Dwight",
+      "lastName": "Van Lancker",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Martin",
+      "lastName": "Vanbrabant",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Ziggy",
+      "lastName": "Vanlishout",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Laurens",
+      "lastName": "Vercauteren",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    },
+    {
+      "@type": "Person",
+      "firstName": "Eveline",
+      "lastName": "Vlassenroot",
+      "affiliation": {
+        "affiliationName": "Digitaal Vaanderen"
+      },
+      "email": ""
+    }
+  ]
+}

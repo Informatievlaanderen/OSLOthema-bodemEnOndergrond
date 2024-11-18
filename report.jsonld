@@ -1,0 +1,5160 @@
+{
+  "@context": {
+    "oslo": "https://implementatie.data.vlaanderen.be/ns/oslo-toolchain#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "rec": "http://www.w3.org/2001/02pd/rec54#",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "adms": "http://www.w3.org/ns/adms#",
+    "packages": "@included",
+    "classes": "@included",
+    "datatypes": "@included",
+    "attributes": "@included",
+    "referencedEntities": "@included",
+    "baseURI": {
+      "@id": "oslo:baseURI",
+      "@type": "@id"
+    },
+    "vocDefinition": {
+      "@id": "oslo:vocDefinition",
+      "@container": "@set"
+    },
+    "apDefinition": {
+      "@id": "oslo:apDefinition",
+      "@container": "@set"
+    },
+    "vocLabel": {
+      "@id": "oslo:vocLabel",
+      "@container": "@set"
+    },
+    "apLabel": {
+      "@id": "oslo:apLabel",
+      "@container": "@set"
+    },
+    "diagramLabel": {
+      "@id": "oslo:diagramLabel"
+    },
+    "scope": {
+      "@id": "oslo:scope"
+    },
+    "vocUsageNote": {
+      "@id": "oslo:vocUsageNote",
+      "@container": "@set"
+    },
+    "apUsageNote": {
+      "@id": "oslo:apUsageNote",
+      "@container": "@set"
+    },
+    "domain": {
+      "@id": "rdfs:domain",
+      "@container": "@set"
+    },
+    "range": {
+      "@id": "rdfs:range"
+    },
+    "minCount": {
+      "@id": "sh:minCount"
+    },
+    "maxCount": {
+      "@id": "sh:maxCount"
+    },
+    "parent": {
+      "@id": "rdfs:subClassOf",
+      "@type": "owl:Class"
+    },
+    "generatedAtTime": {
+      "@id": "prov:generatedAtTime"
+    },
+    "Package": "oslo:Package",
+    "Class": {
+      "@id": "owl:Class"
+    },
+    "DatatypeProperty": {
+      "@id": "owl:DatatypeProperty"
+    },
+    "ObjectProperty": {
+      "@id": "owl:ObjectProperty"
+    },
+    "authors": {
+      "@type": "foaf:Person",
+      "@id": "foaf:maker"
+    },
+    "editors": {
+      "@type": "foaf:Person",
+      "@id": "rec:editor"
+    },
+    "contributors": {
+      "@type": "foaf:Person",
+      "@id": "dcterms:contributor"
+    },
+    "affiliation": {
+      "@id": "http://schema.org/affiliation"
+    },
+    "assignedURI": {
+      "@id": "oslo:assignedURI",
+      "@type": "@id"
+    },
+    "Datatype": {
+      "@id": "rdfs:Datatype"
+    },
+    "codelist": {
+      "@id": "oslo:codelist",
+      "@type": "@id"
+    },
+    "status": {
+      "@id": "adms:status",
+      "@type": "@id"
+    }
+  },
+  "@id": "https://data.vlaanderen.be/test/1",
+  "generatedAtTime": "2024-11-18T13:55:08.848Z",
+  "packages": [
+    {
+      "@id": "urn:oslo-toolchain:f290c470edf8f43d98d64e8abbc95409de1a65baa6083ee1cecef9fe2f263ab6",
+      "@type": "Package",
+      "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen",
+      "baseURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#"
+    }
+  ],
+  "classes": [
+    {
+      "@id": "urn:oslo-toolchain:6167d48cf2aee61b179b3d0f9b2ca8336bca710cfbf9e01c746df075714456a1",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "DiscreetBereik"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "DiscreetBereik"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Stapsgewijze variatie van een fenomeen in ruimte of tijd."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "In tegenstelling tot een ContinueBereik waarbij voor elk punt binnen het onderzocht gebied of voor elk punt op de tijdsas een waarde kan worden vastgesteld, is bij een DiscreetBereik de waarde enkel gekend voor een eindige set van punten of deelgebieden. Bv bij remote sensing is de waarde gekend voor de pixels van het beeld (waarbij de vastgestelde waarde, bv de reflectiegraad, dezelfde is voor elk punt binnen eenzelfde pixel). De opdeling kan kunstmatig zijn (zoals het geval met de pixels of bv bij sampling van een gebied dmv meetpunten) of natuurlijk (bv aantal inwoners per gemeente, waarbij het aantal inwoners constant is binnen de gemeentegrens). Dmv interpolatie kan een DiscreetBereik worden omgezet in een ContinueBereik, de meetpunten vormen dan ahw de controlepunten van de interpolatiefunctie."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:5c9c7ff9960d5cdb1ef0e0c003cf3260d310aff3690c09bec81b74a4c5a2b3f0"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:4bc0ef0d81d9bf349d9a423f8ffde5e295985f6419c50356fab3b47db835e4e1",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/CountObservation#OM_CountObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Telling"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Telling"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Telling"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observatie waarbij het resultaat een aantal is."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Doorgaans bij een Observatie waar het belang van een fenomeen te bepalen door te tellen hoe vaak het voorkomt. Bv het observeren vd opkomst bij een verkiezing, het tellen van bio-indicatoren in een watermonster. Datatype vh resultaat is een Integer."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Observatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Observatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het vaststellen van de waarde van een bepaald kenmerk van een Object op een bepaald tijdstip of tussen twee tijdstippen."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het gaat om schattingen van de waarde, maw op de waarde zit een zekere foutmarge. Voorbeelden zijn temperatuur, klasse, kleur. Dit is verschillend van waarden die zijn toegekend en dus geen schattingen zijn zoals naam of prijs."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e3011dcd1a26a3a6368f84fb32f21a40dd21eadfa367309ad7f0b2a9223e416c",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure#Measure",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Maat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Maat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Maat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een (af)gemeten hoeveelheid ve bepaalde grootheid, uitgedrukt in een bepaalde eenheid."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Implementeren zoals beschreven in <a href=\"https://www.iso.org/standard/56734.html\">ISO19103</a> of substitueren door een <a href=\"https://schema.org/QuantitativeValue\">schema.org:QuantitativeValue</a> of <a href=\"https://qudt.org/schema/qudt/QuantityValue\">qudt:QuantityValue</a>. Waarde en eenheid moeten afzonderlijk worden beschreven, de eenheid dmv een Literal (bvb <a href=\"https://ci.mines-stetienne.fr/lindt/v4/custom_datatypes#ucumunit\">ucum:ucumunit</a> of <a href=\"https://def.isotc211.org/ontologies/iso19103/2015/MeasureTypes.rdf\">iso:UnitOfMeasure.uomIdentifier</a>) of door een <a href=\"https://qudt.org/schema/qudt/Unit\">qudt:Unit</a> of <a href=\"http://www.w3.org/2004/02/skos/core#Concept\">skos:Concept</a>."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:f8265d948cdaad60609797d9ff5c4e84c9269923286770a24217a1da97878df7",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Kenmerktype"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Kenmerktype"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Kenmerktype"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Klasse die kenmerken van instanties van om het even welk type vertegenwoordigt."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "In de context van Observaties en Metingen is dit een kenmerk van het geobseveerdObject (of van het bemonsterdObject of een onderdeel daarvan) en in principe van alle instanties van dat type geobserveerdObject. Bv Lichaamstemperatuur, Lithologie, ChemischeSamenstelling (resp van een Persoon, een GeologischeEenheid en - meer indirect - van een Monster genomen op een bepaalde plek in een Rivier). Substitueren door een <a href=\"https://www.w3.org/TR/skos-reference/#Concept\">skos:Concept</a> OF een instantie van een equivalente klasse bvb <a href=\"https://qudt.org/schema/qudt/QuantityKind\">qudt:QuantityKind</a> OF eigen subklasse."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:51dcde156a3bf62f834634653c5c9e9f0801223d999d7d53d34534780c5b9b2c",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Monstervoorbereiding"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Monstervoorbereiding"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Monstervoorbereiding"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het prepareren van een Monster voorafgaand aan de Observatie."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Deze klasse is overbodig als de Bemonstering waarmee het Monster tot stand kwam wordt meegegeven. Zie het <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a< voor meer info hierover en over de klasse Bemonstering."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7c4bf16d4f75d05b21a8f7f90de546e50c1041323c38022f51ad0ee16bedaabc"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringsobject"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringsobject"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bemonsteringsobject"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Deel van het Object dat men wil observeren en dat representatief is voor dat Object."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het deel waarvan sprake kan fysiek zijn (een Monster) of ruimtelijk (een RuimtelijkBemonsteringsobject). Men observeert een Bemonsteringsobject ipv het werkelijk Object als dat laatste niet in zijn geheel geobserveerd kan worden (bv omdat exhaustieve observatie onpraktisch zou zijn). Het Bemonsteringsobject vormt samen met het Proces dat voor observatie is gebruikt het zgn observatieprotocol. OPGELET: deze klasse is abstract, ze moet gespecialiseerd worden in functie van het applicatiedomein."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:28436ca796dc7b47d128ca145c32da19b0da42134c61e10b67d1acbccd9d294e"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:28436ca796dc7b47d128ca145c32da19b0da42134c61e10b67d1acbccd9d294e",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Object"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Object"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Klasse die instanties van om het even welk type vertegenwoordigt."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "In de context van Observaties en Metingen is dit het geobserveerdObject waarvan een kenmerk wordt geobserveerd. Het geobserveerdObject kan ook een Object zijn dat de werkelijkheid bemonstert (subklasse Bemonsteringsobject). OPGELET: deze klasse is abstract, ze moet gespecialiseerd worden in functie van het applicatiedomein."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ed542816179cbee66067a09740c6f6504590585f842e7b3181a266f64837b264",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/TemporalObservation#OM_TemporalObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "TemporeleObservatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "TemporeleObservatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "TemporeleObservatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observatie waarbij het resultaat temporeel is."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dit is het geval bij Observaties die tijd meten, bv de chrono van een  sportprestatie, de duur van een bepaalde toestand, de periode waarin een fenomeen zich voordoet. Datatype vh resultaat is een TemporeleEntiteit, ttz een primitieve zoals Moment of Periode of een samenstelling van dergelijke primitieven."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:a84bec9cadbc4934173d2ad5726502dd0b62b046a182fbb26f98d158e4350e2e",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "RuimtelijkBemonsteringsobject"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "RuimtelijkBemonsteringsobject"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "RuimtelijkBemonsteringsobject"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Ruimtelijk begrensd deel van het Object dat men observeert en dat representatief wordt geacht voor dat Object."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Wordt gebruikt als het geobserveerd Object een zekere omvang heeft waardoor het niet in zijn geheel geobserveerd kan worden. Afhankelijk van de toegankelijkheid van het Object en de aard van de variatie van het geobserveerd Kenmerk binnen het Object, wordt gekozen voor een RuimtelijkBemonsteringsobject in 1, 2 of 3 dimensies."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Monster"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Monster"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Monster"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Fysiek staal genomen van een object."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bedoeld om ex situ te worden geobserveerd, bv in een labo, omdat de vereiste meetaparatuur niet ter plaatse kan worden gebracht of omdat het werkelijk te observeren Object niet kan worden verplaatst of niet rechtstreeks bereikbaar is."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:946f17dc11353bf39304d5836899f8a04250206d52d2078ffb10b1667d26b859",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/CoverageObservation#OM_DiscreteCoverageObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "DiscreetBereikObservatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "DiscreetBereikObservatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "DiscreetBereikObservatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observatie waarvan het resultaat discreet varieert in ruimte of tijd."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Een fenomeen kan variëren in functie van een parameter (bv de lengte van een treinspoor varieert met de temperatuur), als die parameter ruimte of tijd is spreken we van een bereik. Gebeurt de variatie stapsgewijs dan hebben we een DiscreetBereik. Het kan dat het fenomeen werkelijk discreet varieert, bv “aantal inwoners per gemeente” waarbij het fenomeen het inwonersaantal is en de gemeenten de ruimte opdelen in discrete stukken. In de context van Observaties en Metingen echter gaat het doorgaans om een bewuste opdeling in stukjes ruimte of tijd waarbij bv een Meting plaatsvindt om de x meter of om de y minuten. Dat gebeurt om voor de hand liggende praktische redenen. Aan elk van de stukjes wordt een waarde toegekend die niet varieert binnen dat stuk. Bv een remote sensing beeld geeft de variatie van kleur weer dmv pixels, of een bodemprofiel de opeenvolgende gesteentelagen. Een typisch geval ook is een set van meetpunten, bv een verzameling temperatuurmetingen verspreid over een gebied. Doorgaans worden deze punten gebruikt om dmv interpolatie het DiscreetBereik om te zetten in een ContinuBereik (waarbij voor om het even welk punt in het gebied een temperatuur kan worden gegeven). De meetpunten kunnen ook punten op de tijdsas zijn, bv temperatuurmetingen op één plek op verschillende opeenvolgende tijdstippen. OPMERKING: Een analoog resultaat kan worden bekomen door afzonderlijke Observaties uit te voeren op een reeks Bemonsteringsobjecten, typisch wanneer de meetpunten objecten op zich zijn (bv weerstations) en ook voor andere Observaties worden gebruikt."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:3a2aedb16c0426dd78714363eff5a0ff15eaaebcc6c2d4ac6b60a68c1bc29e82",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/GeometryObservation#OM_GeometryObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "GeometrieObservatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "GeometrieObservatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "GeometrieObservatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observatie waarbij het resultaat een geometrie is."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dit is het geval bij Observaties die vorm en of positie van een fenomeen meten, bv de perimeter van een perceel, de diepte van een fenomeen. Resultaat is een Geometrie, doorgaans een geometrische primitieve zoals een Punt, Lijnstring of Polygoon die dmv coördinaten in een ruimtelijk referentiesysteem vorm en positie beschrijft."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:ed68676f86773d17b53977d048340a6843d9fd76567e9603de707c9c58673c95",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Meting"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Meting"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Meting"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observatie waarbij het resultaat kwantitatief is."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Doorgaans bij een Observatie waar getracht wordt de kwantatieve waarde van een bepaalde grootheid te bepalen. Bv het wegen van een steenmonster, het meten van de watertemperatuur, het bepalen van de ph van een bodemstaal. Het datatype vh resultaat is een KwantitatieveWaarde, ttz een waarde en een eenheid. De grootheid waarvan sprake is het geobserveerdKenmerk."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:6a9a404bf60f832534f51fd65708740410d70ffbc8d3224b4aa834441464e694",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/TimeSeriesObservation#OM_TimeSeriesObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Tijdreeksobservatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Tijdreeksobservatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Tijdreeksobservatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "DiscreetBereikobservatie waarbij het fenomeen puntsgewijs varieert in de tijd."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het kan gaan om de observatie van een fenomeen dat zich werkelijk enkel voordoet op bepaalde momenten in de onderzochte periode (bv tijdstippen waarop een ongeval plaatsvond op kruispunt x) of een fenomeen waarvan de waarde enkel gemeten werd op bepaalde representatieve momenten (bv temperatuur om de 15 minuten). Resultaat van een Tijdreeksobservatie is een TemporeelMomentbereik, concreet is dit een set van tijdstip-waarde paren."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:946f17dc11353bf39304d5836899f8a04250206d52d2078ffb10b1667d26b859"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:49a4a90e923cc4449270ddb6154c9b2878905688d7d0bf8dfcfc957a17e863d4",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/TruthObservation#OM_TruthObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "WaarheidsObservatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "WaarheidsObservatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "WaarheidsObservatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observatie waarbij het resultaat booleaans is."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Normaal gezien bij Observaties waar gekeken wordt of een bepaald fenomeen zich al dan niet voordoet. Bv het voorkomen van een bedreigde diersoort, de aanwezigheid van een defect. Datatype vh resultaat is een Boolean."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:7711a904afa347467bc931f9be5cf1bb1dafa55a44a5b4c7b3994d5a4f7df51c",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Record",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Record"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Record"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Basis datastructuur bestaande uit een collectie van velden van mogelijk verschillende datatypes, typisch een vast aantal in een bepaalde volgorde."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:60ced52dfd7724e4d37e577905ad4743d0c4a0c457f20e190dc9f9e19057c622",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/PointCoverageObservation#OM_PointCoverageObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "PuntBereikObservatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "PuntBereikObservatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "PuntBereikObservatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "DiscreetBereikObservatie waarbij het fenomeen puntgewijs varieert in de ruimte."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het kan gaan om de observatie van een fenomeen dat werkelijk enkel voorkomt op bepaalde punten in het onderzochte gebied (bv exemplaren van een bepaalde plantensoort) of een fenomeen waarvan de waarde enkel gemeten werd op bepaalde representatieve punten (bv reflectiegraad volgens een regelmatig rooster van meetpunten). Resultaat van een PuntbereikObservatie is een DiscreetPuntbereik, concreet is dit een set van PuntWaardeparen."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:946f17dc11353bf39304d5836899f8a04250206d52d2078ffb10b1667d26b859"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:1c0a84fac0e1fb1d851512e52bf9f832e1a8982e2b4b9b6fa5eeae7fb7be6853",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/CategoryObservation#OM_CategoryObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Classificatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Classificatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Classificatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observatie waarbij het resultaat categorisch is."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Typisch bij Observaties waarbij getracht wordt de geobserveerdeObjecten in te delen volgens een bepaald classificatiesysteem. Bv het determineren van een plant, het bepalen van het bodemtype, het klasseren op kleur. Datatype vh resultaat is een <a href=\"http://www.w3.org/2004/02/skos/core#Concept\">skos:Concept</a>, maw een waarde uit een codelijst."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:bf102d45f93c751819aecbc32a8e4bf911c0e90dc55dc361be567ec5ba544a87",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Proces"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Proces"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Opeenvolgende acties of stappen noodzakelijk om een resultaat te bekomen."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "In deze contextde manier waarop het resultaat van een Observatie is verkregen. Dat kan dmv een instrument of een sensor zijn; maar het kan ook een menselijke observator zijn of een simulatie of een verwerking of algoritme toegepast op meer primitieve resultaten. Het Proces vormt samen met het Bemonsteringsobject dat is gebruikt het zgn observatieprotocol. OPGELET: deze klasse is abstract, ze moet gespecialiseerd worden in functie van het applicatiedomein."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e4712c99ba60768c073c8b611e4f171cc4b292de1540e334d5adb13114ff18d8",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringscurve"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringscurve"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bemonsteringscurve"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een RuimtelijkBemonsteringsobject dat de vorm aanneemt van een Curve."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Van het Object dat men wil observeren wordt in dat geval een representatief lijnvormig deel beschouwd. Voorbeelden zijn trajecten, boorgaten, profielen, intervallen etc. Dikwijls specialiseert de Curve zich tot Lijnstring."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:a84bec9cadbc4934173d2ad5726502dd0b62b046a182fbb26f98d158e4350e2e"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:047ecd14c046206c3e6122bd67238ae4d2e39eb4fc2774eb7c9664970ed7483c",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Observatiecontext"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Observatiecontext"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Observatiecontext"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Verdere beschrijving van de samenhang tussen twee Observaties."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:db2e78dbd6254347b8ef1cf5efe7b4bb512638c780dc9bff84e4205f39e698d1",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Process",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "BemonsteringsProces"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "BemonsteringsProces"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "BemonsteringsProces"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Proces geassocieerd met het maken van een Bemonsteringsobject."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het gaat hier over zaken als de manier van Bemonstering (Bemonsteringsprocedure) en het daarbij gebruikte instrumentarium (Bemonsteraar)."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:f7d5d253755b8049af28eb2affde870c029ecb419b0638bd6bef11d62d91de4e",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/ComplexObservation#OM_ComplexObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "ComplexeObservatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "ComplexeObservatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "ComplexeObservatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observatie waarbij het resultaat complex is."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het resultaat van een Observatie kan soms niet voorgesteld worden dmv een primitief datatype zoal een Integer of een URI, soms is een meer complexe structuur nodig. Bv de opsomming van stoffen waaruit een monster is samengesteld bij een spectrometrie. Datatype is een Record en kan dus diverse vormen aannemen al naargelang het geval."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:3404f4984065b52502e3eb27e1fad962920ad00e4af3e9ecb138edb176576c1a",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscretePointCoverage",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "DiscreetPuntbereik"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "DiscreetPuntbereik"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "DiscreetBereik waarbij het fenomeen puntgewijs varieert in de ruimte."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het fenomeen komt enkel voor op bepaalde puntlocaties in een gebied (bv exemplaren van een bepaalde plantensoort) of werd enkel bepaald voor een welgekozen set van puntlocaties (bv reflectiegraad op een regelmatig rooster van meetpunten)."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:6167d48cf2aee61b179b3d0f9b2ca8336bca710cfbf9e01c746df075714456a1"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:00c347313161b995c2a21c0104a6c334b7d6d2af352e9e4956699bb3ea7a12ef",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Materiaalklasse"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Materiaalklasse"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Materiaalklasse"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:fdd8d0b33f6fa385be85c649fcb28c142cd2b700cf22135b382afb95b2d62e4a",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSurface#SF_SamplingSurface",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringsvlak"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringsvlak"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bemonsteringsvlak"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een RuimtelijkBemonsteringsobject dat de vorm aanneemt van een Vlak."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Van het Object dat men wil observeren wordt in dat geval een representatief vlakvormig deel beschouwd. Voorbeelden zijn kwadranten, scties, stroken, scenes etc."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:a84bec9cadbc4934173d2ad5726502dd0b62b046a182fbb26f98d158e4350e2e"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:76bf889fd01d53447d2f4eeeb3ee779f14309595cddb60504023aa2e25084d2c",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Metadata"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Metadata"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Data over data."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Observaties kunnen beschouwd worden als gegevens en dus zijn data over Observaties wel degelijk metadata. Omdat al heel wat metagegevens elders in het model kunnen worden meegegeven beperkt deze klasse zich tot beschrijvende metadata, ttz informatie zoals titel, samenvatting, auteur en sleutelwoorden. Dergelijke metadata is in hoofdzaak bedoeld voor identificatie en datacatalogen. OPMERKING: Een meer uitgebreide beschrijving is te vinden in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">OSLO-SensorenEnBemonstering</a>."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:10f871e56bebd8eab3ea21dc6afade0bcbf9d3c62e16ad51f636bcebe37fad2e",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringspunt"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringspunt"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bemonsteringspunt"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een RuimtelijkBemonsteringsobject dat de vorm aanneemt van een Punt."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Van het Object dat men wil observeren wordt in dat geval een representatief puntvormig deel beschouwd. Voorbeeld is een (Meet)Station."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:a84bec9cadbc4934173d2ad5726502dd0b62b046a182fbb26f98d158e4350e2e"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:4d7a4bf07d45bd66a89ed72327d411bf141e84f13657b0539441dbf8cd284c12",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeatureCollection",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringsobjectverzameling"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringsobjectverzameling"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bemonsteringsobjectverzameling"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Aantal bij elkaar horende Bemonsteringsobjecten."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv een reeks grondmonsters verzameld in eenzelfde ontsluiting of een set meetstations die deel uitmaken van eenzelfde meetnet."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:6cc36fb228052d9330331780fd2c0e41cd91d02680984e07db6aac90905713e8",
+      "@type": "Class",
+      "assignedURI": "http://purl.org/dc/terms/Agent",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Agent"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Agent"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b0888494e0c7fdebff5fd291ed461dca0540c560e4959c217df4b3d0cf291d78",
+      "@type": "Class",
+      "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Opdracht",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Opdracht"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Opdracht"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Toegewezen taak."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "In deze context de taak om Observaties of Bemonsteringen uit te voeren."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:dc7a6cf787c85fc8eefadcb017d81c7d626721f16472a4c72d120d06e061c956",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSolid#SF_SamplingSolid",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsterings3Dobject"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsterings3Dobject"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bemonsterings3Dobject"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een RuimtelijkBemonsteringsobject dat de vorm aanneemt van een 3Dobject."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Van het Object dat men wil observeren wordt in dat geval een representatief driedimensioneel deel beschouwd. Voorbeelden zijn mijnen, lidardpuntenwolken etc."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:a84bec9cadbc4934173d2ad5726502dd0b62b046a182fbb26f98d158e4350e2e"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:d86e4b90eb541a876a339243e2e24f0cb8dbc1eee779a4615f2bc5ebeacd768c",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/TemporalCoverage#CVT_DiscreteTimeInstantCoverage",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "TemporeelMomentBereik"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "TemporeelMomentBereik"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "TemporeelMomentBereik"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "DiscreetBereik waarbij het fenomeen puntsgewijs varieert in de tijd."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het fenomeen komt enkel voor op bepaalde momenten in een bepaalde periode (bv ongevallen op een kruispunt) of werd enkel bepaald voor een welgekozen set van momenten (bv temperatuur om de 15 minuten)."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b84f2c0cca1ed0197701fcef71e4076faa516af2285ecd4d34bb8c8d112dc435",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Domeinobjecttype"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Domeinobjecttype"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Domeinobjecttype"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:44f07b53925e3ed9a6f0de0966549ddf5942d9269117c41c253a1f1ffabc1e24",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Observatietype"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Observatietype"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Observatietype"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e0c6c0e2455f20140f0840e3df2c7bab980b6d8eba431dca83a12c490a0d1d01",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringsobjecttype"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringsobjecttype"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bemonsteringsobjecttype"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:62575d6eaac5af9a2eb21f705566098d18564987b0e6561ad7508c66fc7d4db8",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Opmetingmethode"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Opmetingmethode"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De methode waarmee opmetingen worden gedaan."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:15fca31d3138abcb3dbfbefb59d1f691e55ec7acf63656ce25a562a62ec34217",
+      "@type": "Class",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_DomainFeature",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Domeinobject"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Domeinobject"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Domeinobject"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Object uit de reële wereld dat geen Bemonsteringsobject is."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dit is het werkelijk geobserveerdObject. Als rechtstreeks observeren niet kan observeren we een representatief staal, het zgn Bemonsteringsobject. In dat geval is het Domeinobject het bemonsterdObject. OPMERKING: Deze klasse is louter informatief, in praktijk moet ze gesubstitueerd worden door een klasse uit het domein. Bv in het domein Waterkwaliteit zou het domeinobject een instantie vd klasse Rivier kunnen zijn."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:28436ca796dc7b47d128ca145c32da19b0da42134c61e10b67d1acbccd9d294e"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:8dbd65e4f2e78e7e3acd09b9db983a0c92a5daeec0d5da84f9b0cf130710093b",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Any"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Any"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Any"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Instanties van  om het even welk type."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Te substitueren door een geschikte klasse of datatype."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:a5914fc31dca1778fe40fdddd24dc4cf59e4782f6f198b67a7d2e93d62bf8372",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Monstertype"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Monstertype"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:77e9352c7e09007a8b99b88641799b2c9e11e3c46ad50d8c66386b62fc400336",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Observatiecontexttype"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Observatiecontexttype"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:0ad1f073553bda580d4291c8a1380f895b1dde1802847b49a9dc0c6dc7cb3364",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Categorie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Categorie"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    }
+  ],
+  "attributes": [
+    {
+      "@id": "urn:oslo-toolchain:0d6f7e00b79cd81a1d3693fd5d65dbeb442b4907eb7762acf03ba6ca6cf51248",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/CountObservation#OM_CountObservation.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Resultaat van de Telling."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:4bc0ef0d81d9bf349d9a423f8ffde5e295985f6419c50356fab3b47db835e4e1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:1607006999"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:29547717f8952814b806a3e1b7a4260e34f1b582b5b689ab3af91494d472f660",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "identificator"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "identificator"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "identificator"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "String gebruikt om het object uniek te identificeren."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:5bf3ac9409fc3c91515e08c3e5524ccd394bcc91da6890f8576ef8ddf2bddce6"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:2049156247"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:c6434fe4c9610d870628f2d8382ee873b9cb1061f8d0987aaf5ef6d59c23096a",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "toegekendDoorString"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "toegekend door (String)"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "toegekendDoorString"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Naam vd agent die de identificator heeft toegekend."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:5bf3ac9409fc3c91515e08c3e5524ccd394bcc91da6890f8576ef8ddf2bddce6"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:35b20cf27afe34f90dc25caf997e9628e3f62b8935a949896a5e78a631afc71e",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://purl.org/dc/terms/issued",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "toegekendOp"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "toegekend op"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "toegekendOp"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Tijdstip waarop de identificator werd uitgegeven."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:5bf3ac9409fc3c91515e08c3e5524ccd394bcc91da6890f8576ef8ddf2bddce6"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:499715870"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:3cd2cb643ea1890c8941df10ccf39582aa355b2b8e1be14f60f73df25a155643",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "wkt"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "wkt"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "wkt"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geometrie uitgedrukt in wkt-formaat."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:87f67117aa830380b1907b8c88542fbf0f9fd5d4412c659363482e46be4f93ae"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:2049156247"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:734f9216caae194e68283c74d5e2a0aa063db79496c9a8787abd287df9525d3f",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "gml"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "gml"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "gml"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geometrie uitgedrukt in gml-formaat."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:87f67117aa830380b1907b8c88542fbf0f9fd5d4412c659363482e46be4f93ae"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:2049156247"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:4964faae155d799b5a4e58cd257d5ad8f99873897bbe9986e594a34bfa2a4b65",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.name",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "naam"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "naam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "naam"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Naam vh type van de waarde."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:5f3653b9cbfa0c903ccb29b79b4833b70e3b8e1e765b98566e74da8c1661286e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:2049156247"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:8b060e2ad9811f691c85ac23949969a0c15ed9ba7a47eb697f32d1710742f7fc",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/TruthObservation#OM_TruthObservation.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Resultaat van de Waarheidsobservatie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:49a4a90e923cc4449270ddb6154c9b2878905688d7d0bf8dfcfc957a17e863d4"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:286333439"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:7af94a59a581feea206453b01364a85e86e58858a9d00e1d5f2717e649b10af2",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/generiek#opnamedatum",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "opnamedatum"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "opnamedatum"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Datum waarop de Opmeting plaatsvond."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:b843b5dfc41ad5f08f09986a6000b3cd91312c6578a3c2287ef8c3bfca32cdee"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:499715870"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:4bee8ce37f8b45e492d513e3a53fcb954d3c6184d676b50694bdeed3fe2ac43a",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep.time",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "tijdstip"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "tijdstip"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "tijdstip"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Moment waarop de voorbereiding gebeurt."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:51dcde156a3bf62f834634653c5c9e9f0801223d999d7d53d34534780c5b9b2c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:b57de249b37c0de681e1078697f10e5629f212bb3025b3946220720583cda3d3"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b81255130e3ba017d34743503245a76b466c0cee476b808fc37e11955d02e053",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep.processOperator",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "procesoperator"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "procesoperator"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "procesoperator"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Agent die de voorbereiding uitvoert."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:51dcde156a3bf62f834634653c5c9e9f0801223d999d7d53d34534780c5b9b2c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:6cc36fb228052d9330331780fd2c0e41cd91d02680984e07db6aac90905713e8"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5ed85f344a2b954eb0454c991465a065166ba8a8faab045f6663f449b6b158a7",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.lineage",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "herkomst"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "herkomst"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "herkomst"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Verwijzing naar de Herkomst van een Bemonsteringsobject."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "De Herkomst beschrijf de oorsprong en historiek vh Bemonsteringsobject. Bv de manier van monstername of de werkwijze gevolgd bij een veldonderzoek."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:eb2292d7dd344be33d5dde7b3498265adfbc449de959ec3ad4c0dbb3365f54fa"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1a26b4bd7a1a147f93eb17b1ea03fda2307376b3ff9b670c598619a6284f27ed",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.parameter",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "parameter"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "parameter"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "parameter"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Willekeurig gegeven gassocieerd met het Bemonsteringsobject."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv een parameter die een aspect van de Bemonstering beschrijft (bv hoogte bij een luchtopname) of een belangrijke omgevingsparameter (bv het waterpeil bij een boring)."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5f3653b9cbfa0c903ccb29b79b4833b70e3b8e1e765b98566e74da8c1661286e"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:a389c174ba2863fa3bee79911fadb7d026484b44ce0121256aae4fa83e5a5f1f",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.shape",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geometrie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geometrie van het RuimtelijkBemonsteringsobject."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:a84bec9cadbc4934173d2ad5726502dd0b62b046a182fbb26f98d158e4350e2e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:87f67117aa830380b1907b8c88542fbf0f9fd5d4412c659363482e46be4f93ae"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:8e7e4ed73e2331b83ec2262ae58839a8518dee2344b2412300f9dc90e08cbc5e",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.positionalAccuracy",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "positioneleNauwkeurigheid"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "positioneleNauwkeurigheid"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "positioneleNauwkeurigheid"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Nauwkeurigheid waarmee de geometrie is bepaald."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Kardinaliteit is maximaal 2 opdat zowel horizontale als verticale positionele nauwkeurigheid zou kunnen worden opgegeven. Bv voor de horizontale nauwkeurigheid ve Bemonsteringspunt: straal vd cirkel rond het gemeten punt waarin met 90% zekerheid de werkelijke positie ligt."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:a84bec9cadbc4934173d2ad5726502dd0b62b046a182fbb26f98d158e4350e2e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7c18175df26e9d47a794df3abaecc6ec35f573884c0c971c23c43ab25ba17475"
+      },
+      "minCount": "0",
+      "maxCount": "2",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:aba3e72bcde453a8dae7bc260b679350f165ea2c7e7fd21887dcad67a9dab16c",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.hostedProcedure",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "gehostPlatform"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "gehostPlatform"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "gehostPlatform"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Procedure die of instrument dat in of op het RuimtelijkBemonsteringsobject is geïnstalleerd."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv een Procedure vh type \"MonitoringWaterkwaliteit\" die doorlopend in een meetstation wordt uitgevoerd of een Toestel vh type \"Windmeter\" dat daar is geïnstalleerd."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:a84bec9cadbc4934173d2ad5726502dd0b62b046a182fbb26f98d158e4350e2e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:bf102d45f93c751819aecbc32a8e4bf911c0e90dc55dc361be567ec5ba544a87"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:6711682c64d8adf9d924a5e5e3d020a8cf32cd56ad224612b71fd2ba73e38688",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "parameter"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "parameter"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Willekeurig gegeven gassocieerd met het gebeuren van de Observatie."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het gaat hier niet om kenmerken van het geobserveerdObject (die worden al beschreven door het geobserveerdKenmerk) of om parameters geassocieerd met het observatieproces (zoals een instelling van een instrument). Het gaat hier bv om omgevingsparameters die het resultaat kunnen beïnvloeden en van belang zijn om het resultaat correct te interpreteren.  Een voorbeeld is de diepte in een waterput waarop de waterkwaliteit is gemeten of de omgevingstemperatuur bij het meten van de vochtigheidsgraad."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5f3653b9cbfa0c903ccb29b79b4833b70e3b8e1e765b98566e74da8c1661286e"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:498956bda415cdc823c6f91b8ffa811739c528f7866777726d74a53e119cfbe0",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "fenomeentijd"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "fenomeentijd"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het moment waarop het resultaat van de Observatie van toepassing was."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Typisch het moment waarop geobserveerd of bemonsterd werd. Als de Observatie temporeel is en het moment waarop iets plaatsvindt wordt geregistreerd dan is dit meteen ook de fenomeentijd."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:b57de249b37c0de681e1078697f10e5629f212bb3025b3946220720583cda3d3"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:cf6a3721123be992077d7e901c2e9314f4e77ff07629b6789da064f9c3380680",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaattijd"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaattijd"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Tijdstip waarop het resultaat van de Observatie werd bekomen."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Is voor sommige Observaties gelijk aan de fenomeentijd maar kan ook verschillen, bv bij het uitvoeren van een analyse op een Monster dat eerder (en doorgaans dan ook eders) werd genomen of bij sensormetingen die pas later worden verwerkt. Ook bruikbaar om herhaalde Observaties bv op eenzelfde Monster uiteen te houden. Is het resultaat een voorspelling dan is de fenomeentijd het moment waarop deze van toepassing zou moeten zijn."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:70d6f802eec03bf220ff3ca7875f73bdf9080077ef8a578b75ffbdd63ede75e9"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:11c690437d89f6ae7168541c34ddc4e704ce424672bc27507812c56982dc13ad",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geldigeTijd"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geldigeTijd"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Periode waarvoor het resultaat van de Observatie geldt."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv nuttig voor weersvoorspellingen."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5dd1495ae247da1af02aa7fb3f5bc64bca9a604008d250a41ce7060cf1ef3d0b"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b2f70ce94555716432890912a2921bd9414a71e60488c5a6612dfa03ae418c70",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaatkwaliteit"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaatkwaliteit"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Mate waarin het resultaat van de Observatie voldoet aan de vereisten of verwachtingen."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het gaat hier om gegevens die eigen zijn aan de Observatie en complementair aan de beschrijving van de procedure die bij de Observatie is gevolgd (analysemethode edm, zie klasse Proces) wat op zich ook al iets zegt over de kwaliteit van het resultaat."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:a2bde6adba89ee4234a9798c8c85c2891f7d771209d32fa827df0aa1de32e919"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:fb0a1ad487fc7ee7f6391c3a532f9dc335dfd2bdd50247cf0c39bcd18d609c92",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De waarde van het geobserveerdeKenmerk als resultaat van de Observatie."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het resultaat kan van om het even welk type zijn aangezien om het even welk Kenmerk van om het even welk type Object kan worden geobserveerd. CONSTRAINT: Het type van het resultaat van de Observatie moet kloppen met het geobserveerdKenmerk en de verkregen waarde moet binnen het bereik vallen van het geobserveerdKenmerk."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:8dbd65e4f2e78e7e3acd09b9db983a0c92a5daeec0d5da84f9b0cf130710093b"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:bcf1262a72a58c0041ad94935355c64fa024134f194b5d7d1bf3000a52f8cecc",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.materialClass",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "materiaalklasse"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "materiaalklasse"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "materiaalklasse"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Aard van het materiaal waaruit het Monster bestaat."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Volgens een basisclassificatie, bv bodem, water, steen, vloeibaar, vloeistof, stof, plantaardig, voedsel."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:00c347313161b995c2a21c0104a6c334b7d6d2af352e9e4956699bb3ea7a12ef"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:534b2cc560306d0d607ff355f6f89b90ec11e0b58f7f281ef4baf809600ec855",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingTime",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "bemonsteringstijdstip"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "bemonsteringstijdstip"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "bemonsteringstijdstip"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Tijdstip waarop het monster werd verkregen uit het bemonsterdObject."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dit attribuut is overbodig als de Bemonstering waarmee het Monster tot stand kwam wordt meegegeven. Zie het <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a< voor meer info hierover en over de klasse Bemonstering."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:b57de249b37c0de681e1078697f10e5629f212bb3025b3946220720583cda3d3"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ca2aee405157b41dfbe0716a65a074704537a41bf36fc104015e0e407d762204",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingLocation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "bemonsteringsplaats"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "bemonsteringsplaats"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "bemonsteringsplaats"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Locatie waar het Monster werd genomen."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dit attribuut is overbodig als met het Monster een Bemonsteringsobject geassocieerd is dat ondubbelzinnig de locatie aanduidt, bv het meetstation waar het Monster is genomen. Is de locatie van dat Bemonsteringsobject niet eenduidig dan kan met dit attribuut de relatieve locatie tov dat object worden beschreven, bv de locatie binnen de Ontsluiting (RuimtelijkBemonsteringsobject) of de plaats in de boorkern (zelf een Monster) waar het Monster werd genomen."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:87f67117aa830380b1907b8c88542fbf0f9fd5d4412c659363482e46be4f93ae"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:0139470154f057961d842ff5eb7a017f84109e736b82c8e2b0ebaadbf97f6717",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.currentLocation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "huidigeLocatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "huidigeLocatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "huidigeLocatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Locatie vh Monster."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Typisch de plek waar het monster wordt bewaard (evt tot op het niveau van de plank of lade in het magazijn)."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:6586a948418b0300c08cc22ff842dca475060f6229b0ad3db5506b943e33c0a5"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ff3920122f291ba09be7889ac832d5d9dd6353fcb7746fb3e3061b8c1a76406f",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.specimenType",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "monstertype"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "monstertype"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "monstertype"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Vorm waarin het Monster werd bekomen;"
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv boorkern, oplossing, pulp, schijf etc."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:a5914fc31dca1778fe40fdddd24dc4cf59e4782f6f198b67a7d2e93d62bf8372"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:38a24417a4059d25a3c53025a7dfdb53413c854143934688ef592fb4dbee4af3",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.size",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "grootte"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "grootte"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "grootte"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Fysieke omvang van het Monster."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv lengte, massa, volume etc al naargelang de aard vh Monster."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e3011dcd1a26a3a6368f84fb32f21a40dd21eadfa367309ad7f0b2a9223e416c"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:a7c5032bd16bed6164a68258eb5e19ef4d94ffb93e53dd5265bd814d4f68b4fc",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/CoverageObservation#OM_DiscreteCoverageObservation.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Resultaat van de DiscreetBereikobservatie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:946f17dc11353bf39304d5836899f8a04250206d52d2078ffb10b1667d26b859"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:6167d48cf2aee61b179b3d0f9b2ca8336bca710cfbf9e01c746df075714456a1"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:45be9dff85ca8fa9f98bfe429c5e184d4f39e634b0ac9c5e247f70f591895bb6",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/GeometryObservation#OM_GeometryObservation.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Resultaat van de GeometrieObservatie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:3a2aedb16c0426dd78714363eff5a0ff15eaaebcc6c2d4ac6b60a68c1bc29e82"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:87f67117aa830380b1907b8c88542fbf0f9fd5d4412c659363482e46be4f93ae"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e4e390cc15ffa0016e0c0eb9e0de030f2752768ba6c2e8ea6c3b4204404dc52b",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/TimeSeriesObservation#OM_TimeSeriesObservation.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Resultaat van de Tijdreeksobservatie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:6a9a404bf60f832534f51fd65708740410d70ffbc8d3224b4aa834441464e694"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:d86e4b90eb541a876a339243e2e24f0cb8dbc1eee779a4615f2bc5ebeacd768c"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ddce73ab04a9a7a460e45851ca5c1a021985ae9a2b03d18b005e3d37a572ba8a",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/PointCoverageObservation#OM_PointCoverageObservation.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Resultaat van de Puntbereikobservatie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:60ced52dfd7724e4d37e577905ad4743d0c4a0c457f20e190dc9f9e19057c622"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:3404f4984065b52502e3eb27e1fad962920ad00e4af3e9ecb138edb176576c1a"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:9b5ed58a16849b430682918d83183256c7cfddaa3964f27120ff0ce28ddaf711",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/CategoryObservation#OM_CategoryObservation.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Resultaat van de Classificatie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:1c0a84fac0e1fb1d851512e52bf9f832e1a8982e2b4b9b6fa5eeae7fb7be6853"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:0ad1f073553bda580d4291c8a1380f895b1dde1802847b49a9dc0c6dc7cb3364"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b7f965672b6474068754606cebce1176824913dd517e92acab54a5c594aecf85",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve.shape",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geometrie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geometrie vd Bemonsteringscurve."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:e4712c99ba60768c073c8b611e4f171cc4b292de1540e334d5adb13114ff18d8"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:abed29c313575624489e10887cd47ba4aacfd1f1f6b9da52739b6af9d4e426f9"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1c545b2f1e3e0b3ec7072d6ee5e15903640990c066bb36372c5adb9f5c90ea57",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.role",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "rol"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "rol"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "rol"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Aard van de samenhang."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv Observatie A \"isInputVoor\" Observatie B, Observatie A \"verklaart\" het resultaat van Observatie B."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:047ecd14c046206c3e6122bd67238ae4d2e39eb4fc2774eb7c9664970ed7483c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:77e9352c7e09007a8b99b88641799b2c9e11e3c46ad50d8c66386b62fc400336"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:f10d4b6b99d4ac3abaf625d4e3b25a25a0595a16da873e3d660a88009f6fe1d2",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/ComplexObservation#OM_ComplexObservation.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Resultaat van de ComplexeObservatie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:f7d5d253755b8049af28eb2affde870c029ecb419b0638bd6bef11d62d91de4e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7711a904afa347467bc931f9be5cf1bb1dafa55a44a5b4c7b3994d5a4f7df51c"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:c4f1edd74e8a983eead3a9373e8307a7afee1a81de6353e21b1713d6307a4246",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Resultaat van de Meting."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:ed68676f86773d17b53977d048340a6843d9fd76567e9603de707c9c58673c95"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e3011dcd1a26a3a6368f84fb32f21a40dd21eadfa367309ad7f0b2a9223e416c"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:729ca8e277502f8a451c4fba80bd3dc7f1da8ffbf77d1971251f70dd3993d706",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/TemporalObservation#OM_TemporalObservation.result",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "resultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "resultaat"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Resultaat vd TemporeleObservatie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:ed542816179cbee66067a09740c6f6504590585f842e7b3181a266f64837b264"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:b57de249b37c0de681e1078697f10e5629f212bb3025b3946220720583cda3d3"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:a74eab484b7f06ec5f260db0539817118ee5c094275b994bfb0e0d1d907177f7",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage.element",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "element"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "element"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Onderdeel van het Bereik."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Concreet het discrete deel van het bereik waarvoor de waarde vh fenomeen gekend is. Bv een pixel en de waarde vd pixel."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:6167d48cf2aee61b179b3d0f9b2ca8336bca710cfbf9e01c746df075714456a1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:d69906cfb7cda969c5c265ad0e6ef71ee4685afff42c070e250bb2ff9415bddc"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1570357e0a8ce0053975ca30e0ab7a871bf97f2a5134cffc1f76018275b8d48f",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.geometry",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geometrie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geometrie van het element."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Datatype is DomeinObject, te substitueren resp door Geometrie of subklassen daarvan of door TemporeleEntiteit of subklassen daarvan."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d69906cfb7cda969c5c265ad0e6ef71ee4685afff42c070e250bb2ff9415bddc"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:bf5b0bff98b6cc4074abc127ea8352c4253a3ed57fbd37cee7e28d52b334194a"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:937440ab5251b5defe6bd1ca21a050dcee4115c96f4c5bc4054e3ebee2edd57f",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "waarde"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "waarde"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Waarde van het element."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d69906cfb7cda969c5c265ad0e6ef71ee4685afff42c070e250bb2ff9415bddc"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7711a904afa347467bc931f9be5cf1bb1dafa55a44a5b4c7b3994d5a4f7df51c"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:364c070d4a3bc5798f6d4b67f1a68c15e0a3af62ff49ecb28c02b9bc42b8d56c",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscretePointCoverage.element",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "element"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "element"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Onderdeel van het Bereik."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Concreet het discrete deel van het bereik waarvoor de waarde vh fenomeen gekend is. Bv een meetpunt en de waarde in dat meetpunt."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:3404f4984065b52502e3eb27e1fad962920ad00e4af3e9ecb138edb176576c1a"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:062417877fe9a84dd88870daa2e2c959513d91fca8076b211050037272140a90"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:f1144df452388caf03ae9085d6206d2ff69fbaa20d9ad342c93fe28c6b1c50e3",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_PointValuePair.geometry",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geometrie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geometrie van het PuntWaardepaar."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:062417877fe9a84dd88870daa2e2c959513d91fca8076b211050037272140a90"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5293e6d6b601cb0b75af8ecf180b98a5dce5803473804f08c3a01a45cf1fdba1"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5e224f44606f8d07e4bebe5c82eb21a248a5a65a5b01b920af216e288a03c12b",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSurface#SF_SamplingSurface.shape",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geometrie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geometrie van het Bemonsteringsvlak."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:fdd8d0b33f6fa385be85c649fcb28c142cd2b700cf22135b382afb95b2d62e4a"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:1b36094de4f8b0dac2bcdf993ad1bd6f84f2f5d3c509b6bc1954e35cded4ff03"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:6f11a2cec4e2401956b0c089653929dbd4cefa6d1c2d8ce8eb6c91081d115600",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://www.w3.org/ns/adms#identifier",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "identificator"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "identificator"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Verwijzing naar de informatie die het Bemonsteringsobject uniek identificeert."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv het uniek nummer dat aan een Monster wordt toegekend of het numer van een meetstation."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5bf3ac9409fc3c91515e08c3e5524ccd394bcc91da6890f8576ef8ddf2bddce6"
+      },
+      "minCount": "1",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e74d55149b3d67cb00fe8b06a3a3c51027e8ec6e8201da0d7fa8aaaca2e0d001",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://purl.org/dc/terms/creator",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "toegekendDoor"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "toegekend door"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "toegekendDoor"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Link naar de agent die de identificator heeft uitgegeven."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:5bf3ac9409fc3c91515e08c3e5524ccd394bcc91da6890f8576ef8ddf2bddce6"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:6cc36fb228052d9330331780fd2c0e41cd91d02680984e07db6aac90905713e8"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b5f056aa7bef868874b161076c47cc96215cd5b9640390c29cb0264bab00a758",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "waarde"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "waarde"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "waarde"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Kwalitatieve of kwantitatieve invulling van de waarde."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het datatype Any moet gesubstitueerd worden door iets concreter zoals Agent of <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/#Maat\">Maat</a>."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:5f3653b9cbfa0c903ccb29b79b4833b70e3b8e1e765b98566e74da8c1661286e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:8dbd65e4f2e78e7e3acd09b9db983a0c92a5daeec0d5da84f9b0cf130710093b"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:c10c8a78d9d5f1536d22717ecadda5d6c3ef535fe734a671cea1e1e3568311c6",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSolid#SF_SamplingSolid.shape",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geometrie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geometrie vh Bemonsterings3Dobject."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:dc7a6cf787c85fc8eefadcb017d81c7d626721f16472a4c72d120d06e061c956"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:d124e838c02036cb9f534e4a1fe907edf0b05bf7e547aec87e57513e3185a007"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:67f8bf48ea9c06781e4bc09c1d9d3859ffdc8c476d597e7904dd1f040884e9cf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingMethod",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "bemonsteringsmethode"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "bemonsteringsmethode"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "bemonsteringsmethode"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Manier waarop het Monster is verkregen uit het bemonsterd Object."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dit attribuut is overbodig als de Bemonstering waarmee het Monster tot stand kwam wordt meegegeven. Zie het <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a< voor meer info hierover en over de klasse Bemonstering."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:db2e78dbd6254347b8ef1cf5efe7b4bb512638c780dc9bff84e4205f39e698d1"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ea0ca8ce0bd97ad9134ab80998c7e2dd58785180004e0d2f2ac34f2a83141836",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "geometrie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geometrie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geometrie van het Bemonsteringspunt."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:10f871e56bebd8eab3ea21dc6afade0bcbf9d3c62e16ad51f636bcebe37fad2e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5293e6d6b601cb0b75af8ecf180b98a5dce5803473804f08c3a01a45cf1fdba1"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:3380463b7ed25984906ef64d44eba702104272d2c593f5f991380d45b6b4f7b6",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://purl.org/dc/terms/type",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "type"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "type"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het type van observatie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:44f07b53925e3ed9a6f0de0966549ddf5942d9269117c41c253a1f1ffabc1e24"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:43abc6b41a02efe35f8589f1b5241639f660aa18196e34e15279af2f82bebc66",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.opdracht",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "opdracht"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "opdracht"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Opdracht in het kader waarvan de Observatie plaatsvindt."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv de Opdracht voor een veldonderzoek of voor het uitvoeren van specifieke Metingen of analyses van een Monster."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:b0888494e0c7fdebff5fd291ed461dca0540c560e4959c217df4b3d0cf291d78"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:04df60ceb2733c4aade1b92416eba3381a363dd6c67f704fedea05168f0b5475",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "uitgevoerdDoor"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "uitgevoerdDoor"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Agent die de Observatie heeft uitgevoerd."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:6cc36fb228052d9330331780fd2c0e41cd91d02680984e07db6aac90905713e8"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:f5a577aa6d852424955d05a1c831301a1e5a3e7258214dd965da10fb2d556dd8",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://purl.org/dc/terms/type",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "type"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "type"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "type"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Aard van het Domeinobject."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:15fca31d3138abcb3dbfbefb59d1f691e55ec7acf63656ce25a562a62ec34217"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:b84f2c0cca1ed0197701fcef71e4076faa516af2285ecd4d34bb8c8d112dc435"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:26ce40dad05d4e319436c89b300ff5abcbc9dd51c861e0fe238a20623941785c",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://purl.org/dc/terms/type",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "type"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "type"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Aard van het Bemonsteringsobject."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e0c6c0e2455f20140f0840e3df2c7bab980b6d8eba431dca83a12c490a0d1d01"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b62df7994c024efdbab8aec1c35f8780a5f0017563b0018a13cd61229fd233f8",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "opmeting"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "opmeting"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De manier waarop de geometrie werd bepaald."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:87f67117aa830380b1907b8c88542fbf0f9fd5d4412c659363482e46be4f93ae"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:b843b5dfc41ad5f08f09986a6000b3cd91312c6578a3c2287ef8c3bfca32cdee"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:3e1feb34db5631be4b05f2e3113cf666c949a27b4bf58fd6b55555a5c452e1bf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting.methode",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "methode"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "methode"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Aard van de gebruikte methode."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:b843b5dfc41ad5f08f09986a6000b3cd91312c6578a3c2287ef8c3bfca32cdee"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:62575d6eaac5af9a2eb21f705566098d18564987b0e6561ad7508c66fc7d4db8"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1fac46c609972ac1a68ab1129cdce309924f831b2039fedec2dc555fa01cba08",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting.uitgevoerdDoor",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "uitgevoerdDoor"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "uitgevoerdDoor"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Agent die de Opmeting heeft uitgevoerd."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:b843b5dfc41ad5f08f09986a6000b3cd91312c6578a3c2287ef8c3bfca32cdee"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:6cc36fb228052d9330331780fd2c0e41cd91d02680984e07db6aac90905713e8"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:6bcd25e43d2f774360d681b1fdf9f370f0eed0c7a716943e1a6b4d0132add7c0",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://www.w3.org/ns/adms#identifier",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "identificator"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "identificator"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De persoon of het ding dat dient om de observatie vast te stellen."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5bf3ac9409fc3c91515e08c3e5524ccd394bcc91da6890f8576ef8ddf2bddce6"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:8a15aba082519fb21f68b3e8bf4927a2fe10ae1e2b3a174faaa7d546faae9cd1",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep.processingDetails",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "verwerkingsdetails"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "verwerkingsdetails"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "verwerkingsdetails"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Verwijzing naar het proces dat werd gevolgd bij het bemonsteren."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "NOTE$ea_notes=Dieze associatie is overbodig als de Bemonstering waarmee het Monster tot stand kwam wordt meegegeven. Zie het <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a< voor meer info hierover en over de klasse Bemonstering."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:db2e78dbd6254347b8ef1cf5efe7b4bb512638c780dc9bff84e4205f39e698d1"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:7d3dfcf17fec79724ee6c6cc7415679afb4baf2a4b50d938a15380d591423b45",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Monstervoorbereiding.monster",
+      "diagramLabel": [
+        {
+          "@value": "Monstervoorbereiding.Monster"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:51dcde156a3bf62f834634653c5c9e9f0801223d999d7d53d34534780c5b9b2c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e921a6ac9fc11fdf0f6b484adc9d57f24d1c836485270abf499576cdde379074",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Monstervoorbereiding.bemonsteringsProces",
+      "diagramLabel": [
+        {
+          "@value": "Monstervoorbereiding.BemonsteringsProces"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:51dcde156a3bf62f834634653c5c9e9f0801223d999d7d53d34534780c5b9b2c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:db2e78dbd6254347b8ef1cf5efe7b4bb512638c780dc9bff84e4205f39e698d1"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:baacfe62cfcb7827fc2e09a583a032ffe2fc7342df21706c422e3da958f63e4f",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geassocieerdeObservatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geassocieerdeObservatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observaties waarvan de resultaten op een of andere manier samenhangen."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Het gaat om samenhang die van belang is om het resultaat van individuele Observaties te begrijpen, bv biotische relaties (dier A is roofdier en is aanwezig omdat dier B prooi voorkomt). Dergelijke relaties vereisen expliciet te worden beschreven (in tegenstelling tot relaties zoals het samenvallen van resultaten van Observaties in ruimte of tijd die impliciet mogen blijven). Ook nuttig voor relaties waarbij de output van Observatie A de input vormt voor Observatie B."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:8fc45d55d3b378387c1348f553474222fcc42dd56256cd8f52c34c196e0a0dac",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
+      "diagramLabel": [
+        {
+          "@value": "Observatie (source)"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:047ecd14c046206c3e6122bd67238ae4d2e39eb4fc2774eb7c9664970ed7483c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5d7518db4509aefc3135b19b233e3c4c8166f2d44618b8be66ab096d5bea2d8d",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
+      "diagramLabel": [
+        {
+          "@value": "Observatie (target)"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:047ecd14c046206c3e6122bd67238ae4d2e39eb4fc2774eb7c9664970ed7483c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:d78554645a39cd65616dd843cc639139bd964419a6dd86f3e54d92ed92a5d06d",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#ProcessUsed",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "GebruiktProces"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "GebruiktProces"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "TODO"
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "TODO"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:bf102d45f93c751819aecbc32a8e4bf911c0e90dc55dc361be567ec5ba544a87"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b5bdfa8ea256ca8e9142fe3cbb76f3b2e640ccbdf1e4d0451956361fe71949c6",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#ProcessUsed",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "GebruiktProces"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "GebruiktProces"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "TODO"
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "TODO"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:bf102d45f93c751819aecbc32a8e4bf911c0e90dc55dc361be567ec5ba544a87"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:0ec2f82efe57b06984b2283f4a4dfadb7f05927f409e288c64dfd8f3bc808d15",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geobserveerdObject"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geobserveerdObject"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Object dat men observeert."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dat kan het Object zelf zijn of een proxy ervan, ttz een Bemonsteringsobject. OPMERKING: In dat laatste geval weet men soms pas na het observeren welke real-world Objecten men juist geobserveerd heeft."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:28436ca796dc7b47d128ca145c32da19b0da42134c61e10b67d1acbccd9d294e"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:a5a9a037402c9768b2bc4b56d32f554a0a7dc207b35a9bdddf043eb0819c3dd2",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#waardeverschaffer",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "waardeverschaffer"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "waardeverschaffer"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observaties die op het Object gebeuren."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:28436ca796dc7b47d128ca145c32da19b0da42134c61e10b67d1acbccd9d294e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ca032890436750e2cf5bea9089a5f271bcc9a95ffadc2d21df3cfae592f53373",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geassocieerdeObservatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "geassocieerdeObservatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geassocieerdeObservatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Observatie die op het Bemonsteringsobject is uitgevoerd."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:744663ecade596f38d3d2d493db1077d5640f17be211262f4582cf666f4ddce6",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Intention",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Intentie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Intentie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "TODO"
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "TODO"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:302a25ca7c1001a144c9991d411c7bd9b3728dd965e3c59c8a62eaa705a9c911"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:28436ca796dc7b47d128ca145c32da19b0da42134c61e10b67d1acbccd9d294e"
+      },
+      "minCount": "1",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ff262deb4ced84597047ba703f8914ebcbc48818f5dca67408610867bd2a0855",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geobserveerdKenmerk"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geobserveerdKenmerk"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Kenmerk dat men observeert vh geobserveerdObject."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "NOTE$ea_notes=Kan een proxy zijn vh kenmerk dat men werkelijk wil observeren, bvb kleurreflectie op het aardoppervlak als subsituut voopr vegetatie. CONSTRAINT: Het geobserveerdKenmerk moet werkelijk een kenmerk zijn van het geobserveerdObject of van een (onder)deel ervan. Bv de zuurtegraad van een Bron is eigenlijk de zuurtegraad van het Waterlichaam van de Aquifer die door de Bron is aangeboord."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:f8265d948cdaad60609797d9ff5c4e84c9269923286770a24217a1da97878df7"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:335bd377fcd69ad3df803fbc161f77c7d8ee205b3f72de86eddd9bde8c73f83f",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.sampledFeature",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "bemonsterd object"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "bemonsterd object"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "bemonsteredObject"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Verwijzing naar het Object dat men wil bemonsteren."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Verwijzing naar het Object dat men wil bemonsteren."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:28436ca796dc7b47d128ca145c32da19b0da42134c61e10b67d1acbccd9d294e"
+      },
+      "minCount": "1",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:588b70df9776fadda61299fa1301ee01dc95be9031d7f006295d6dc690b99ecc",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SamplingFeatureComplex.relatedSamplingFeature",
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "geassocieerdBemonsteringsobject"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geassocieerdBemonsteringsobject"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Ander Bemonsteringsobject waarmee het Bemonsteringsobject geassocieerd is."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv Bemonsteringspunten langs een Bemonsteringscurve of Monsters genomen op een Bemonsteringspunt of deelmonsters (Monster van een Monster)..."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:f6a0186985f9909745ba0fb968a85698d4cd45ab7f17fae3f5cdd98ad0e13371",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.metadata",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "metadata"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "metadata"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Verwijzing naar Metadata over de Observatie."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "NOTE$ea_notes=Observaties kunnen beschouwd worden als gegevens en dus zijn data over Observaties wel degelijk metadata. Omdat al heel wat metagegevens elders in het model kunnen worden meegegeven beperkt deze klasse zich tot beschrijvende metadata, ttz informatie zoals titel, samenvatting, auteur en sleutelwoorden. Dergelijke metadata is in hoofdzaak bedoeld voor identificatie en datacatalogen."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7bd306fd2f558b2cd90df76701954fd77437f22a41eefe25bfe933615d28c5af"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:76bf889fd01d53447d2f4eeeb3ee779f14309595cddb60504023aa2e25084d2c"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:6cd75474cc623f5b8583ab61a7f65d9f87d49c8107d070e5e2cc5b9b8f6b9e0e",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeatureCollection.member",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "lid"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "lid"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "lid"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Bemonsteringsobject dat deel uitmaakt van de verzameling van Bemonsteringsobjecten."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:4d7a4bf07d45bd66a89ed72327d411bf141e84f13657b0539441dbf8cd284c12"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:7ff39b9c879a8cfe8de6e5ea9b88ecf6e66e4e67b55625ce2bcb67e65057a9b1"
+      },
+      "minCount": "1",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:546eda1de1439301f436e5e5b9a3d6bcce6076a1e09f1693f7ea996f995ffb38",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://www.w3.org/ns/org#reportsTo",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "rapporteertAan"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "rapporteertAan"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Verwijst naar de agent waaraan de agent verantwoording aflegt."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Gecombineerd met Positie-rapporteertAan-Positie kan het organogram vd organisatie gedocumenteerd worden."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:6cc36fb228052d9330331780fd2c0e41cd91d02680984e07db6aac90905713e8"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:6cc36fb228052d9330331780fd2c0e41cd91d02680984e07db6aac90905713e8"
+      },
+      "minCount": "0",
+      "maxCount": "*",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:cb0984bbcc6963f26f5be2021e2b9722b81cd9661452de2c9c02136b442a95c0",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingMethod",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "bemonsteringsmethode"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "bemonsteringsmethode"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "bemonsteringsmethode"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Manier waarop het Monster is verkregen uit het bemonsterd Object."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:e53d8017e9f193211f4cb19ec3704765a67f42abc9114c8607b0d8f963ba462c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:db2e78dbd6254347b8ef1cf5efe7b4bb512638c780dc9bff84e4205f39e698d1"
+      },
+      "minCount": "0",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    }
+  ],
+  "datatypes": [
+    {
+      "@id": "urn:oslo-toolchain:5dd1495ae247da1af02aa7fb3f5bc64bca9a604008d250a41ce7060cf1ef3d0b",
+      "@type": "Datatype",
+      "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Period",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Periode"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Periode"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Periode"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een 1-dimensionele geometrische primitieve in de tijd."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Vergelijkbaar met een Curve in de ruimte, maar ipv een interval tussen twee punten in de ruimte gaat het hier over een interval tussen twee punten op de tijdsas. De bijbehorende tijdsduur is de temporele afstand tussen die twee punten (vergelijkbaar met de afstand tussen twee punten in de ruimte). OPMERKING: Meer info in <a href=\"https://iso.org/standard/26013.html\">ISO 19108 Geographic Information - Temporal schema</a>. Substitutie door een eenvoudiger equivalent bv time:Interval uit de <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> is aanbevolen."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:70d6f802eec03bf220ff3ca7875f73bdf9080077ef8a578b75ffbdd63ede75e9",
+      "@type": "Datatype",
+      "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Instant",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Moment"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Moment"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Moment"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een 0-dimensionele geometrische primitieve in de tijd."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Vergelijkbaar met een Punt in de ruimte, maar ipv een positie in een ruimtelijk referentiesysteem gaat het hier over een punt op de tijdsas. OPMERKING: Meer info in <a href=\"https://iso.org/standard/26013.html\">ISO 19108 Geographic Information - Temporal schema</a>. Substitutie door een eenvoudiger equivalent bv time:Instant uit de <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> is aanbevolen."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:abed29c313575624489e10887cd47ba4aacfd1f1f6b9da52739b6af9d4e426f9",
+      "@type": "Datatype",
+      "assignedURI": "http://www.opengis.net/ont/sf#Curve",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Curve"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Curve"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Curve"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een 1-dimensionele geometrische primitieve."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft dus een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:87f67117aa830380b1907b8c88542fbf0f9fd5d4412c659363482e46be4f93ae",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Geometrie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Geometrie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Vorm- en positiekenmerken van een object."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:eb2292d7dd344be33d5dde7b3498265adfbc449de959ec3ad4c0dbb3365f54fa",
+      "@type": "Datatype",
+      "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#LI_Lineage",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Herkomst"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Herkomst"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Herkomst"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Informatie over de bewerkingen die op de data plaatsvonden of de brondata die werd gebruikt bij het produceren van de data."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "OPMERKING: Meer info over dit datatype in <a href=\"https://iso.org/standard/26013.html\">ISO 19115 Geographic Information - Metadata</a>."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:7c18175df26e9d47a794df3abaecc6ec35f573884c0c971c23c43ab25ba17475",
+      "@type": "Datatype",
+      "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_PositionalAccuracy",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "PositioneleNauwkeurigheid"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "PositioneleNauwkeurigheid"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "PositioneleNauwkeurigheid"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Nauwkeurigheid van de positie van de data in een ruimtelijk referentiesysteem."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Mate waarin de coördinaten van de gegeven absolute, relatieve of pixel-positie overeenstemmen met de werkelijke coördinaten. Bv percentage positionele fouten groter dan 1 meter. OPMERKING: Meer info over deze klasse in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/datakwaliteit/\">OSLO Datakwaliteit</a>."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b57de249b37c0de681e1078697f10e5629f212bb3025b3946220720583cda3d3",
+      "@type": "Datatype",
+      "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "TemporeleEntiteit"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "TemporeleEntiteit"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "TemporeleEntiteit"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Abstracte klasse voor temporele objecten."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Die temporele objecten zijn temporele geometrische primitieven zoals Moment of Periode. Of het zijn composieten van temporele primitieven, bv om de geschiedenis van een fenomeen weer te geven (bv de opeenvolgende Periodes dat het fenomeen zich voordeed). Te gebruiken wanneer bvb beide temporele geometrische primitieven mogelijk zijn. OPMERKING: Meer info in <a href=\"https://iso.org/standard/26013.html\">ISO 19108 Geographic Information - Temporal schema</a>. Substitutie door een eenvoudiger equivalent bv time:TemporalEntity uit de <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> is aanbevolen."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5f3653b9cbfa0c903ccb29b79b4833b70e3b8e1e765b98566e74da8c1661286e",
+      "@type": "Datatype",
+      "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "BenoemdeWaarde"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "BenoemdeWaarde"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "BenoemdeWaarde"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Generieke, zwak getypeerde waarde."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "In essentie een waarde en de naam vh type van de waarde. In deze context gaat het over zaken zoals operator, omgevingstemperatuur etc."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:a2bde6adba89ee4234a9798c8c85c2891f7d771209d32fa827df0aa1de32e919",
+      "@type": "Datatype",
+      "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Kwaliteitselement"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Kwaliteitselement"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Kwaliteitselement"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Component van datakwaliteit."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Beschrijft een bepaald aspect van de  datakwaliteit, bvb PositioneleNauwkeurigheid, LogischeConsistentie, Volledigheid etc. OPMERKING: Meer info over deze klasse in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/datakwaliteit/\">OSLO Datakwaliteit</a>."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:d69906cfb7cda969c5c265ad0e6ef71ee4685afff42c070e250bb2ff9415bddc",
+      "@type": "Datatype",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "GeometrieWaardepaar"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "GeometrieWaardepaar"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Element van een DiscreetRuimtelijkBereik."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Een GeometrieWaardepaar beschrijft de geometrie van een stuk van de ruimte (Punt, Lijn, Vlak etc.) of de tijd (Moment, Periode etc.) en de waarde van een continu variërend fenomeen die men voor dat stuk heeft vastgesteld. Bv de waarde van een pixel in een luchtfoto of de temperatuur in een meetstation op een bepaald tijdstip."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:062417877fe9a84dd88870daa2e2c959513d91fca8076b211050037272140a90",
+      "@type": "Datatype",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_PointValuePair",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "PuntWaardepaar"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "PuntWaardepaar"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Waarde van een punt."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1b36094de4f8b0dac2bcdf993ad1bd6f84f2f5d3c509b6bc1954e35cded4ff03",
+      "@type": "Datatype",
+      "assignedURI": "http://www.opengis.net/ont/geosparql#Surface",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Vlak"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Vlak"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Vlak"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een 2-dimensionele geometrische primitieve."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Vlak zelf wordt gevormd heb je minimaal twee coördinaten nodig om een willekeurig punt aan te duiden, bv de lengtegraad en de breedtegraad als het Vlak een bol is. Een Vlak heeft een lengte en een breedte. Analoog aan de polylijn (di een Curve onstaan door interpolatie tussen twee of meer punten) bestaan er ook in 2 dimensies vormen die gedefinieerd worden door sets van controlepunten, bv een cirkel wordt gedefinieerd door zijn middelpunt (en de straal). Een Vlak wordt begrensd door Curves, bv in het eenvoudigste geval door 1 gesloten Curve. Is die Curve een Lijnstring dan noemen we het bekomen Vlak een Polygoon. Meedere elementaire Polygonen aaneen (een zgn 3Dmesh) vormen eveneens een Vlak, bv om een oppervlak in de 3-dimensionale ruimte voor te stellen (bv om reliëf te beschrijven). Als de samenstellende vlakken driehoekig zijn spreken we van een TIN (Triangulated Irregular Network). Behalve een buitengrens hebben Vlakken soms ook binnengrenzen die dan gaten in het Vlak vormen. Om binnen- en buitengrenzen van elkaar te kunnen onderscheiden bij het vormen van een Vlak geldt doorgaans de afspraak dat het Vlak links ligt van de Curves waardoor het wordt begrensd."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5bf3ac9409fc3c91515e08c3e5524ccd394bcc91da6890f8576ef8ddf2bddce6",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Identificator"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Identificator"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Identificator"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Informatie gebruikt om een object uniek te identificeren."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:6586a948418b0300c08cc22ff842dca475060f6229b0ad3db5506b943e33c0a5",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/ns/prov#Location",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Locatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Locatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Aanduiding van een geografische positie, dmv coördinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio of verwijzing naar een adres."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Te gebruiken als de manier waarop de geografische positie wordt aangeduid pas zal worden vastgelegd bij implementatie. Is deze manier nu al gekend dan moet dit datatype gesubstitueerd worden door klassen of datatypes zoals Geometrie, GeografischeNaam, Adres etc. OPMERKING: Meer info over deze klassen/datatypes in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/\">OSLO Generiek - basis</a>."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5293e6d6b601cb0b75af8ecf180b98a5dce5803473804f08c3a01a45cf1fdba1",
+      "@type": "Datatype",
+      "assignedURI": "http://www.opengis.net/ont/sf#Point",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Punt"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Punt"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een 0-dimensionele geometrische primitieve."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:d124e838c02036cb9f534e4a1fe907edf0b05bf7e547aec87e57513e3185a007",
+      "@type": "Datatype",
+      "assignedURI": "http://www.opengis.net/ont/gml#Solid",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "3Dobject"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "3Dobject"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "3Dobject"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een 3-dimensionele geometrische primitieve."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. Om een willekeurig punt aan te duiden in de ruimte die het 3Dobject inneemt zijn 3 coördinaten nodig. Een 3DObject heeft daarom lengte, breedte en diepte. Analoog aan de polylijn (di een Curve onstaan door interpolatie tussen twee of meer punten) bestaan er ook in 3 dimensies vormen die gedefinieerd worden door sets van controlepunten. Een 3DObject wordt begrensd door meerdere Vlakken (bv kubus) of door 1 gesloten Vlak (bv bol). Bijkomende grensvlakken vormen mogelijks holtes in het 3DObject. Om binnen- en buitengrenzen te kunnen onderscheiden geldt doorgaans de afspraak dat het 3DObject links ligt van het Vlak waardoor het wordt begrensd."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b843b5dfc41ad5f08f09986a6000b3cd91312c6578a3c2287ef8c3bfca32cdee",
+      "@type": "Datatype",
+      "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Opmeting"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Opmeting"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het bepalen van de precieze omvang van iets door het te meten."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e07edb7e682374b803a712ac4ea72d313f37d3cc52d23c2836962e9959e87539",
+      "@type": "Datatype",
+      "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Dekking",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Dekking"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Dekking"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Gebied of periode waarop de data betrekking heeft"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Voorbeelden van een gebied: een jurisdictie of adminstratieve eenheid of een plaatsnaam of coördinaten. Voorbeelden van een periode: een benoemd tijdperk of datum of datumbereik. OPMERKING: Te substitueren door de klasse of het datatype dat van toepassing, bv Locatie in het geval van een gebied en Periode voor een tijdsaanduiding."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1607006999",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+      "diagramLabel": [
+        {
+          "@value": "Integer"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:2049156247",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "diagramLabel": [
+        {
+          "@value": "Literal"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:487667944",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+      "diagramLabel": [
+        {
+          "@value": "String"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:499715870",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "diagramLabel": [
+        {
+          "@value": "DateTime"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:286333439",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+      "diagramLabel": [
+        {
+          "@value": "Boolean"
+        }
+      ]
+    }
+  ],
+  "referencedEntities": [
+    {
+      "@id": "urn:oslo-toolchain:5c9c7ff9960d5cdb1ef0e0c003cf3260d310aff3690c09bec81b74a4c5a2b3f0",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_Coverage",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bereik"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bereik"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Variatie van een fenomeen in ruimte of tijd."
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Variatie van een fenomeen in ruimte of tijd."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Voor situaties waarbij een fenomeen geen constante als waarde oplevert (bvb kleur), maar eerder hoe het fenomeen varieert in functie van locatie of tijd (bvb de temperatuur binnen een bepaald gebied of binnen een bepaalde periode)."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:973f246ea8e9fe8a5815f2d1a3ec9e79cdd172ce710655ca740bec74ad656736",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "http://purl.org/dc/elements/1.1/coverage",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Dekking"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Dekking"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Gebied of periode waarop de data betrekking heeft"
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Voorbeelden van een gebied: een jurisdictie of adminstratieve eenheid of een plaatsnaam of coördinaten. Voorbeelden van een periode: een benoemd tijdperk of datum of datumbereik. OPMERKING: Te substitueren door de klasse of het datatype dat van toepassing, bv Locatie in het geval van een gebied en Periode voor een tijdsaanduiding."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:7c4bf16d4f75d05b21a8f7f90de546e50c1041323c38022f51ad0ee16bedaabc",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "http://www.w3.org/ns/sosa/Sampling",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonstering"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bemonstering"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bemonstering"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Handeling waarbij een bepaalde Bemonsteringsprocedure wordt uitgevoerd om één of meer Bemonsteringsobjecten te bekomen of waarbij deze worden bewerkt."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bv het breken van een rotsmonster, het graven van een profielput, het verdelen van een site in kwadranten, bloed trekken bij een patient, een meetpunt opzetten voor bv milieumonitoring, een luchtfoto nemen, een bodemmonster zeven, een deelpopulatie selecteren, een boorkern bemonsteren etc."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:bf5b0bff98b6cc4074abc127ea8352c4253a3ed57fbd37cee7e28d52b334194a",
+      "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_Domainobject",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Domeinobject"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Domeinobject"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Stuk van ruimte of tijd waarvoor attribuutwaarden zijn bepaald."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "In praktijk één of meerdere geometrieën of punten in de tijd waarvoor een  waarde is bepaald. Bv de polygoon of polygonen met hetzelfde landgebruik. OPMERKING: Enkel de ruimtelijkeSamenstelling van het Domeinobject is hier momenteel weergegeven, niet de temporeleSamenstelling."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    }
+  ]
+}
