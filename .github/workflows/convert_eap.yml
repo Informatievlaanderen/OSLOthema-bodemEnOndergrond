@@ -140,12 +140,10 @@ jobs:
           path: build/
 
   build-and-deploy:
+    needs: convert-eap-and-generate-artifacts
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
