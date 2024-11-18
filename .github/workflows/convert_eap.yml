@@ -31,7 +31,7 @@ jobs:
           npm install @oslo-flanders/json-webuniversum-generator
           npm install @oslo-flanders/html-generator
           npm install jsonfile
-          npm install jonsld
+          npm install jsonld
           npm install nunjucks
 
       # Fetch the required keys from the configuration file
