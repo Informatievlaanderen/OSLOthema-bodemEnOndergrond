@@ -8,7 +8,7 @@ on:
         required: true
 
 jobs:
-  convert-eap:
+  convert-eap-and-generate-artifacts:
     # The type of runner that the job will run on
     runs-on: ${{ matrix.os }}
     strategy:
@@ -122,25 +122,31 @@ jobs:
             exit 1
           fi
 
-      # Upload the artifacts to the gh-pages branch
+      # bundle the artifacts
+      - name: Bundle the artifacts
+        run: |
+          mkdir build
+          mv report.jsonld build/
+          mv stakeholders.jsonld build/
+          mv webuniversum-config.json build/
+          mv index.html build/
+          mv metadata.json build/
 
-      - name: Checkout the repository
+      # Upload the artifacts
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: artifacts
+          path: build/
+
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Switch to the gh-pages branch
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -b gh-pages
-
-      - name: Copy artifacts
-        run: |
-          ls
-
-      - name: Commit and push artifacts
-        run: |
-          git add report.jsonld stakeholders.jsonld webuniversum-config.json index.html metadata.json
-          git commit -m "Upload artifacts for deployment"
-          git push origin gh-pages --force
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
