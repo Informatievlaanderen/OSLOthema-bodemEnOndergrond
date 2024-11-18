@@ -82,10 +82,10 @@ jobs:
           fi
 
       # Run the json-webuniversum-generator
-      - name: Run oslo-json-webuniversum-generator
+      - name: Run oslo-webuniversum-json-generator
         id: run-json-webuniversum-generator
         run: |
-          npx oslo-json-webuniversum-generator --input report.jsonld --language nl --publicationEnvironment https://data.vlaanderen.be --output webuniversum-config.json 2>&1 | tee webuniversum.log
+          npx oslo-webuniversum-json-generator --input report.jsonld --language nl --publicationEnvironment https://data.vlaanderen.be --output webuniversum-config.json 2>&1 | tee webuniversum.log
           cat webuniversum.log
           cat webuniversum.log >> "$GITHUB_STEP_SUMMARY"
           if grep -i "error" webuniversum.log; then
