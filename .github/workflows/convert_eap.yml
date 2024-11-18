@@ -97,6 +97,7 @@ jobs:
       # Create metadata from json
       - name: Create metadata.json from webuniversum-config.json
         run: |
+          curl -o https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/linkeddataparser3.js
           curl -o html-metadata-generator.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
           node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r / -u data.vlaanderen.be -o metadata.json -p "OSLO" 2>&1 | tee metadata.log
           cat metadata.log
