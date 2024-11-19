@@ -132,17 +132,17 @@ jobs:
       #       exit 1
       #     fi
 
-      # Run the jsonld-context-generator
-      - name: Run oslo-jsonld-context-generator
-        id: run-jsonld-context-generator
-        run: |
-          npx oslo-jsonld-context-generator --input report.jsonld --output ${{ steps.read-config.outputs.name }}.jsonld --language nl 2>&1 | tee context.log
-          cat context.log
-          cat context.log >> "$GITHUB_STEP_SUMMARY"
-          if grep -i "error" context.log; then
-            echo "Error found in jsonld-context-generator workflow output"
-            exit 1
-          fi
+      # # Run the jsonld-context-generator
+      # - name: Run oslo-jsonld-context-generator
+      #   id: run-jsonld-context-generator
+      #   run: |
+      #     npx oslo-jsonld-context-generator --input report.jsonld --output ${{ steps.read-config.outputs.name }}.jsonld --language nl 2>&1 | tee context.log
+      #     cat context.log
+      #     cat context.log >> "$GITHUB_STEP_SUMMARY"
+      #     if grep -i "error" context.log; then
+      #       echo "Error found in jsonld-context-generator workflow output"
+      #       exit 1
+      #     fi
 
       # run the html-generator
       - name: Run oslo-html-generator
@@ -176,6 +176,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
+          retention-days: 1 # Keep artifacts for 1 day only. Change this value to keep the artifacts for a longer period if needed.
           name: build-artifacts
           path: build/
 
