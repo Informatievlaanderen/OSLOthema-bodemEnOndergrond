@@ -168,8 +168,8 @@ jobs:
           mv webuniversum-config.json build/
           mv index.html build/
           mv metadata.json build/
-          mv ${{ steps.read-config.outputs.name }}-SHACL.ttl build/shacl/
-          mv ${{ steps.read-config.outputs.name }}.jsonld build/context/
+          # mv ${{ steps.read-config.outputs.name }}-SHACL.ttl build/shacl/
+          # mv ${{ steps.read-config.outputs.name }}.jsonld build/context/
           mv ${{ steps.read-config.outputs.site }}/overview.jpg build/html/
 
       # Upload the artifacts
