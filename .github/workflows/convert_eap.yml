@@ -120,17 +120,17 @@ jobs:
             exit 1
           fi
 
-      # Run the shacl-template-generator
-      - name: Run oslo-shacl-template-generator
-        id: run-shacl-template-generator
-        run: |
-          npx oslo-shacl-template-generator --input report.jsonld --outputFormat text/turtle --output ${{ steps.read-config.outputs.name }}-SHACL.ttl --language nl 2>&1 | tee shacl-template.log
-          cat shacl-template.log
-          cat shacl-template.log >> "$GITHUB_STEP_SUMMARY"
-          if grep -i "error" shacl-template.log; then
-            echo "Error found in shacl-template-generator workflow output"
-            exit 1
-          fi
+      # # Run the shacl-template-generator
+      # - name: Run oslo-shacl-template-generator
+      #   id: run-shacl-template-generator
+      #   run: |
+      #     npx oslo-shacl-template-generator --input report.jsonld --outputFormat text/turtle --output ${{ steps.read-config.outputs.name }}-SHACL.ttl --language nl 2>&1 | tee shacl-template.log
+      #     cat shacl-template.log
+      #     cat shacl-template.log >> "$GITHUB_STEP_SUMMARY"
+      #     if grep -i "error" shacl-template.log; then
+      #       echo "Error found in shacl-template-generator workflow output"
+      #       exit 1
+      #     fi
 
       # Run the jsonld-context-generator
       - name: Run oslo-jsonld-context-generator
