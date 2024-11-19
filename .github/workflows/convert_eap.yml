@@ -30,6 +30,8 @@ jobs:
           npm install @oslo-flanders/stakeholders-converter
           npm install @oslo-flanders/json-webuniversum-generator
           npm install @oslo-flanders/html-generator
+          npm install @oslo-flanders/shacl-template-generator
+          npm install @oslo-flanders/jsonld-context-generator
           npm install jsonfile
           npm install jsonld
           npm install nunjucks
@@ -111,10 +113,34 @@ jobs:
           curl -o html-metadata-generator.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
           curl -o uris.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
 
-          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r ./ -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
+          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r . -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
           cat metadata.log >> "$GITHUB_STEP_SUMMARY"
           if grep -i "error" metadata.log; then
             echo "Error found in metadata-generator workflow output"
+            exit 1
+          fi
+
+      # Run the shacl-template-generator
+      - name: Run oslo-shacl-template-generator
+        id: run-shacl-template-generator
+        run: |
+          npx oslo-shacl-template-generator --input report.jsonld --output ${{ steps.read-config.outputs.name }}-SHACL.ttl 2>&1 | tee shacl-template.log
+          cat shacl-template.log
+          cat shacl-template.log >> "$GITHUB_STEP_SUMMARY"
+          if grep -i "error" shacl-template.log; then
+            echo "Error found in shacl-template-generator workflow output"
+            exit 1
+          fi
+
+      # Run the jsonld-context-generator
+      - name: Run oslo-jsonld-context-generator
+        id: run-jsonld-context-generator
+        run: |
+          npx oslo-jsonld-context-generator --input report.jsonld --output ${{ steps.read-config.outputs.name }}.jsonld 2>&1 | tee context.log
+          cat context.log
+          cat context.log >> "$GITHUB_STEP_SUMMARY"
+          if grep -i "error" context.log; then
+            echo "Error found in jsonld-context-generator workflow output"
             exit 1
           fi
 
@@ -135,11 +161,15 @@ jobs:
         run: |
           mkdir build
           mkdir -p build/html
+          mkdir -p build/shacl
+          mkdir -p build/context
           mv report.jsonld build/
           mv stakeholders.json build/
           mv webuniversum-config.json build/
           mv index.html build/
           mv metadata.json build/
+          mv ${{ steps.read-config.outputs.name }}-SHACL.ttl build/shacl/
+          mv ${{ steps.read-config.outputs.name }}.jsonld build/context/
           mv ${{ steps.read-config.outputs.site }}/overview.jpg build/html/
 
       # Upload the artifacts
