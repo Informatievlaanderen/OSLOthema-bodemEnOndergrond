@@ -110,7 +110,7 @@ jobs:
       # Create metadata from json
       - name: Create metadata.json from webuniversum-config.json
         run: |
-          metadata-generator -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r . -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
+          npx metadata-generator -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r . -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
           cat metadata.log >> "$GITHUB_STEP_SUMMARY"
           if grep -i "error" metadata.log; then
             echo "Error found in metadata-generator workflow output"
