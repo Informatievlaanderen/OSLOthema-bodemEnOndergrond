@@ -32,6 +32,7 @@ jobs:
           npm install @oslo-flanders/html-generator
           npm install @oslo-flanders/shacl-template-generator
           npm install @oslo-flanders/jsonld-context-generator
+          npm install @oslo-flanders/metadata-generator
           npm install jsonfile
           npm install jsonld
           npm install nunjucks
@@ -109,11 +110,7 @@ jobs:
       # Create metadata from json
       - name: Create metadata.json from webuniversum-config.json
         run: |
-          curl -o linkeddataparser3.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/linkeddataparser3.js
-          curl -o html-metadata-generator.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
-          curl -o uris.js https://raw.githubusercontent.com/Informatievlaanderen/OSLO-SpecificationGenerator/refs/heads/dev4.0/html-metadata-generator.js
-
-          node html-metadata-generator.js -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r . -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
+          metadata-generator -i report.jsonld -g nl -m nl -h data.vlaanderen.be -r . -u data.vlaanderen.be -o metadata.json -p "OSLO metadata generator " 2>&1 | tee metadata.log
           cat metadata.log >> "$GITHUB_STEP_SUMMARY"
           if grep -i "error" metadata.log; then
             echo "Error found in metadata-generator workflow output"
