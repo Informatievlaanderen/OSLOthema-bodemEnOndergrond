@@ -57,3 +57,10 @@ Aanpassingen AP BO_Interpretaties versie 2023-04-01:
 - voeg een definitie toe aan Opmetingmethode
 
 Todo bij een rollout toolchain 4.0: het verwijderen van de verborgen relatie Intentie. Deze komt niet in het model voor maar zit achterliggend in de file.
+
+2024-12-05
+- fix definitie eigenschap meetwaardepaar van klasse Fractiemeting
+- geassocieerd kenmerk + verwijdering object, observatie, bemonsteringscurve  van hulppakket
+- Meetwaardepaar is van typologie veranderd (klasse -> datatype): dat zorgt voor een dubbel in de html dev 4.0
+
+
