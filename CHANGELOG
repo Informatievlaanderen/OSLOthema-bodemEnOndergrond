@@ -62,5 +62,6 @@ Todo bij een rollout toolchain 4.0: het verwijderen van de verborgen relatie Int
 - fix definitie eigenschap meetwaardepaar van klasse Fractiemeting
 - geassocieerd kenmerk + verwijdering object, observatie, bemonsteringscurve  van hulppakket
 - Meetwaardepaar is van typologie veranderd (klasse -> datatype): dat zorgt voor een dubbel in de html dev 4.0
+- eigenschap meetreeksresultaat en fractiemetingresultaat worden door toolchain 4.0 niet goed weergegeven.
 
 
