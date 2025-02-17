@@ -72,3 +72,4 @@ Kandidaatstandaard observaties:
  - verwijdering associatie informtatie intentie (was enkel zichtbaar op diagramma)
  - zet package tag OSLO-BO_OBservaties voor bemonsterdObject eigenschap
  - verwijder enkele klasses uit Hulppakket van diagramma om dubbele voorkomen te verminderen.
+ - verwijder hidden geassocieerdschuifweerstandsproef
