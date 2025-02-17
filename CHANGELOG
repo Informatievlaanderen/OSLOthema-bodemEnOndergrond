@@ -65,3 +65,10 @@ Todo bij een rollout toolchain 4.0: het verwijderen van de verborgen relatie Int
 - eigenschap meetreeksresultaat en fractiemetingresultaat worden door toolchain 4.0 niet goed weergegeven.
 
 
+2025-02-17
+- finaliseer kandidaatstandaarden 2024-10-01
+ 
+Kandidaatstandaard observaties:
+ - verwijdering associatie informtatie intentie (was enkel zichtbaar op diagramma)
+ - zet package tag OSLO-BO_OBservaties voor bemonsterdObject eigenschap
+ - verwijder enkele klasses uit Hulppakket van diagramma om dubbele voorkomen te verminderen.
