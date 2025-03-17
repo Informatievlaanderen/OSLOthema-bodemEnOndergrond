@@ -3,7 +3,7 @@
         "name": "grondwatermeetnet",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
-        "diagram": "NEW_OSLO-Grondwatermeetnet",
+        "diagram": "OSLO-Grondwatermeetnet",
         "template": "grondwatermeetnet-voc.j2",
         "title": "Grondwatermeetnet (Vocabularium)",
         "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
