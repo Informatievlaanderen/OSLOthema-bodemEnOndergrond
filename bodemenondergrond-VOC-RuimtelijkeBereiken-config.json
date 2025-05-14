@@ -2,7 +2,7 @@
   "title": "Vocabularium Ruimtelijke Bereiken",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "ruimtelijkebereiken-voc.md",
   "responsibleOrganisation": [
     {
@@ -22,9 +22,9 @@
       "name": "Applicatieprofiel Ruimtelijke bereiken",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/ruimtelijke-bereiken/"
     },
-        {
-      "name":"Github",
-      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    {
+      "name": "Github",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
