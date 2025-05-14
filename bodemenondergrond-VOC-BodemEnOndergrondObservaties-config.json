@@ -2,7 +2,7 @@
   "title": "Vocabularium Bodem en Ondergrond Observaties",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "bodemEnOndergrondObservaties-voc.md",
   "responsibleOrganisation": [
     {
@@ -18,13 +18,13 @@
     }
   ],
   "documentation": [
-        {
+    {
       "name": "Applicatieprofiel Bodem en Ondergrond Observaties",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties/"
     },
-        {
-      "name":"Github",
-      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    {
+      "name": "Github",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
