@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Ruimtelijke Bereiken",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "ruimtelijkebereiken-ap.md",
   "responsibleOrganisation": [
     {
@@ -22,13 +22,13 @@
       "name": "Vocabularium Ruimtelijke bereiken",
       "resourceReference": "https://data.vlaanderen.be/ns/ruimtelijke-bereiken"
     },
-   {
-     "name":"ISO 19103 Geographic information — Schema for coverage geometry and functions.",
-     "resourceReference":"https://www.iso.org/standard/40121.html"
-   },
-        {
-      "name":"Github",
-      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    {
+      "name": "ISO 19103 Geographic information — Schema for coverage geometry and functions.",
+      "resourceReference": "https://www.iso.org/standard/40121.html"
+    },
+    {
+      "name": "Github",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
