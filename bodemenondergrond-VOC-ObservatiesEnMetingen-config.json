@@ -2,7 +2,7 @@
   "title": "Vocabularium Observaties en Metingen",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "observatiesEnMetingen-voc.md",
   "responsibleOrganisation": [
     {
@@ -18,13 +18,13 @@
     }
   ],
   "documentation": [
-  {
-  "name": "Applicatieprofiel Observaties en Metingen",
-  "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/"
-  },
-        {
-      "name":"Github",
-      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    {
+      "name": "Applicatieprofiel Observaties en Metingen",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/"
+    },
+    {
+      "name": "Github",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
