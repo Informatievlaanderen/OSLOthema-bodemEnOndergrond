@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Grondboringen",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "grondboringen-ap.md",
   "responsibleOrganisation": [
     {
@@ -18,7 +18,7 @@
     }
   ],
   "documentation": [
-        {
+    {
       "name": "Vocabularium Grondboringen",
       "resourceReference": "https://data.vlaanderen.be/ns/grondboringen/"
     },
@@ -26,9 +26,9 @@
       "name": "Applicatieprofiel Sensoren en Bemonstering",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
     },
-        {
-      "name":"Github",
-      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    {
+      "name": "Github",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
