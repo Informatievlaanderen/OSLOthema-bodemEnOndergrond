@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Bodem en Ondergrond Observaties",
   "category": "Applicatieprofielen",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "bodemEnOndergrondObservaties-ap.md",
   "responsibleOrganisation": [
     {
@@ -18,7 +18,7 @@
     }
   ],
   "documentation": [
-       {
+    {
       "name": "Vocabularium Bodem en Ondergrond Observaties",
       "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/observaties"
     },
@@ -26,9 +26,9 @@
       "name": "Applicatieprofiel Sensoren en Bemonstering",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
     },
-        {
-      "name":"Github",
-      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    {
+      "name": "Github",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
