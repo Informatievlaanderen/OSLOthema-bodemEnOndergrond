@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Bodem",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "bodemenondergrond.md",
   "responsibleOrganisation": [
     {
