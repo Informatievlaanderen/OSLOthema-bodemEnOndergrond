@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Sensoren en Bemonstering",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "sensorenEnBemonstering-ap.md",
   "responsibleOrganisation": [
     {
@@ -18,25 +18,25 @@
     }
   ],
   "documentation": [
-        {
+    {
       "name": "Vocabularium Sensoren en Bemonstering",
       "resourceReference": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering/"
     },
     {
-      "name":"Applicatieprofiel Observaties en Metingen",
-      "resourceReference":"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen"
+      "name": "Applicatieprofiel Observaties en Metingen",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen"
     },
     {
-      "name":"W3C Semantic Sensor Network Ontology",
-      "resourceReference":"https://www.w3.org/TR/vocab-ssn/"
+      "name": "W3C Semantic Sensor Network Ontology",
+      "resourceReference": "https://www.w3.org/TR/vocab-ssn/"
     },
     {
-      "name":"W3C Semantic Sensor Network Ontology Extensions",
-      "resourceReference":"https://www.w3.org/TR/vocab-ssn-ext/"
+      "name": "W3C Semantic Sensor Network Ontology Extensions",
+      "resourceReference": "https://www.w3.org/TR/vocab-ssn-ext/"
     },
-        {
-      "name":"Github",
-      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    {
+      "name": "Github",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
