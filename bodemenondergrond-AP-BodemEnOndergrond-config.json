@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Bodem en Ondergrond",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "kandidaat-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "bodemEnOndergrond-ap.md",
   "responsibleOrganisation": [
     {
