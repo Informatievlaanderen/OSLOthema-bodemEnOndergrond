@@ -2,7 +2,7 @@
   "title": "Vocabularium Sensoren en Bemonstering",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "standaard-in-ontwikkeling",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "sensorenEnBemonstering-voc.md",
   "responsibleOrganisation": [
     {
@@ -22,9 +22,9 @@
       "name": "Applicatieprofiel Sensoren en Bemonstering",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/"
     },
-        {
-      "name":"Github",
-      "resourceReference":"https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
+    {
+      "name": "Github",
+      "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond"
     }
   ],
   "reports": [
