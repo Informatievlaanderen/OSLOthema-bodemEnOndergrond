@@ -2,7 +2,7 @@
   "title": "Vocabularia en Applicatieprofielen Bodem en Ondergrond",
   "category": "Vocabularium & applicatieprofielen",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "kandidaat-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "bodemenondergrond.md",
   "responsibleOrganisation": [
     {
