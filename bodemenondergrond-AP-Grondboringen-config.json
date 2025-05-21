@@ -1,6 +1,6 @@
 {
   "title": "Applicatieprofiel Grondboringen",
-  "category": "Applicatieprofiel",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "grondboringen-ap.md",
