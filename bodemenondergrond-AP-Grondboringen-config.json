@@ -1,7 +1,7 @@
 {
   "title": "Applicatieprofiel Grondboringen",
   "category": "Applicatieprofiel",
-  "usage": "Aanbevolen (vrijwillig)",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "grondboringen-ap.md",
   "responsibleOrganisation": [
