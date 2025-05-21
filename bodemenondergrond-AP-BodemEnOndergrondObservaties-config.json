@@ -1,6 +1,6 @@
 {
   "title": "Applicatieprofiel Bodem en Ondergrond Observaties",
-  "category": "Applicatieprofielen",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "descriptionFileName": "bodemEnOndergrondObservaties-ap.md",
