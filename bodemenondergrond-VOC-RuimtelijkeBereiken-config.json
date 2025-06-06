@@ -2,7 +2,7 @@
   "title": "Vocabularium Ruimtelijke Bereiken",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ruimtelijkebereiken-voc.md",
   "responsibleOrganisation": [
     {
@@ -92,7 +92,7 @@
     }
   ],
   "dateOfRegistration": "2020-06-18",
-  "dateOfAcknowledgementByWorkingGroup": "2024-09-05",
+  "dateOfAcknowledgementByWorkingGroup": "2024-11-07",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-bodemEnOndergrond",
   "datePublicReviewStart": "",
