@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Vocabularium Sonderingen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
     }
   ],
   "documentation": [
@@ -60,39 +60,39 @@
     },
     {
       "name": "Vocabularium Bodem",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
     },
     {
       "name": "Vocabularium Bodem en Ondergrond",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
     },
     {
       "name": "Vocabularium Bodem en Ondergrond Interpretaties",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
     },
     {
       "name": "Vocabularium Bodem en Ondergrond Observaties",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
     },
     {
       "name": "Vocabularium Grondboringen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
     },
     {
       "name": "Vocabularium Grondboringen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2021-08-01"
     },
     {
       "name": "Vocabularium Observaties en Metingen",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2022-04-28"
+      "resourceReference": "https://data.vlaanderen.be/ns/observaties-en-metingen/kandidaatstandaard/2022-04-28"
     },
     {
       "name": "Vocabularium Ruimtelijke bereiken",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
     },
     {
       "name": "Vocabularium Sensoren en Bemonstering",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
+      "resourceReference": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
     }
   ],
   "reports": [

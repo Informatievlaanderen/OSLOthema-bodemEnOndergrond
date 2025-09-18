@@ -14,7 +14,7 @@
   "specificationDocuments": [
     {
       "name": "Vocabularium Bodem",
-      "resourceReference": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
+      "resourceReference": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
     }
   ],
   "documentation": [
