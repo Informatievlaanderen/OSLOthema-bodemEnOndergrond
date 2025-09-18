@@ -1,6 +1,6 @@
 [
   {
-    "name": "ap-ruimtelijke-bereiken",
+    "name": "ruimtelijke-bereiken",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP-4.EAP",
     "diagram": "OSLO-RuimtelijkeBereiken",

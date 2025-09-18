@@ -1,6 +1,6 @@
 [
   {
-    "name": "ap-sonderingen",
+    "name": "sonderingen",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "NEW OSLO-Sonderingen",
@@ -14,5 +14,5 @@
     "site": "site-skeleton/OSLO-Sonderingen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/applicatieprofiel-sonderingen/index.html"
-  }  
+  }
 ]

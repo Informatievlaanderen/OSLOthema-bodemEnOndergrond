@@ -1,6 +1,6 @@
 [
   {
-    "name": "ap-grondboringen",
+    "name": "grondboringen",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "OSLO-Grondboringen-Bemonstering",

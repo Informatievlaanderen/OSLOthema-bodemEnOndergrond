@@ -1,6 +1,6 @@
 [
    {
-    "name": "ap-bodem-en-ondergrond",
+    "name": "bodem-en-ondergrond",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "OSLO-BodemEnOndergrond",

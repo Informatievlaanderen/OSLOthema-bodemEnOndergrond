@@ -1,6 +1,6 @@
 [
   {
-    "name": "ap-grondwatermeetnet",
+    "name": "grondwatermeetnet",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "NEW OSLO-Grondwatermeetnet",

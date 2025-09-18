@@ -1,6 +1,6 @@
 [
 {
-        "name": "bo-interpretaties",
+        "name": "interpretaties",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "OSLO-BO_Interpretaties",
@@ -13,5 +13,5 @@
         "contributors-column": "MijnKolom",
         "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/vocabularium-bodem-en-ondergrond-interpretaties/index.html"
-      }  
+      }
 ]

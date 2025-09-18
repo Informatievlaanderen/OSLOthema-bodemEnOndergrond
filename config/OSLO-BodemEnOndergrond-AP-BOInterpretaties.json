@@ -1,6 +1,6 @@
 [
 {
-    "name": "ap-bo-interpretaties",
+    "name": "interpretaties",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "OSLO-BO_Interpretaties",
@@ -14,5 +14,5 @@
     "site": "site-skeleton/OSLO-BO_Interpretaties",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/applicatieprofiel-bodem-en-ondergrond-interpretaties/index.html"
-  }  
+  }
 ]

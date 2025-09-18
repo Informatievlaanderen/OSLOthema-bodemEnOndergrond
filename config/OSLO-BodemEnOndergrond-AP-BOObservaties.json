@@ -1,6 +1,6 @@
 [
     {
-    "name": "ap-bo-observaties",
+    "name": "observaties",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "OSLO-BO_Observaties",
