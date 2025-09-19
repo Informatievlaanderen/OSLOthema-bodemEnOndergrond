@@ -1,6 +1,7 @@
 [
   {
         "name": "ruimtelijke-bereiken",
+	"prefix": "bodem-en-ondergrond",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-VOC.EAP",
         "diagram": "OSLO-RuimtelijkeBereiken",
@@ -13,5 +14,5 @@
         "contributors-column": "MijnKolom",
         "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/vocabularium-ruimtelijke-bereiken/index.html"
-    }  
+    }
 ]

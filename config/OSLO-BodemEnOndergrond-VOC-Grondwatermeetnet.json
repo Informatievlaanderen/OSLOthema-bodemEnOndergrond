@@ -1,6 +1,7 @@
 [
    {
         "name": "grondwatermeetnet",
+	"prefix": "bodem-en-ondergrond",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "NEW OSLO-Grondwatermeetnet",
@@ -13,5 +14,5 @@
         "contributors-column": "MijnKolom",
         "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/vocabularium-grondwatermeetnet/index.html"
-      }  
+      }
 ]

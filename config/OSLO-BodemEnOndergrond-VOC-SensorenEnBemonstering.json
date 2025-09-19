@@ -1,6 +1,7 @@
 [
  {
         "name": "sensoren-en-bemonstering",
+	"prefix": "bodem-en-ondergrond",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-VOC.EAP",
         "diagram": "OSLO-SensorenEnBemonstering",
@@ -13,5 +14,5 @@
         "contributors-column": "MijnKolom",
         "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/vocabularium-sensoren-en-bemonstering/index.html"
-      } 
+      }
 ]

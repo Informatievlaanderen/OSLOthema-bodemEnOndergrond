@@ -1,6 +1,7 @@
 [
   {
     "name": "sonderingen",
+    "prefix": "bodem-en-ondergrond",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
     "diagram": "NEW OSLO-Sonderingen",

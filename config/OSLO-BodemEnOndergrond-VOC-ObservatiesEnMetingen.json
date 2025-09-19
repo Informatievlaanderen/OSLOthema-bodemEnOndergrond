@@ -1,6 +1,7 @@
 [
   {
       "name": "observaties-en-metingen",
+      "prefix": "bodem-en-ondergrond",
       "type": "voc",
       "eap": "OSLO-BodemEnOndergrond-VOC.EAP",
       "diagram": "OSLO-ObservatiesEnMetingen",
@@ -13,5 +14,5 @@
       "contributors-column": "MijnKolom",
       "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/issues",
       "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/vocabularium-observaties-en-metingen/index.html"
-    }  
+    }
 ]

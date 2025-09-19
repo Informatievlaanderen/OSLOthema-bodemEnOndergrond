@@ -1,6 +1,7 @@
 [
       {
         "name": "sonderingen",
+	"prefix": "bodem-en-ondergrond",
         "type": "voc",
         "eap": "OSLO-BodemEnOndergrond-AP.EAP",
         "diagram": "NEW OSLO-Sonderingen",
@@ -15,4 +16,3 @@
         "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/vocabularium-sonderingen/index.html"
       }
   ]
-
