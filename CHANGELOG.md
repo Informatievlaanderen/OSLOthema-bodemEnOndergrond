@@ -15,6 +15,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - BodemEnOndergrond AP/VOC: Replace http://schema.org with https://schema.org
 - BodemEnOndergrond AP/VOC: Remove empty `ap-usage-note` values
 - BodemEnOndergrond AP/VOC: Capitalise sentences
+- SensorenEnBemonstering AP: PascalCase and CamelCase
+- SensorenEnBemonstering AP: Replace abbreviations
+- SensorenEnBemonstering AP: Add missing dot at end of sentences
+- SensorenEnBemonstering AP: Replace http://schema.org with https://schema.org
+- SensorenEnBemonstering AP: Remove empty `ap-usage-note` values
+- SensorenEnBemonstering AP: Capitalise sentences
 
 ## 2025-09-19
 
