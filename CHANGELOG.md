@@ -1,3 +1,23 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## Unreleased
+
+### Changed
+
+- BodemEnOndergrond: PascalCase and CamelCase
+- BodemEnOndergrond: Replace abbreviations
+- BodemEnOndergrond: Add missing dot at end of sentences
+- BodemEnOndergrond: Replace http://schema.org with https://schema.org
+- BodemEnOndergrond: Remove empty `ap-usage-note` values
+- BodemEnOndergrond: Capitalise sentences
+
+## 2025-09-19
+
 Algemeen
 Aanpassingen AP+VOC RuimtelijkeBereiken versie 2024-04-15
 AP+VOC Observaties en Metingen versie 2022-04-28,
@@ -34,7 +54,7 @@ Aanpassingen AP+VOC Grondboringen versie 2023-04-01:
 - Kardinaliteit Grondmonster.type vaar 0..* ipv 0..1 om meerdere classificaties toe te laten.
 - Domeinobject en Object terug aan het diagram toegevoegd.
 - Bemonstering.bemonsterdObject terug naar Object ipv Grondobject.
-- Beperking van Grondboringen tot boringen voor Bemonstering toegevoegd aan gebruiksnota. 
+- Beperking van Grondboringen tot boringen voor Bemonstering toegevoegd aan gebruiksnota.
 - Datatype van Boorgat.diepte vervangen door Maat.
 Aanpassingen AP+VOC BO_Observaties versie 2023-04-01:
 - Ontbrekende definities aan de specificatie toegevoegd.
@@ -49,7 +69,7 @@ Aanpassingen AP+VOC BO_Interpretaties versie 2023-04-01:
 - AntrogeneKenmerkenInterpretatie generiek uitgewerkt.
 
 2024-11-07 - Aliginatie met toolchain 4.0
-Context: toolchain 4.0 stelt bijkomende eisen aan het UML model. 
+Context: toolchain 4.0 stelt bijkomende eisen aan het UML model.
 De wijzigingen die hieronder zijn opgenomen zijn technische wijzigingen die geen invloed op de semantische inhoud van de specificaties.
 Echter deze wijzigingen zorgen wel voor een kwaliteitsverbetering van het master data model.
 
@@ -69,10 +89,10 @@ De volgende aanpassingen zijn gebeurd:
 - herlinken van range Agent in eigenschap toegekendDoor
 - herlinken van range Punt in verschillende eigenschappen
 - eigenschap metadata verwijderd omdat die niet bestaat in html (bestaat wel als rol)
-- verwijder benoemde eigenschappen die als algemene associatie zijn opgenomen om de overeenkomst met ISO te documenteren maar niet uitgewerkt zijn. 
+- verwijder benoemde eigenschappen die als algemene associatie zijn opgenomen om de overeenkomst met ISO te documenteren maar niet uitgewerkt zijn.
   De eigenschappen zijn beschikbaar door hun rol, die wel opgenomen zijn in de html. Het zijn Ontwerp, Domein, Fenonmeen, Intentie
-- verwijder de hulppakket referenties op de diagramma van Sensoren en Bemonstering. Dit zorgt voor duplicaten.  
-  De enige toevoeging is een verwijzing naar het AP observaties en metingen in de usage note. 
+- verwijder de hulppakket referenties op de diagramma van Sensoren en Bemonstering. Dit zorgt voor duplicaten.
+  De enige toevoeging is een verwijzing naar het AP observaties en metingen in de usage note.
   Deze referentie kan terug toegevoegd worden indien men de hulppakket klassen gebruikt voor alle referenties in het model.
   Bemonsteringsvlak, Bemonsteringspunt, Bemonsteringscurve, proces, procedure, Bemonsterings3Dobject, Bemonsteringsproces, Bereik
 - voeg een definitie toe aan Opmetingmethode
