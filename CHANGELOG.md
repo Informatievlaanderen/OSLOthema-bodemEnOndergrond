@@ -9,12 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- BodemEnOndergrond: PascalCase and CamelCase
-- BodemEnOndergrond: Replace abbreviations
-- BodemEnOndergrond: Add missing dot at end of sentences
-- BodemEnOndergrond: Replace http://schema.org with https://schema.org
-- BodemEnOndergrond: Remove empty `ap-usage-note` values
-- BodemEnOndergrond: Capitalise sentences
+- BodemEnOndergrond AP/VOC: PascalCase and CamelCase
+- BodemEnOndergrond AP/VOC: Replace abbreviations
+- BodemEnOndergrond AP/VOC: Add missing dot at end of sentences
+- BodemEnOndergrond AP/VOC: Replace http://schema.org with https://schema.org
+- BodemEnOndergrond AP/VOC: Remove empty `ap-usage-note` values
+- BodemEnOndergrond AP/VOC: Capitalise sentences
 
 ## 2025-09-19
 
