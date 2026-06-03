@@ -22,6 +22,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - SensorenEnBemonstering AP: Remove empty `ap-usage-note` values
 - SensorenEnBemonstering AP: Capitalise sentences
 
+### Removed
+
+- `ignore` tag of Model:Domain Model:OSLO-Grondboringen:Grondboring
+- `ignore` tag of Model:Domain Model:OSLO-Sonderingen:CPT
+
 ## 2025-09-19
 
 Algemeen
