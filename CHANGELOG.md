@@ -27,6 +27,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `ignore` tag of Model:Domain Model:OSLO-Grondboringen:Grondboring
 - `ignore` tag of Model:Domain Model:OSLO-Sonderingen:CPT
 
+### Fixed
+
+- Unable to determine the range for attribute Model:Domain Model:OSLO-ObservatiesEnMetingen:RuimtelijkBemonsteringsobject:geometrie.
+- Unable to determine the range for attribute Model:Domain Model:OSLO-Generiek:Identificator:toegekendDoor.
+
 ## 2025-09-19
 
 Algemeen
