@@ -32,6 +32,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Unable to determine the range for attribute Model:Domain Model:OSLO-ObservatiesEnMetingen:RuimtelijkBemonsteringsobject:geometrie.
 - Unable to determine the range for attribute Model:Domain Model:OSLO-Generiek:Identificator:toegekendDoor.
 
+### Added
+
+- Enum Erkenningtype: `ap-definition-nl`
+- Enum Bemonsteringsobjecttype: `ap-definition-nl`
+- Enum Maaiveldtype: `ap-definition-nl`
+
 ## 2025-09-19
 
 Algemeen
