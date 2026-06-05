@@ -45,6 +45,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum Bemonsteringsdoel: `ap-definition-nl`
 - Enum Bemonsteringstype: `ap-definition-nl`
 - Enum Observatieproceduretype: `ap-definition-nl`
+- Enum Domeinobjecttype: `ap-definition-nl`
+- Enum Observatietype: `ap-definition-nl`
+- Enum Materiaalklasse: `ap-definition-nl`
+- Enum Taalcode: `ap-definition-nl`
+- Enum Informatietype: `ap-definition-nl`
+- Enum Observatiecontexttype: `ap-definition-nl`
+- Enum Monstertype: `ap-definition-nl`
 
 ## 2025-09-19
 
