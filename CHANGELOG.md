@@ -37,6 +37,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum Erkenningtype: `ap-definition-nl`
 - Enum Bemonsteringsobjecttype: `ap-definition-nl`
 - Enum Maaiveldtype: `ap-definition-nl`
+- Enum Platformtype: `ap-definition-nl`
+- Enum Systeemtype: `ap-definition-nl`
+- Enum OutputType: `ap-definition-nl`
+- Enum InputType: `ap-definition-nl`
+- Enum Bemonsteringsproceduretype: `ap-definition-nl`
+- Enum Bemonsteringsdoel: `ap-definition-nl`
+- Enum Bemonsteringstype: `ap-definition-nl`
+- Enum Observatieproceduretype: `ap-definition-nl`
 
 ## 2025-09-19
 
