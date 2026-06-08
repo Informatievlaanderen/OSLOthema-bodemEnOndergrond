@@ -58,6 +58,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum Informatietype: `ap-definition-nl`
 - Enum Observatiecontexttype: `ap-definition-nl`
 - Enum Monstertype: `ap-definition-nl`
+- Enum Classificatie: `ap-definition-nl`
 
 ## 2025-09-19
 
