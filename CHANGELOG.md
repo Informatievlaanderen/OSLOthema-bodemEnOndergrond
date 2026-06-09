@@ -65,6 +65,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum Observatiecontexttype: `ap-definition-nl`
 - Enum Monstertype: `ap-definition-nl`
 - Enum Classificatie: `ap-definition-nl`
+- Enum RelatieLedenType: `ap-definition-nl`
+- Enum BetrouwbaarheidType: `ap-definition-nl`
+- Enum Adertype: `ap-definition-nl`
+- Enum Fossielaard: `ap-definition-nl`
+- Enum Fossieltype: `ap-definition-nl`
+- Enum GecodeerdeBijmenginghoeveelheid: `ap-definition-nl`
+- Enum GecodeerdeHoofdnaamcode: `ap-definition-nl`
+- Enum GecodeerdeKleur: `ap-definition-nl`
+- Enum SecundairKenmerkType: `ap-definition-nl`
+- Enum SedimentaireStructuurType: `ap-definition-nl`
+- Enum Tektoniektype: `ap-definition-nl`
+- Enum AquiferType: `ap-definition-nl`
+- Enum RegimeType: `ap-definition-nl`
+- Enum GeotechnischeCoderingBijmengingHoeveelheidType: `ap-definition-nl`
+- Enum GeotechnischeCoderingHoofdnaamCodeType: `ap-definition-nl`
 
 ## 2025-09-19
 
