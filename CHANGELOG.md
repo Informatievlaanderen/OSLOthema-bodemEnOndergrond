@@ -33,6 +33,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Interpretaties AP/VOC: Replace http://schema.org with https://schema.org
 - Interpretaties AP/VOC: Remove empty `ap-usage-note` values
 - Interpretaties AP/VOC: Capitalise sentences
+- Observaties AP/VOC: PascalCase and CamelCase
+- Observaties AP/VOC: Replace abbreviations
+- Observaties AP/VOC: Add missing dot at end of sentences
+- Observaties AP/VOC: Replace http://schema.org with https://schema.org
+- Observaties AP/VOC: Remove empty `ap-usage-note` values
+- Observaties AP/VOC: Capitalise sentences
 
 ### Removed
 
