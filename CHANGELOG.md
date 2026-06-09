@@ -80,6 +80,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum RegimeType: `ap-definition-nl`
 - Enum GeotechnischeCoderingBijmengingHoeveelheidType: `ap-definition-nl`
 - Enum GeotechnischeCoderingHoofdnaamCodeType: `ap-definition-nl`
+- Enum Antropogeenkenmerktype: `ap-definition-nl`
+- Enum LithostratigrafischeEenheidtype: `ap-definition-nl`
+- Enum Observatietype: `ap-definition-nl`
 
 ## 2025-09-19
 
