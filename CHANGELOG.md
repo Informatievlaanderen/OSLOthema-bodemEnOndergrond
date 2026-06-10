@@ -89,6 +89,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum Antropogeenkenmerktype: `ap-definition-nl`
 - Enum LithostratigrafischeEenheidtype: `ap-definition-nl`
 - Enum Observatietype: `ap-definition-nl`
+- Enum Breukcriterium: `ap-definition-nl`
 
 ## 2025-09-19
 
