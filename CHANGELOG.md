@@ -96,27 +96,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum LithostratigrafischeEenheidtype: `ap-definition-nl`
 - Enum Observatietype: `ap-definition-nl`
 - Enum Breukcriterium: `ap-definition-nl`
-- Enum Bodemmonstertype: `ap-definition-nl`
-- Enum DiepteIntervalGrensDuidelijkheid: `ap-definition-nl`
-- Enum DiepteIntervalGrensregelmatigheid: `ap-definition-nl`
-- Enum WrbVersie: `ap-definition-nl`
-- Enum ExtraClassificatieType: `ap-definition-nl`
-- Enum WrbReferenceSoilGroup: `ap-definition-nl`
-- Enum ExtraClassificatieAfgeleidType: `ap-definition-nl`
+- Enum Bodemmonstertype: `ap-definition-nl` and `definition-nl`
+- Enum DiepteIntervalGrensDuidelijkheid: `ap-definition-nl` and `definition-nl`
+- Enum DiepteIntervalGrensregelmatigheid: `ap-definition-nl` and `definition-nl`
+- Enum DrainageKlasse: `ap-definition-nl` and `definition-nl`
+- Enum WrbVersie: `ap-definition-nl` and `definition-nl`
+- Enum ExtraClassificatieType: `ap-definition-nl` and `definition-nl`
+- Enum WrbReferenceSoilGroup: `ap-definition-nl` and `definition-nl`
+- Enum ExtraClassificatieAfgeleidType: `ap-definition-nl` and `definition-nl`
 - Enum Fase: `ap-definition-nl`
-- Enum ClassificatieKunstmatigeGronden: `ap-definition-nl`
-- Enum Profielontwikkelingsgroep: `ap-definition-nl`
-- Enum Textuurklasse: `ap-definition-nl`
-- Enum VarianteProfielontwikkeling: `ap-definition-nl`
+- Enum ClassificatieKunstmatigeGronden: `ap-definition-nl` and `definition-nl`
+- Enum Profielontwikkelingsgroep: `ap-definition-nl` and `definition-nl`
+- Enum Textuurklasse: `ap-definition-nl` and `definition-nl`
+- Enum VarianteProfielontwikkeling: `ap-definition-nl` and `definition-nl`
 - Enum Bemonsteringsproceduretype: `ap-definition-nl`
-- Enum WrbQualifierType: `ap-definition-nl`
-- Enum VarianteMoedermateriaal: `ap-definition-nl`
-- Enum Substraat: `ap-definition-nl`
+- Enum WrbQualifierType: `ap-definition-nl` and `definition-nl`
+- Enum VarianteMoedermateriaal: `ap-definition-nl` and `definition-nl`
+- Enum Substraat: `ap-definition-nl` and `definition-nl`
 - Enum Bemonsteringsobjecttype: `ap-definition-nl`
 - Enum Bemonsteringsdoel: `ap-definition-nl`
 - Enum Bemonsteringstype: `ap-definition-nl`
 - Enum Bemonsteraartype: `ap-definition-nl`
-- Enum Bodemobjecttype: `ap-definition-nl`
+- Enum Bodemobjecttype: `ap-definition-nl` and `definition-nl`
 
 ## 2025-09-19
 
