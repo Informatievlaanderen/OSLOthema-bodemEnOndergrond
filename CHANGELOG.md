@@ -39,6 +39,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Observaties AP/VOC: Replace http://schema.org with https://schema.org
 - Observaties AP/VOC: Remove empty `ap-usage-note` values
 - Observaties AP/VOC: Capitalise sentences
+- Bodem AP/VOC: PascalCase and CamelCase
+- Bodem AP/VOC: Replace abbreviations
+- Bodem AP/VOC: Add missing dot at end of sentences
+- Bodem AP/VOC: Replace http://schema.org with https://schema.org
+- Bodem AP/VOC: Remove empty `ap-usage-note` values
+- Bodem AP/VOC: Capitalise sentences
 
 ### Removed
 
