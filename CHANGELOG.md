@@ -104,7 +104,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum ExtraClassificatieType: `ap-definition-nl` and `definition-nl`
 - Enum WrbReferenceSoilGroup: `ap-definition-nl` and `definition-nl`
 - Enum ExtraClassificatieAfgeleidType: `ap-definition-nl` and `definition-nl`
-- Enum Fase: `ap-definition-nl`
+- Enum Fase: `ap-definition-nl` and `definition-nl`
 - Enum ClassificatieKunstmatigeGronden: `ap-definition-nl` and `definition-nl`
 - Enum Profielontwikkelingsgroep: `ap-definition-nl` and `definition-nl`
 - Enum Textuurklasse: `ap-definition-nl` and `definition-nl`
