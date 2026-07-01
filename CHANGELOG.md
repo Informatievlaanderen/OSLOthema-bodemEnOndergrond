@@ -138,7 +138,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum Grondmonstertype: `ap-definition-nl` and `definition-nl`
 - Enum Boringstartpunttype: `ap-definition-nl` and `definition-nl`
 - Enum Boringinclinatietype: `ap-definition-nl` and `definition-nl`
-- Enum Grondobjecttype: `ap-definition-nl`
+- Enum Grondobjecttype: `ap-definition-nl` and `definition-nl`
 - Enum LegaleVerschijingsvormtype: `ap-definition-nl`
 - Enum Boortype: `ap-definition-nl`
 - Enum Materiaalklasse: `ap-definition-nl`
