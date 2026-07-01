@@ -4,7 +4,7 @@
     "prefix": "bodem-en-ondergrond",
     "type": "ap",
     "eap": "OSLO-BodemEnOndergrond-AP.EAP",
-    "diagram": "NEW OSLO-Grondwatermeetnet",
+    "diagram": "NEW_OSLO-Grondwatermeetnet",
     "template": "grondwatermeetnet-ap.j2",
     "title": "Grondwatermeetnet (Applicatieprofiel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",

@@ -51,6 +51,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Grondboringen AP/VOC: Replace http://schema.org with https://schema.org
 - Grondboringen AP/VOC: Remove empty `ap-usage-note` values
 - Grondboringen AP/VOC: Capitalise sentences
+- Grondwatermeetnet AP/VOC: diagram name
+- Grondwatermeetnet AP/VOC: PascalCase and CamelCase
+- Grondwatermeetnet AP/VOC: Replace abbreviations
+- Grondwatermeetnet AP/VOC: Add missing dot at end of sentences
+- Grondwatermeetnet AP/VOC: Replace http://schema.org with https://schema.org
+- Grondwatermeetnet AP/VOC: Remove empty `ap-usage-note` values
+- Grondwatermeetnet AP/VOC: Capitalise sentences
 
 ### Removed
 
