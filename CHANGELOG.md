@@ -143,18 +143,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum Boortype: `ap-definition-nl`
 - Enum Materiaalklasse: `ap-definition-nl`
 - Enum Opmetingmethode: `ap-definition-nl`
-- Enum Piëzometertype: `ap-definition-nl`
-- Enum Meetnettype: `ap-definition-nl`
-- Enum PutNaBestemming: `ap-definition-nl`
-- Enum PutSoort: `ap-definition-nl`
-- Enum Putsleutel: `ap-definition-nl`
-- Enum Pompstatus: `ap-definition-nl`
-- Enum Piëzometertoestand: `ap-definition-nl`
-- Enum Materiaal: `ap-definition-nl`
-- Enum Peilputafwerkingmateriaaltype: `ap-definition-nl`
-- Enum Referentiepunttype: `ap-definition-nl`
-- Enum Piëzometeronderdeeltype: `ap-definition-nl`
-- Enum Opvulling: `ap-definition-nl`
+- Enum Piëzometertype: `ap-definition-nl` and `definition-nl`
+- Enum Meetnettype: `ap-definition-nl` and `definition-nl`
+- Enum PutNaBestemming: `ap-definition-nl` and `definition-nl`
+- Enum PutSoort: `ap-definition-nl` and `definition-nl`
+- Enum Putsleutel: `ap-definition-nl` and `definition-nl`
+- Enum Pompstatus: `ap-definition-nl` and `definition-nl`
+- Enum Piëzometertoestand: `ap-definition-nl` and `definition-nl`
+- Enum Materiaal: `ap-definition-nl` and `definition-nl`
+- Enum Peilputafwerkingmateriaaltype: `ap-definition-nl` and `definition-nl`
+- Enum Referentiepunttype: `ap-definition-nl` and `definition-nl`
+- Enum Piëzometeronderdeeltype: `ap-definition-nl` and `definition-nl`
+- Enum Opvulling: `ap-definition-nl` and `definition-nl`
 - Enum Grondwaterobjecttype: `ap-definition-nl`
 
 ## 2025-09-19
