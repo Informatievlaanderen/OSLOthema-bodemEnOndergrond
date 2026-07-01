@@ -68,6 +68,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Unable to determine the range for attribute Model:Domain Model:OSLO-ObservatiesEnMetingen:RuimtelijkBemonsteringsobject:geometrie.
 - Unable to determine the range for attribute Model:Domain Model:OSLO-Generiek:Identificator:toegekendDoor.
+- Unable to determine the range for attribute Model:Domain Model:OSLO-Grondwatermeetnet:GrondWaterMonster:aanzuring.
 
 ### Added
 
@@ -131,6 +132,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum Bemonsteringstype: `ap-definition-nl`
 - Enum Bemonsteraartype: `ap-definition-nl`
 - Enum Bodemobjecttype: `ap-definition-nl` and `definition-nl`
+- Enum MateriaalBekistingtype: `ap-definition-nl` and `definition-nl`
+- Enum BoormethodeType: `ap-definition-nl` and `definition-nl`
+- Enum Boringdoeltype: `ap-definition-nl` and `definition-nl`
+- Enum Grondmonstertype: `ap-definition-nl` and `definition-nl`
+- Enum Boringstartpunttype: `ap-definition-nl` and `definition-nl`
+- Enum Boringinclinatietype: `ap-definition-nl` and `definition-nl`
+- Enum Grondobjecttype: `ap-definition-nl`
+- Enum LegaleVerschijingsvormtype: `ap-definition-nl`
+- Enum Boortype: `ap-definition-nl`
+- Enum Materiaalklasse: `ap-definition-nl`
+- Enum Opmetingmethode: `ap-definition-nl`
 
 ## 2025-09-19
 
