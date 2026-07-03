@@ -82,6 +82,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Unable to determine the range for attribute Model:Domain Model:OSLO-ObservatiesEnMetingen:RuimtelijkBemonsteringsobject:geometrie.
 - Unable to determine the range for attribute Model:Domain Model:OSLO-Generiek:Identificator:toegekendDoor.
 - Unable to determine the range for attribute Model:Domain Model:OSLO-Grondwatermeetnet:GrondWaterMonster:aanzuring.
+- Unable to determine the range for attribute Model:Domain Model:OSLO-RuimtelijkeBereiken:PuntWaardepaar:geometrie.
 
 ### Added
 
