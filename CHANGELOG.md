@@ -64,6 +64,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - RuimtelijkeBereiken AP/VOC: Replace http://schema.org with https://schema.org
 - RuimtelijkeBereiken AP/VOC: Remove empty `ap-usage-note` values
 - RuimtelijkeBereiken AP/VOC: Capitalise sentences
+- Sonderingen AP/VOC: diagram name
+- Sonderingen AP/VOC: PascalCase and CamelCase
+- Sonderingen AP/VOC: Replace abbreviations
+- Sonderingen AP/VOC: Add missing dot at end of sentences
+- Sonderingen AP/VOC: Replace http://schema.org with https://schema.org
+- Sonderingen AP/VOC: Remove empty `ap-usage-note` values
+- Sonderingen AP/VOC: Capitalise sentences
 
 ### Removed
 
