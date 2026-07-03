@@ -170,7 +170,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum Piëzometeronderdeeltype: `ap-definition-nl` and `definition-nl`
 - Enum Opvulling: `ap-definition-nl` and `definition-nl`
 - Enum Grondwaterobjecttype: `ap-definition-nl`
-- Enum Sondeertesttype: `ap-definition-nl`
+- Enum Sondeertesttype: `ap-definition-nl` and `definition-nl`
 - Enum Sondeermethode: `ap-definition-nl` and `definition-nl`
 - Enum SondeerMeetlichaam: `ap-definition-nl` and `definition-nl`
 - Enum SondeerApparaatType: `ap-definition-nl` and `definition-nl`
