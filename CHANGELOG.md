@@ -171,13 +171,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum Opvulling: `ap-definition-nl` and `definition-nl`
 - Enum Grondwaterobjecttype: `ap-definition-nl`
 - Enum Sondeertesttype: `ap-definition-nl`
-- Enum Sondeermethode: `ap-definition-nl`
-- Enum SondeerMeetlichaam: `ap-definition-nl`
-- Enum SondeerApparaatType: `ap-definition-nl`
-- Enum MethodeVerzadiging: `ap-definition-nl`
-- Enum FilterLocatie: `ap-definition-nl`
-- Enum ConusType: `ap-definition-nl`
-- Enum SondeParameter: `ap-definition-nl`
+- Enum Sondeermethode: `ap-definition-nl` and `definition-nl`
+- Enum SondeerMeetlichaam: `ap-definition-nl` and `definition-nl`
+- Enum SondeerApparaatType: `ap-definition-nl` and `definition-nl`
+- Enum MethodeVerzadiging: `ap-definition-nl` and `definition-nl`
+- Enum FilterLocatie: `ap-definition-nl` and `definition-nl`
+- Enum ConusType: `ap-definition-nl` and `definition-nl`
+- Enum SondeParameter: `ap-definition-nl` and `definition-nl`
 
 ## 2025-09-19
 
